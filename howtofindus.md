@@ -1,3 +1,8 @@
+---
+layout: default
+title: How to find the laboratory
+---
+
 ### How to find us
 
 Our lab is located in a small building *between* the Wolfson building of
