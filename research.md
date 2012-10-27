@@ -16,7 +16,7 @@ Turbulence Structure Laboratory main research topics are turbulent flows in natu
 
 
 calibration_in_situ.jpg | Multi hot-wire   |
-![](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG " MEMS sensor ")
+![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG "MEMS sensor")
 
 
 twophase.jpg  | Particles in turbulence |
