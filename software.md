@@ -3,11 +3,11 @@ layout: default
 title: Software
 ---
 
-### Particle Image Velocimetry (PIV) ![](/images/logo_openpiv.jpg)
+### Particle Image Velocimetry (PIV) ![](/images/logo_openpiv.jpg =80x80)
 * http://www.openpiv.net OpenPIV - open source PIV software  
 * http://openpiv.github.com/openpiv-spatial-analysis-toolbox/ Spatial and Temporal Flow Analysis Toolbox and POD toolbox 
 
-### Particle Tracking Velocimetry (3D-PTV) ![](/images/ptv.jpg)
+### Particle Tracking Velocimetry (3D-PTV) ![](/images/ptv.jpg =80x80)
 * On Github: http://3dptv.github.com
 * Mark Kreizer optical ray tracing software for the image view splitter designs (his original design and the ETH Zurich design) [ZIP file](/files/beamsplitter.zip)
 
