@@ -15,10 +15,8 @@ title: Research page is under construction
 Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
 
 
-calibration_in_situ.jpg | Multi hot-wire
-
-
-https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG   | MEMS sensor |
+calibration_in_situ.jpg | Multi hot-wire   |
+![](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG)   | MEMS sensor |
 
 
 twophase.jpg  | Particles in turbulence |
