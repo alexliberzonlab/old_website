@@ -26,7 +26,5 @@ Find your way to the laboratory, walking East between the Wolfson building of th
 ### Some visual information:
 
 ![](/images/P5200086.jpg)
-![](/images/P5200086.jpg)
-![](/images/P5200049.jpg)
 ![](/images/P5200049.jpg)
 ![](/images/lab_entrance.jpg)
