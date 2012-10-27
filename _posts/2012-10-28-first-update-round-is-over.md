@@ -7,6 +7,7 @@ author_email: alex.liberzon@gmail.com
 title: new laboratory website project
 published_date: Oct 27, 2012
 ---
+published: false
 ---
 
 We shall see if this design is suitable. Meanwhile the first round is over
