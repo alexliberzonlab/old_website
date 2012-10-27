@@ -8,52 +8,25 @@ title: How to find the laboratory
 Our lab is located in a small building *between* the Wolfson building of
 the Faculty of Engineering and the Computer Sciences building
 
-### How to get to Tel Aviv University
+**Find Tel Aviv University**
 
-![][]
-
-
-### To the Faculty of Engineering
+![Map to the university](http://www2.tau.ac.il/map/images/lines-eng.jpg)
 
 
-[![][1]][1]
+** Find the Faculty of Engineering on the university map**
+
+![Map of the university](/images/tau_map.jpg "Our building is between building 34 and 36, right at the parking 15")
+
+[PDF map](/files/taumap.pdf)
 
 
-### Our building is between building 34 and 36, right at the parking 15
-
-[Attach:taumap.pdf][]
+Find your way to the laboratory, walking East between the Wolfson building of the Faculty of Engineering and the Student classes building (“בניין כיתות”). You can ask about the way to the new students' auditorium no. 020 or to the mechanical workshop. You'll find the lab under the red light (don't enter if it's on) and the sign **Turbulence Structure Laboratory** as it is shown below.
 
 
-### To our building, between the Wolfson building of the Faculty of Engineering and the Student classes building (“בניין כיתות”)
+### Some visual information:
 
-If you see the Wolfson Building from this side - walk to the right as
-the arrow shows and you’ll find the lab next to the Workshops:
-
-
-[![Walk along the Wolfson building towards the Ayalon][]][]
-
-
-If you stand in front of the Wolfson building, walk around it from the
-RIGHT side:
-
-
-[![Walk along the Wolfson building towards the Ayalon][2]][]
-
-
-### The most beautiful lab is located behind this door (be aware of the WARNING LIGHT - LASER-IN-ACTION )
-
-
-![][3]
-
-
-
-  []: http://www2.tau.ac.il/map/images/lines-eng.jpg
-  [1]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=tau_map.jpg
-  [Attach:taumap.pdf]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=taumap.pdf
-  [Walk along the Wolfson building towards the Ayalon]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=P5200086.jpg
-    "Walk along the Wolfson building towards the Ayalon"
-  [![Walk along the Wolfson building towards the Ayalon][]]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=P5200086.jpg
-  [2]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=P5200049.jpg
-    "Walk along the Wolfson building towards the Ayalon"
-  [![Walk along the Wolfson building towards the Ayalon][2]]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Main.Map?action=download&upname=P5200049.jpg
-  [3]: http://lh3.google.com/particle.tracking/R-q7GV6_GYI/AAAAAAAAB3k/nkvEWgIWraw/s288/03f37814_Image002.jpg
+![](/images/P5200086.jpg)
+![](/images/P5200086.jpg)
+![](/images/P5200049.jpg)
+![](/images/P5200049.jpg)
+![](/images/lab_entrance.jpg)
