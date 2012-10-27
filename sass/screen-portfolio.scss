@@ -1,0 +1,272 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/typography/vertical_rhythm";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_general";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+@import "_subnav-nueva";
+
+
+
+$colorTextoGrisOscuro: #393939;
+$colorTextoGrisClaro: #898989;
+$colorFondo: rgb(250,250,250);
+$borderGrey: #BEBEBE;
+$innerborderGrey: #C9C9C9;
+$greyLine: 1px solid #DADADA;
+
+$seccionTitulo: "colaborativaMedium";
+$seccionSubtitulo: "DroidSansRegular";
+$articuloTitulo: "colaborativasemibold";
+$articuloSubtitulo: "DroidSansRegular" ;
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: $colorTextoGrisOscuro;
+}
+
+
+@mixin imagestyle{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+html{
+	height: 100%;
+	body{
+		@include background(image-url("/imagenes/background.png"),
+							$colorFondo);
+		.cuerpoPagina{
+			margin-top: 125px;
+			min-height: 400px;
+			min-width:0px;
+			.contenedor{
+				margin-right: auto;
+				margin-left: auto;
+				h1.big{
+					@include hiddenelement;
+				}
+				.seccionProyectos{
+					.descripcion{
+						h2{
+							font-family: $seccionTitulo;
+							color: $colorTextoGrisOscuro;
+						}
+						p{
+							font-family: $seccionSubtitulo;
+							color: $colorTextoGrisOscuro;
+						}
+						border-bottom: $greyLine;
+					}
+					.proyectos.Portfolio.Destacados{
+						.proyecto{
+							&.soon{
+								.commingSoon{
+									opacity: 0.0;
+								}
+								.imagenProyecto, .infoProyecto{
+									opacity: 0.4;
+								}
+							}
+							&.soon:hover{
+								.imagenProyecto img{
+									@include box-shadow(0px 0px 6px rgba(0,0,0,0.4));
+								}
+								.commingSoon{
+									opacity: 1.0;
+								}
+							}
+							&:hover{
+								.imagenProyecto img{
+									@include box-shadow(0px 0px 3px rgba(0,0,0,0.4), 0px 0px 1px 3px rgba(#1B70B9,0.3));
+								}
+							}
+							border: none;
+							@include box-sizing (border-box);
+							float: left;
+							border-bottom-style: none;
+							.commingSoon{
+								z-index:500;
+								display: table;
+								@include transition(opacity .2s linear);
+								position: absolute;
+								@include box-sizing (border-box);
+								text-align: center;
+								.textoSoon{
+									display: table-cell;
+									vertical-align: middle;
+								}
+								.title{
+									font-family: "colaborativasemibold";
+								}
+								.subitle{
+									font-family: "DroidSansRegular";
+								}
+								&.light{
+									color: #393939;
+									text-shadow: rgba(255,255,255,0.8) 0 1px 0px;
+								}
+								&.dark{
+									color: white;
+									text-shadow: rgba(255,255,255,0.7) 0 0 2px, 0 0 10px rgba(255,255,255,0.5), 0 0 30px rgba(255,255,255,0.1);
+								}
+							}
+							.imagenProyecto {
+								img{
+									@include imagestyle;
+									@include transition(box-shadow .1s linear);
+								}
+							}
+							.infoProyecto{
+								h1{
+									font-family: $articuloTitulo;
+									color: $colorTextoGrisOscuro;
+								}
+								h2{
+									font-family: $articuloSubtitulo;
+									color: $colorTextoGrisOscuro;
+								}
+							}
+						}
+					}
+					.proyectos.Portfolio.Secundarios{
+						.proyecto{
+							border-top: $greyLine;
+							border-bottom: $greyLine;
+							float: left;
+							@include box-sizing (border-box);
+							.infoProyecto{
+								h1{
+									font-family: $articuloTitulo;
+								}
+								h2{
+									font-family: $articuloSubtitulo;
+									color: $colorTextoGrisOscuro;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	} 
+}
+
+
+@mixin responsivelayout($totalWidth, $columnWidth, $columnGap, $extraSideMargins, $seccionTituloSize, $seccionSubtituloSize, $articuloTituloSize, $articuloSubtituloSize, $baselineSize){
+$base-font-size: $articuloSubtituloSize;
+$base-line-height: $baselineSize;
+@include establish-baseline;
+	html{
+		body{
+			.cuerpoPagina{
+				width:100%;
+				.contenedor{
+					width: $totalWidth;
+					min-width: $totalWidth;
+					padding-left: $columnGap + $extraSideMargins;
+					padding-right: $columnGap + $extraSideMargins;
+					.seccionProyectos{
+						&:last-child{
+							@include rhythm(0, 0, 0, 2, $articuloSubtituloSize);
+						}
+						width: $totalWidth + 2 * $columnGap;
+						margin-left: -$columnGap;
+						.textoSoon{
+							.title{
+								@include adjust-font-size-to($seccionTituloSize);
+								@include adjust-leading-to(3/4, $seccionTituloSize);
+							}
+							.subitle{
+								@include adjust-font-size-to($seccionSubtituloSize);
+							}
+						}
+						.descripcion{
+							width: $totalWidth;
+							margin-left: $columnGap;
+							@include rhythm(2+(2/3), 0, 1, 4/3, $seccionSubtituloSize);
+							h2{
+								@include adjust-font-size-to($seccionTituloSize);
+							}
+							p{
+								@include adjust-font-size-to($seccionSubtituloSize);
+								
+							}
+						}
+						.proyectos.Portfolio.Destacados{
+							width: $totalWidth + 2 * $columnGap;
+							.proyecto{
+								width:$columnWidth;
+								margin-left: $columnGap;
+								@include rhythm(0, 0, 0, 2, $articuloTituloSize);
+								&:hover{
+								};
+								.commingSoon{
+									width:$columnWidth;
+									line-height:$columnWidth/(16/9);
+									height:$columnWidth/(16/9);
+								}
+								.imagenProyecto{
+									img{
+										width:$columnWidth;
+										height:$columnWidth/(16/9);
+									}
+								}
+								.infoProyecto{
+									width:$columnWidth;
+									@include rhythm((2/3), 0, 0, 0, $articuloTituloSize);
+									h1{
+										@include adjust-font-size-to($articuloTituloSize);
+										@include rhythm(0, 0, 0, 1/3, $articuloSubtituloSize);
+									}
+									h2{
+										@include adjust-font-size-to($articuloSubtituloSize);
+									}
+								}
+							}
+						}
+						.proyectos.Portfolio.Secundarios{
+							width: $totalWidth + 2 * $columnGap;
+							.proyecto{
+								width:$columnWidth;
+								margin-left: $columnGap;
+								.infoProyecto{
+									width: $columnWidth;
+									h1{
+										@include adjust-font-size-to($articuloTituloSize);
+									}
+									h2{
+										@include adjust-font-size-to($articuloSubtituloSize);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		} 
+	}
+}
+
+//
+//Responsive Settings
+//
+//Tablets
+@media (max-width: 989px) {
+	@include responsivelayout(664px, 322px, 20px, 30px, 26px, 16px, 18px, 16px, 22px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsivelayout(940px, 300px, 20px, 0px, 24px, 15px, 18px, 14px, 22px);
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsivelayout(1170px, 370px, 30px, 0px, 26px, 16px, 20px, 16px, 24px);
+}
+

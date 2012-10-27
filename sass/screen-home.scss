@@ -1,0 +1,280 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_general";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+
+
+$articuloTitulo: 18px/20px "colaborativasemibold";
+$articuloSubtitulo: 14px/22px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$seccionTitulo: 24px/30px "colaborativaMedium";
+
+@mixin imageStyleLight{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imageStyleDark{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
+}
+
+@mixin templateHome($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
+	html{
+		body.#{$templateNombre} {
+			width: 100%;
+			height: 100%;
+			background-repeat: repeat;
+			background-color: $colorFondo;
+			.contenedorHome{
+				a:link, a:visited, a:active{
+					text-decoration: none;
+					color: $colorTexto;
+				}
+				margin: 0px auto;
+				.selectorProyectos{
+					display: table;
+					margin: 330px auto 0px auto;
+					padding: 20px 0px 20px 0px;
+					ul{
+						padding-top:5px;
+						li{
+							display: inline;
+							cursor: pointer;
+							float:left;
+							margin-left:5px;
+							margin-right:5px;
+							text-shadow: none;
+							a{
+								display: none;
+							}
+							&:after{
+								@include user-select(none);
+								color:rgba($colorTexto,0.25);
+								content:"\25CF";
+								font-size: 20px;
+								@include single-transition(color, .5s);
+							}
+							&:hover:after{
+								color:rgba($colorTexto,0.50);
+							}
+							&:active:after{
+								color: rgba($colorTexto,0.75);
+							}
+							&.activo:after{
+								color: rgba($colorTexto,0.75);
+							}
+						}
+						&:after{
+							clear:both;
+							display: table;
+							content: "";
+						}
+					}
+				}
+				.contenedorPoster{
+					display:block;
+					overflow: hidden;
+					width:100%;
+					height:1000px;
+					position:absolute;
+					left:0px;
+					top:0px;
+					z-index:-500;
+					.posterProyecto{
+						width:1500px;
+						height:1100px;
+						position:absolute;
+						left:50%;
+						top:0px;
+						margin-left:-750px;
+						opacity: 0;
+						z-index: -1000;
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						&.activo{
+							opacity: 1;
+							z-index: -500;
+						}
+					}
+				}
+				.novedades{
+					padding-top:20px;
+					border-top: $estiloBorde;
+					h1{
+						@include hiddenelement;
+					}
+					.novedadesArticulos{
+						h2{
+							@include hiddenelement;
+						}
+						float: left;
+						.articulosLista{
+							article{
+								position: relative;
+								float: left;
+								border-left: $estiloBorde;
+								h3{
+									color: $colorTexto;
+									padding-top: 12px;
+									font: $articuloTitulo;
+									padding-bottom: 12px;
+								}
+								h4{
+									color: $colorTexto;
+									position: absolute;
+									bottom:0px;
+									font: $articuloSubtitulo;
+								}
+								.imagenArticulo{
+									a{
+										@if $templateNombre == light {
+											@include imageStyleLight;
+										} @else {
+											@include imageStyleDark;
+										}
+										display: block;
+										margin: 0;
+										padding: 0;
+										overflow:hidden;
+										background-size: cover;
+									}
+								}
+								&:first-child{
+									border-left: none;
+									margin-left: 0px;
+									padding-left: 0px;
+									h4{
+										left:0px;
+									}
+								}
+							}
+						}
+						p{
+							color: rgba($colorTexto, 0.7);
+							clear: left;
+							font: $articuloCaption;
+						}
+					}
+					.novedadesTweets{
+						float: left;
+						h2{
+							@include hiddenelement;
+						}
+						.tweetsLista{
+							position: relative;
+							margin-right:0px;
+							padding-right:0px;
+							article{
+								float:left;
+								border-left: $estiloBorde;
+								h3{
+									font: $seccionTitulo;
+									color: $colorTexto;
+								}
+								.tweetFecha{
+									position: absolute;
+									bottom:0px;
+									right:0px;
+									font: $articuloSubtitulo;
+									text-align:right;
+									color: $colorTexto;
+								}
+							}
+						}
+						.tweetInfo{
+							font: $articuloCaption;
+							text-align:right;
+							color: rgba( $colorTexto, 0.7);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@mixin homeResponsive($totalWidth, $columnWidth, $columnGap, $articleHeight){
+	body{
+		.contenedorHome{
+			width: $totalWidth;
+			min-width: $totalWidth;
+			padding-left: $columnGap;
+			padding-right: $columnGap;
+			.contenedorPoster{
+				min-width: $totalWidth + $columnGap * 2;
+			}
+			.novedades{
+				padding-top: $columnGap;
+				.novedadesArticulos{
+					width: ($columnWidth * 6) + ($columnGap * 2 * 5);
+					.articulosLista{
+						width: (($columnWidth * 2) * 3) + (($columnGap * 2 * 2) * 3);
+						article{
+							height: $articleHeight;
+							margin-left: $columnGap;
+							padding-left: $columnGap;
+							width: $columnWidth * 2 + ($columnGap * 2) - 1px;
+							h3{
+							}
+							h4{
+								left: $columnGap;
+							}
+							.imagenArticulo{
+								width:  $columnWidth * 2 + ($columnGap * 2);
+								height: ($columnWidth * 2 + ($columnGap * 2))*2/3;
+								a{
+									width:  $columnWidth * 2 + ($columnGap * 2);
+									height: ($columnWidth * 2 + ($columnGap * 2))*2/3;
+								}
+							}
+						}
+					}
+					p{
+						margin-top: $columnGap - 1px;
+					}
+				}
+				.novedadesTweets{
+					width: (($columnWidth * 3) * 1) + ((($columnGap * 2) * 3) * 1);
+					.tweetsLista{
+						width: (($columnWidth * 3) * 1) + ((($columnGap * 2) * 3) * 1);
+						article{
+							height: $articleHeight;
+							margin-left: $columnGap;
+							padding-left: $columnGap;
+							width: $columnWidth * 3 + ($columnGap * 2) * 2 - 1px;
+						}
+					}
+					.tweetInfo{
+						margin-top: $columnGap - 1px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include templateHome(light, rgb(210,210,210), #393939, 1px solid #C9C9C9);
+@include templateHome(dark, black, white, 1px solid rgba(255,255,255,0.5));
+
+//Tablets
+@media (max-width: 989px) {
+	@include homeResponsive(728px, 45px, 20px, 260px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include homeResponsive(940px, 68px, 20px, 260px);
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include homeResponsive(1170px, 76px, 30px, 260px);
+}

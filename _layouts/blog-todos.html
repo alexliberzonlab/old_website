@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		<link href="/css/screen-blog-todos.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+	</head>
+	<body class="{{ page.template }}">
+		{% include _header-responsive.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<div class="subnavNo">
+				</div>
+				<div class="categoria clearfix">
+					<div class="descripcion">
+						<hgroup>
+							<h1>{{ page.title.es }}</h1>
+							<h2>{{ page.subtitulo.es }}</h2>
+							<h3>{{ page.subscripcion.es }}</h3>
+						</hgroup>
+						<p>{{ page.descripcion.es }}</p>
+					</div>
+					<div>
+					{% for item in site.categories.articulos %}
+							<article class="articuloBlog">
+								<div class="imagenArticulo">
+									<a href="{{ item.url }}" style="background-image: url(http://{{ item.imagen }}.jpg)"></a>
+								</div>
+								<div class="textoArticulo">
+									<hgroup>
+										<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+										<h4>{{ item.subtitulo }} </h4>
+									</hgroup>
+								</div>
+							</article>
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+		</section>
+		{% include _footer-responsive.html %}
+	</body>
+</html>

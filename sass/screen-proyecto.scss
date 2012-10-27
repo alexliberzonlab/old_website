@@ -1,0 +1,829 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_general";
+@import "_cabecerapaginaResponsive";
+
+
+$paginaTitulo: 35px/20px "colaborativaLight";
+$seccionTitulo: 24px/20px "colaborativaMedium";
+$seccionSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$seccionTexto: 14px/20px "lucida Grande", Geneva, sans-serif;
+$textoTitulo: 24px/28px "colaborativaLight";
+
+$proyectoTitulo: 26px/30px "colaborativaMedium";
+$proyectoSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$proyectoBlurb: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$articuloTitulo: 26px/32px "colaborativaBook";
+$articuloSubtitulo: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloTexto: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$articuloCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$colorTexto: #393939;
+$borderGrey: #BEBEBE;
+$innerborderGrey: #C9C9C9;
+$greyLine: 1px solid #DADADA;
+
+@-webkit-keyframes wiggle {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes colorin {
+    from {opacity: 1;}
+    to {opacity: 0.5;}
+}
+
+@mixin imageStyleLight{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imageStyleDark{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include border-radius(2px, 2px);
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
+}
+
+@mixin templateProyecto($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
+	html{
+		body.#{$templateNombre} {
+			a:link, a:visited, a:active{
+				text-decoration: none;
+				color: $colorTexto;
+			}
+			// intento no resuelto de añadir background a la vista resumen
+			.auxiliar{
+				display: none;
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				position:fixed;
+				overflow: hidden;
+				.resumenProyectoFondo{
+					top:0px;
+					left:50%;
+					width:1500px;
+					margin-left:-750px;
+					height:1100px;
+					position:absolute;
+					z-index:500;
+					clip: rect(105px, 1365px, 460px, 935px);
+				}
+			}
+			.fondoContenedor{
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				height: 100%;
+				z-index: -300;
+				.fondoProyecto{
+					top:0px;
+					left:0px;
+					width:100%;
+					height:100%;
+					position: absolute;
+					z-index:-100;
+				}
+			}
+			.cabeceraPagina{
+				.contenedor{
+					#fading{
+						position:absolute;
+						left:0px;
+						top:155px;
+						@if $templateNombre == light {
+							border-top: 1px solid white;
+						} @else {
+							border-top: 1px solid rgba(250,250,250,0.3);
+						}
+						height: 10px;
+						opacity:0;
+					}
+				}
+			}
+			.cuerpoPagina{
+				.contenedor{
+					margin-left: auto;
+					margin-right: auto;
+					.indexTitle{
+						font: $articuloTitulo;
+						color: $colorTexto;
+						@include box-sizing (border-box);
+						padding-top:40px;
+						position:fixed;
+						top:80px;
+						left:50%;
+						height:77px;
+						z-index:1000;
+						h2{
+							height:32px;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							position: absolute;
+							bottom:10px;
+						}
+					}
+					.contenedorResumen{
+						position:fixed;
+						top:105px;
+						z-index: 500;
+						.resumenProyecto{
+							@include box-sizing (border-box);
+							background: none;
+							position: absolute;
+							top:0px;
+							z-index:1100;
+							hgroup{
+								padding-bottom:30px;
+								margin-bottom:25px;
+								border-bottom: $estiloBorde;
+							}
+							h1{
+								font: $proyectoTitulo;
+								color: $colorTexto;
+								padding-bottom:25px;
+							}
+							h2{
+								font: $proyectoSubtitulo;
+								color: $colorTexto;
+							}
+							p{
+								font: $proyectoBlurb;
+								color: $colorTexto;
+								margin-bottom:15px;
+							}
+							.navegacion{
+								$navWidth: 300px;
+								$navHeight: 30px;
+								$navbar-border-radius: 4px;
+								$navbar-font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+								display:block;
+								margin-bottom:25px;
+								ul{
+									@include box-sizing (border-box);
+									@if $templateNombre == light {
+										border: 1px solid rgba($colorTexto, 0.5);
+									} @else {
+										border: 1px solid rgba($colorTexto, 0.8);
+									}
+									@include border-radius( $navbar-border-radius,  $navbar-border-radius);
+									@if $templateNombre == light {
+										@include box-shadow(rgba(255,255,255,0.5) 0 1px 0px);
+									} @else {
+										@include box-shadow(none);
+									}
+									font: $navbar-font;
+									li{
+										display: inline;
+										float:left;
+										@if $templateNombre == light {
+											border-right: 1px solid rgba($colorTexto, 0.3);
+										} @else {
+											border-right: 1px solid rgba($colorTexto, 0.6);
+										}
+										@include box-sizing (border-box);
+										height: $navHeight;
+										a {
+											@include user-select(none);
+											text-align: center;
+											line-height: $navHeight;
+											font: $navbar-font;
+											display: block;
+											@include box-sizing (border-box);
+											height: $navHeight;
+											padding-top: 8px;
+											padding-bottom: 5px;
+											@if $templateNombre == light {
+												text-shadow: 0px 1px rgba(255,255,255,0.75);
+											} @else {
+												text-shadow: none;
+											}
+											&:link, &:visited, &:active, &:hover, &.activo{
+												text-decoration: none;
+												@include single-transition(all, 0.5s);
+												border-bottom:none;
+												@if $templateNombre == light {
+													@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
+													text-shadow: 0px 1px rgba(255,255,255,0.3);
+													background: rgba(255,255,255,0.4);
+												} @else {
+													text-shadow: none;
+													@include box-shadow( none );
+													background: rgba(255,255,255,0.4);
+												}
+											}
+											&.activo{
+												@if $templateNombre == light {
+													@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
+													text-shadow: 0px 1px rgba(255,255,255,0.3);
+													background: rgba(255,255,255,0.6);
+												} @else {
+													text-shadow: none;
+													@include box-shadow( none );;
+													background: rgba(255,255,255,0.6);
+												}
+											}
+											&:hover{
+												@if $templateNombre == light {
+													@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
+													text-shadow: 0px 1px rgba(255,255,255,0.5);
+													background: rgba(255,255,255,0.7);
+												} @else {
+													text-shadow: none;
+													@include box-shadow( none );
+													background: rgba(255,255,255,0.7);
+												}
+											}
+											&:active{
+												@if $templateNombre == light {
+													@include single-box-shadow(rgba(50,50,50,0.2), 0px, 0px, 5px, false, true);
+													text-shadow: 0px 1px rgba(255,255,255,0.3);
+													background: rgba(255,255,255,0.4);
+												} @else {
+													text-shadow: none;
+													@include box-shadow( none );
+													background: rgba(255,255,255,0.4);
+												}
+											}
+										}
+										&:last-child {
+											border-right: none;
+										}
+									}
+									&:after{
+										clear:both;
+										display: table;
+										content: "";
+									}
+								}
+							}
+							.infoAdicionalProyecto{
+								@include transition( (opacity .5s linear, z-index .5s linear) );
+							}
+						}
+					}
+					.descripcionProyecto{
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						font: $seccionTexto;
+						color: $colorTexto;
+						margin-top: 185px;
+						border-bottom: $estiloBorde;
+						padding-bottom: 50px;
+						margin-bottom: 150px;
+						@include box-sizing (border-box);
+						cite{
+							font: $articuloCaption;
+						}
+						img{
+							@if $templateNombre == light {
+								@include imageStyleLight;
+							} @else {
+								@include imageStyleDark;
+							}
+						}
+						figure{
+							figcaption{
+								font: $articuloCaption;
+								margin-top: 5px;
+								margin-bottom: 15px;
+							}
+						}
+						h1{
+							@include hiddenelement;
+						}
+						h2{
+							font: $articuloTitulo;
+							margin-top: 20px;
+							margin-bottom: 10px;
+							color: $colorTexto;
+						}
+						p{
+							margin-top: 30px;
+							margin-bottom: 30px;
+							font: $articuloTexto;
+							color: $colorTexto;
+						}
+					}
+					.reaccionesProyecto{
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						font: $seccionTexto;
+						color: $colorTexto;
+						margin-top: 80px;
+						margin-bottom: 80px;
+						@include box-sizing (border-box);
+						h1{
+							@include hiddenelement;
+						}
+						section{
+							h2{
+								font: $articuloTitulo;
+								color: $colorTexto;
+								padding-top: 30px;
+								padding-bottom: 25px;
+								margin:0px;
+							}
+							article{
+								margin:0px;
+								padding-top: 25px;
+								padding-bottom:25px;
+								border-bottom: $greyLine;
+								h3{
+									font: $articuloSubtitulo;
+									padding-bottom:10px;
+									color: $colorTexto;
+									a{
+										border-bottom:none;
+										color: $colorTexto;
+									}
+								}
+								h4{
+									font: $articuloCaption;
+									color: $colorTexto;
+									padding-bottom: 12px;
+									&:first-child{
+										padding-bottom: 0px;
+									}
+									&:last-child{
+										padding-bottom: 0px;
+									}
+								}
+								p {
+									padding-top:8px;
+									font: $articuloTexto;
+									color: $colorTexto;
+								}
+								&:first-child{
+									border-top: $greyLine;
+								}
+								&.tweets{
+									padding-bottom:22px;
+									.tweet{
+										@include box-sizing (border-box);
+										display: table;
+										height: 40px;
+										padding:0px 0px 8px 0px;
+										margin:0px;
+										&:last-child{
+											padding:0px 0px 0px 0px;
+										}
+										.twitterImagenPerfil{
+											@include box-sizing (border-box);
+											display:table-cell;
+											vertical-align: middle;
+											padding:5px 8px 0px 0px;
+											margin:0px;
+											height: 40px;
+											img{
+												padding:0px;
+												margin:0px;
+											}
+										}
+										p.tweetTexto{
+											display:table-cell;
+											width:70%;
+											padding:0px;
+											margin:0px;
+											vertical-align: middle;
+											font: $articuloCaption;
+											.twitterNombre{
+												color: black;
+											}
+										}
+										.tiempo{
+											display:table-cell;
+											width:30%;
+											text-align: right;
+											vertical-align: top;
+											font: $articuloCaption;
+											color: rgba($colorTexto, 0.8);
+										}
+									}
+								}
+								&.articuloPrensa, &.articuloBlog{
+									overflow: auto;
+									width: 100%;
+									.imagenArticulo{
+										img{
+											@if $templateNombre == light {
+												@include imageStyleLight;
+											} @else {
+												@include imageStyleDark;
+											}
+										}
+										float: left;
+										clear: both;
+									}
+									.textoArticulo{
+										margin-left:170px;
+										margin-top: 4px;
+										p{
+											overflow: hidden;
+											line-height: 24px;
+											height: 48px;
+										}
+										h4{
+											overflow: hidden;
+											text-overflow: ellipsis;
+											white-space: nowrap;
+										}
+									}
+								}
+							}
+						}
+					}
+					.imagenesProyecto{
+						@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
+						background-color: black;
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						left: 0px;
+						top: 0px;
+						right: 0px;
+						bottom: 0px;
+						z-index: -100;
+						.imagenFullScreen{
+							@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
+							h2{
+								@include hiddenelement;
+							}
+							position: absolute;
+							top:0px;
+							left:0px;
+							background-size: cover;
+							z-index: -90;
+							width: 100%;
+							height: 100%;
+						}
+						.infoImagenesProyecto{
+							@include box-sizing (border-box);
+							background-color: rgba(0,0,0,0.7);
+							background-image: none;
+							width:100%;
+							height:90px;
+							z-index:500;
+							bottom:0px;
+							position:fixed;
+							.selectorImagenes{
+								display: table;
+								margin: 0px auto;
+								ul{
+									padding-top:5px;
+									li{
+										display: inline;
+										cursor: pointer;
+										float:left;
+										margin-left:5px;
+										margin-right:5px;
+										text-shadow: none;
+										a{	
+											display: none;
+										}
+										&:after{
+											@include user-select(none);
+											color: white;
+											opacity: 0.2;
+											content:"\25CF";
+											font-size: 20px;
+											@include transition( opacity 0.5s cubic-bezier(1.000, 0.010, 0.000, 1.010) );
+										}
+										&:hover:after{
+											color: white;
+											opacity: 0.75;
+										}
+										&:active:after{
+											opacity: 1;
+											color: white;
+										}
+										&.activo:after{
+											color: white;
+											opacity: 1;
+											@include transition( opacity 0.5s cubic-bezier(1.000, 0.010, 0.000, 1.010) );
+										}
+										&.activo{
+											-webkit-animation-name: colorin;
+											-webkit-animation-duration: 3s;
+											-webkit-animation-iteration-count: infinite;
+										}
+										&.blinking{
+											-webkit-animation-name: wiggle;
+											-webkit-animation-duration: 1s;
+											-webkit-animation-iteration-count: infinite;
+										}
+									}
+									&:after{
+										clear:both;
+										display: table;
+										content: "";
+									}
+								}
+							}
+							.captionImagenes{
+								div{
+									@include transition( (opacity 1.0s linear, z-index 1.0s linear) );
+									display:none;
+									text-align: center;
+									margin: 0px auto;
+									z-index: -1;
+									opacity: 0;
+									&.activo{
+										display: table;
+										z-index: 100;
+										opacity: 1;
+									}
+									p{
+										font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+										color: white;
+										padding: 0px;
+										padding-top:10px;
+										margin: 0px;
+										height: 40px;
+										display:block;
+										vertical-align:middle;
+										display: table-cell;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* Definicion de los distintos estados de visualización en funcion del modo seleccionado*/
+/* Tres modos: descripcion, imagenes y reacciones */
+html{
+	body{
+		&.descripcion{
+			.resumenProyecto{
+				z-index: 110;
+				opacity: 1;
+				.infoAdicionalProyecto{
+					z-index: -1;
+					opacity: 0;
+				}
+			}
+			.indexTitle{
+				z-index: 100;
+				opacity: 1;
+			}
+			.descripcionProyecto{
+				z-index: 100;
+				opacity: 1;
+			}
+			.imagenesProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+			.reaccionesProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+		}
+		&.imagenes{
+			.resumenProyecto{
+				z-index: 110;
+				opacity: 0.85;
+				@include transition( (opacity .5s linear) );
+				@include border-radius( 5px,  5px);
+				@include box-shadow( rgba(0,0,0,0.75) 0 2px 5px);
+				.navegacion, .infoProyecto{
+					@include transition( (opacity .5s linear, z-index .5s linear) );
+				}
+				.infoAdicionalProyecto{
+					z-index: 100;
+					opacity: 1;
+				}
+				&.fade{
+					opacity: 0.2;
+					@include box-shadow( rgba(0,0,0,0.5) 0 2px 5px);
+					.navegacion{
+						z-index: -1;
+						opacity:0;
+					}
+					.infoProyecto{
+						z-index: -1;
+						opacity:0;
+					}
+				}
+			}
+			.indexTitle{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+			.descripcionProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+			.imagenesProyecto{
+				z-index: 100;
+				opacity: 1;
+				.imagenFullScreen{
+					z-index: -1;
+					opacity: 0;
+					&.activo{
+						z-index: 100;
+						opacity: 1;
+					}
+				}
+			}
+			.reaccionesProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+		}
+		&.reacciones{
+			.resumenProyecto{
+				z-index: 110;
+				opacity: 1;
+				.infoAdicionalProyecto{
+					z-index: -1;
+					opacity: 0;
+				}
+			}
+			.indexTitle{
+				z-index: 100;
+				opacity: 1;
+			}
+			.descripcionProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+			.imagenesProyecto{
+				z-index: -1;
+				opacity: 0;
+				display: none;
+			}
+			.reaccionesProyecto{
+				z-index: 100;
+				opacity: 1;
+			}
+		}
+	}
+}
+@mixin responsiveProyecto($totalWidth, $columnWidth, $gutterWidth){
+	html{
+		body{
+			.fondoContenedor{
+				.fondoProyecto{
+					min-width: $totalWidth + 2 * $gutterWidth;
+				}
+			}
+			.cabeceraPagina{
+				.contenedor{
+					width: $totalWidth;
+					#fading{
+						margin-left: - $gutterWidth/2;
+						width: 2*$columnWidth + 2 * $gutterWidth;
+					}
+				}
+			}
+			.cuerpoPagina{
+				.contenedor{
+					width: $totalWidth;
+					min-width: $totalWidth;
+					padding-left: $gutterWidth;
+					padding-right: $gutterWidth;
+					.indexTitle{
+						margin-left: - $totalWidth/2 - $gutterWidth;
+						width: $columnWidth*2 + $gutterWidth*2;
+						h2{
+							margin-left: $gutterWidth;
+							width: $columnWidth*2 + $gutterWidth;
+						}
+					}
+					.contenedorResumen{
+						width: $totalWidth;
+						.resumenProyecto{
+							right: -$gutterWidth;
+							width: $columnWidth + 2*$gutterWidth;
+							margin-left: $columnWidth/2;
+							padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
+							.navegacion{
+								&.botones3{
+									ul{
+										width: floor($columnWidth/3) * 3;
+										 li{
+											width: floor($columnWidth/3);
+										}
+										li:last-child {
+											width: - 2px + floor($columnWidth/3);
+										}
+									}
+								}
+								&.botones2{
+									ul{
+										width: floor($columnWidth/2) * 2;
+										 li{
+											width: floor($columnWidth/2);
+										}
+										li:last-child {
+											width: - 2px + floor($columnWidth/2);
+										}
+									}
+								}
+							}
+							.infoAdicionalProyecto{
+								width: $columnWidth;
+								margin-left: 0px;
+								padding: 0px;
+								margin-right: $gutterWidth;
+								margin-top: $gutterWidth;
+								.infoImagenesProyecto{
+									width: $columnWidth + 2*$gutterWidth;
+									margin-left: -$gutterWidth;
+									padding: 5px $gutterWidth 0px $gutterWidth;
+								}
+							}
+						}
+					}
+					.descripcionProyecto{
+						width: 2*$columnWidth + $gutterWidth;
+						margin-left: 0px;
+						img{
+							width:  2*$columnWidth + $gutterWidth - 4;
+						}
+					}
+					.reaccionesProyecto{
+						width: 2*$columnWidth + $gutterWidth;
+						margin-left: 0px;
+					}
+					.imagenesProyecto{
+						.infoImagenesProyecto{
+							.captionImagenes{
+								div{
+									width:$totalWidth;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include templateProyecto(light, rgb(250,250,250), #393939, 1px solid #DADADA);
+@include templateProyecto(dark, #393939, white, 1px solid rgba(250,250,250,0.6));
+
+//Tablets
+@media (max-width: 989px) {
+	@include responsiveProyecto(728px, 228px, 20px);
+	body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+		width:84%;
+	}
+	#fading{
+		background-image: url(../imagenes/sombra-496.png);
+	}
+	.fondoProyecto.escalado{
+		background-size: 960px!important;
+	}
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsiveProyecto(940px, 300px, 20px);
+	body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+		width:80%;
+	}
+	#fading{
+		background-image: url(../imagenes/sombra-640.png);
+	}
+	.fondoProyecto.escalado{
+		background-size: 1200px!important;
+	}
+
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsiveProyecto(1170px, 370px, 30px);
+	body .contenedor .resumenProyecto{
+		top: 95px;
+	}
+	#fading{
+		background-image: url(../imagenes/sombra-800.png);
+	}
+	.fondoProyecto.escalado{
+		background-size: 1500px!important;
+	}
+}

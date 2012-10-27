@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		{% include _socialmeta-portfolio-proyectos.html %}
+		<link href="/css/screen-portfolio.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-portfolio-proyectos-top.html %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+	</head>
+	<body class="{{ page.template }}">
+		{% include _header-responsive.html %}
+		<section class="cuerpoPagina">
+			<div class="contenedor">
+				<h1 class="big">{{ site.navegacion-proyectos.[page.language] }}</h1>
+				<div class="subnav">
+					<ul class="nav">
+						<li><a href="#categoria1"><span>{{ page.categoria1-titulo }}</span></a></li>
+						<li><a href="#categoria2"><span>{{ page.categoria2-titulo }}</span></a></li>
+						<li><a href="#categoria3"><span>{{ page.categoria3-titulo }}</span></a></li>
+					</ul>
+				</div>
+				<section class="seccionProyectos clearfix" id="categoria1">
+					<div class="descripcion">
+						<h2>{{ page.categoria1-titulo }}</h2>
+						<p>{{ page.categoria1-subtitulo }}</p>
+					</div>
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 1" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _portfolio-proyecto-destacado.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% comment %}
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 1" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _portfolio-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% endcomment %}
+				</section>
+				<section class="seccionProyectos clearfix" id="categoria2">
+					<div class="descripcion">
+						<h2>{{ page.categoria2-titulo }}</h2>
+						<p>{{ page.categoria2-subtitulo }}</p>
+					</div>
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 2" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _portfolio-proyecto-destacado.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% comment %}
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 2" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _portfolio-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% endcomment %}
+				</section>
+				<section class="seccionProyectos clearfix"  id="categoria3">
+					<div class="descripcion">
+						<h2>{{ page.categoria3-titulo }}</h2>
+						<p>{{ page.categoria3-subtitulo }}</p>
+					</div>
+					<div class="proyectos Portfolio Destacados clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 3" %}
+									{% if item.categoria-prioridad == "destacado" %}
+										{% include _portfolio-proyecto-destacado.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% comment %}
+					<div class="proyectos Portfolio Secundarios clearfix">
+						{% for item in site.categories.proyectos %}
+							{% if item.language == page.language %}
+								{% if item.categoria == "categoria 3" %}
+									{% if item.categoria-prioridad == "secundario" %}
+										{% include _portfolio-proyecto-secundario.html %}
+									{% endif %}
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+					{% endcomment %}
+				</section>
+			</div>
+		</section>
+		<script src='/javascripts/libs/jquery-1.7.2.min.js' type='text/javascript'></script>
+		<script src='/javascripts/libs/jquery.comunesPlugin.js' type='text/javascript'></script>
+		<script src='/javascripts/funciones-portfolio.js' type='text/javascript'></script>
+		{% include _footer-responsive.html %}
+		{% include _scripts-portfolio-proyectos-bottom.html %}
+	</body>
+</html>

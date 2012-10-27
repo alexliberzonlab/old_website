@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Colaborativa | Todos los artículos</title>
+		<description>Todos los artículos</description>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url }}/articulos.xml" rel="self" type="application/rss+xml" />
+		{% for item in site.categories.articulos limit:10 %}
+			<item>
+				<title>{{ item.title }}</title>
+				<description>{{ item.content | xml_escape }}</description>
+				<pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ item.url }}{{ item.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ item.url }}</guid>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

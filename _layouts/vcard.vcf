@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N;CHARSET=UTF-8:;;;;
+FN;CHARSET=UTF-8:
+TEL;WORK;CHARSET=UTF-8:{{ site.colaborativa_datos.tel }}
+URL;CHARSET=UTF-8:http://colaborativa.eu
+EMAIL;INTERNET;CHARSET=UTF-8:info@colaborativa.eu
+ORG;CHARSET=UTF-8:Colaborativa
+ADR;WORK;POSTAL;CHARSET=UTF-8:;;{{ site.colaborativa_datos.street_address | strip_html }};{{ site.colaborativa_datos.locality }};{{ site.colaborativa_datos.locality }};{{ site.colaborativa_datos.postal_code }};{{ site.colaborativa_datos.country }}
+NOTE;CHARSET=UTF-8:Javier Burón y Magdalena Sánchez
+REV:2012-10-07T16:15:03Z
+END:VCARD

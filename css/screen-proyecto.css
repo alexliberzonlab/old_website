@@ -1,0 +1,2575 @@
+/* line 17, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, /Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'ColaborativaSemibold';
+  src: url("fonts/colaborativasemibold-webfont.eot");
+  src: url("fonts/colaborativasemibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativasemibold-webfont.woff") format("woff"), url("fonts/colaborativasemibold-webfont.ttf") format("truetype"), url("fonts/colaborativasemibold-webfont.svg#ColaborativaSemiboldRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaBook';
+  src: url("fonts/colaborativabook-webfont.eot");
+  src: url("fonts/colaborativabook-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativabook-webfont.woff") format("woff"), url("fonts/colaborativabook-webfont.ttf") format("truetype"), url("fonts/colaborativabook-webfont.svgz#colaborativaBook") format("svg"), url("fonts/colaborativabook-webfont.svg#colaborativaBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMedium';
+  src: url("fonts/colaborativamedium-webfont.eot");
+  src: url("fonts/colaborativamedium-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamedium-webfont.woff") format("woff"), url("fonts/colaborativamedium-webfont.ttf") format("truetype"), url("fonts/colaborativamedium-webfont.svgz#colaborativaMedium") format("svg"), url("fonts/colaborativamedium-webfont.svg#colaborativaMedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaMediumItalic';
+  src: url("fonts/colaborativamediumitalic-webfont.eot");
+  src: url("fonts/colaborativamediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativamediumitalic-webfont.woff") format("woff"), url("fonts/colaborativamediumitalic-webfont.ttf") format("truetype"), url("fonts/colaborativamediumitalic-webfont.svgz#colaborativaMediumItalic") format("svg"), url("fonts/colaborativamediumitalic-webfont.svg#colaborativaMediumItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativaLight';
+  src: url("fonts/colaborativa-light-webfont.eot");
+  src: url("fonts/colaborativa-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-light-webfont.woff") format("woff"), url("fonts/colaborativa-light-webfont.ttf") format("truetype"), url("fonts/colaborativa-light-webfont.svgz#colaborativa-light") format("svg"), url("fonts/colaborativa-light-webfont.svg#colaborativa-light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'colaborativa-icons';
+  src: url("fonts/colaborativa-icons-regular-webfont.eot");
+  src: url("fonts/colaborativa-icons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/colaborativa-icons-regular-webfont.woff") format("woff"), url("fonts/colaborativa-icons-regular-webfont.ttf") format("truetype"), url("fonts/colaborativa-icons-regular-webfont.svg#colaborativa-iconsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansRegular';
+  src: url("fonts/DroidSans-webfont.eot");
+  src: url("fonts/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSans-webfont.woff") format("woff"), url("fonts/DroidSans-webfont.ttf") format("truetype"), url("fonts/DroidSans-webfont.svg#DroidSansRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DroidSansBold';
+  src: url("fonts/DroidSans-Bold-webfont.eot");
+  src: url("fonts/DroidSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/DroidSans-Bold-webfont.woff") format("woff"), url("fonts/DroidSans-Bold-webfont.ttf") format("truetype"), url("fonts/DroidSans-Bold-webfont.svg#DroidSansBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../sass/_general.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 4, ../sass/_general.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 5, ../sass/_general.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .funnyline {
+  width: 100%;
+  height: 63px;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina {
+  position: relative;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(230, 230, 230, 0.8)), color-stop(100%, rgba(230, 230, 230, 0))), url('/imagenes/background.png?1331221128'), #fafafa;
+  background: -webkit-linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0)), url('/imagenes/background.png?1331221128'), #fafafa;
+  background: -moz-linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0)), url('/imagenes/background.png?1331221128'), #fafafa;
+  background: -o-linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0)), url('/imagenes/background.png?1331221128'), #fafafa;
+  background: -ms-linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0)), url('/imagenes/background.png?1331221128'), #fafafa;
+  background: linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 230, 230, 0)), url('/imagenes/background.png?1331221128'), #fafafa;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  z-index: 500;
+  height: 90px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina a:link, html body.neutral .cabeceraPagina a:visited, html body.neutral .cabeceraPagina a:active {
+  color: #393939;
+  text-decoration: none;
+}
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina a:hover, html body.neutral .cabeceraPagina a:hover.active {
+  color: #393939;
+  text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+}
+/* line 36, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+/* line 40, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina.fixed .tituloMenuBusqueda {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+}
+/* line 45, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina.fixed.proyecto {
+  padding-bottom: 156px;
+}
+/* line 47, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina.fixed.proyecto .cabeceraFondo {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 156px;
+  z-index: -100;
+  opacity: 1;
+}
+/* line 67, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  height: 90px;
+  padding: 0px;
+}
+/* line 73, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  display: table;
+}
+/* line 78, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  color: #393939;
+  font-family: "colaborativasemibold";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  resize: none;
+  text-shadow: none;
+}
+/* line 91, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+}
+/* line 94, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 97, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  color: #393939;
+  font-family: "colaborativasemibold";
+  text-shadow: none;
+}
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0;
+  padding: 0px 0px 0px 35px;
+}
+/* line 117, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a {
+  padding: 3px 15px 3px 5px;
+}
+/* line 119, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a::before {
+  font-family: "colaborativa-icons";
+  padding-right: 6px;
+  position: relative;
+  top: 3px;
+}
+/* line 125, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuBlog:before {
+  content: "\f011";
+}
+/* line 128, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuProyectos:before {
+  content: "\f013";
+}
+/* line 131, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuEquipo:before {
+  content: "\f012";
+}
+/* line 141, ../sass/_cabecerapaginaResponsive.scss */
+html body.neutral .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.opciones ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .funnyline {
+  width: 100%;
+  height: 63px;
+  border-bottom: 1px solid rgba(40, 40, 40, 0.2);
+}
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina {
+  position: relative;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  z-index: 500;
+  height: 90px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina a:link, html body.light .cabeceraPagina a:visited, html body.light .cabeceraPagina a:active {
+  color: #393939;
+  text-decoration: none;
+}
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina a:hover, html body.light .cabeceraPagina a:hover.active {
+  color: #00a9da;
+  text-shadow: rgba(255, 255, 255, 0.1) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+/* line 36, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+/* line 40, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina.fixed .tituloMenuBusqueda {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+}
+/* line 45, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina.fixed.proyecto {
+  padding-bottom: 156px;
+}
+/* line 47, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina.fixed.proyecto .cabeceraFondo {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 156px;
+  z-index: -100;
+  opacity: 1;
+}
+/* line 67, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  height: 90px;
+  padding: 0px;
+}
+/* line 73, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  display: table;
+}
+/* line 78, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  color: #393939;
+  font-family: "colaborativasemibold";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  resize: none;
+  text-shadow: 0 1px #ffffff;
+}
+/* line 91, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+}
+/* line 94, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 97, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  color: #393939;
+  font-family: "colaborativasemibold";
+  text-shadow: 0 1px #ffffff;
+}
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0;
+  padding: 0px 0px 0px 35px;
+}
+/* line 117, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a {
+  padding: 3px 15px 3px 5px;
+}
+/* line 119, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a::before {
+  font-family: "colaborativa-icons";
+  padding-right: 6px;
+  position: relative;
+  top: 3px;
+}
+/* line 125, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuBlog:before {
+  content: "\f011";
+}
+/* line 128, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuProyectos:before {
+  content: "\f013";
+}
+/* line 131, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuEquipo:before {
+  content: "\f012";
+}
+/* line 141, ../sass/_cabecerapaginaResponsive.scss */
+html body.light .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.opciones ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .funnyline {
+  width: 100%;
+  height: 63px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+/* line 12, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina {
+  position: relative;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  z-index: 500;
+  height: 90px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 13, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina a:link, html body.dark .cabeceraPagina a:visited, html body.dark .cabeceraPagina a:active {
+  color: white;
+  text-decoration: none;
+}
+/* line 17, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina a:link {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+/* line 20, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina a:hover, html body.dark .cabeceraPagina a:hover.active {
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.7) 0 0 2px, 0 0 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+}
+/* line 36, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+/* line 40, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina.fixed .tituloMenuBusqueda {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+}
+/* line 45, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina.fixed.proyecto {
+  padding-bottom: 156px;
+}
+/* line 47, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina.fixed.proyecto .cabeceraFondo {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 156px;
+  z-index: -100;
+  opacity: 1;
+}
+/* line 67, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  height: 90px;
+  padding: 0px;
+}
+/* line 73, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  display: table;
+}
+/* line 78, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+  color: white;
+  font-family: "colaborativasemibold";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  resize: none;
+  text-shadow: none;
+}
+/* line 91, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+}
+/* line 94, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 97, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+  margin-top: 11px;
+  margin-bottom: 14px;
+  color: white;
+  font-family: "colaborativasemibold";
+  text-shadow: none;
+}
+/* line 110, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0;
+  padding: 0px 0px 0px 35px;
+}
+/* line 117, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a {
+  padding: 3px 15px 3px 5px;
+}
+/* line 119, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a::before {
+  font-family: "colaborativa-icons";
+  padding-right: 6px;
+  position: relative;
+  top: 3px;
+}
+/* line 125, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuBlog:before {
+  content: "\f011";
+}
+/* line 128, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuProyectos:before {
+  content: "\f013";
+}
+/* line 131, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.secciones ul li h3 a.menuEquipo:before {
+  content: "\f012";
+}
+/* line 141, ../sass/_cabecerapaginaResponsive.scss */
+html body.dark .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menu.opciones ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 200, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+/* line 202, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina.fixed.proyecto {
+  padding-bottom: 0px;
+}
+/* line 204, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina.fixed.proyecto .cabeceraFondo {
+  opacity: 0;
+  z-index: -500;
+}
+/* line 211, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina .funnyline {
+  border-bottom: 1px solid rgba(210, 210, 210, 0.4);
+}
+/* line 215, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:link, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:visited, html body.imagenes .cabeceraPagina .tituloMenuBusqueda a:active {
+  color: white;
+  text-decoration: none;
+}
+/* line 220, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina .tituloMenuBusqueda h1 a {
+  color: white;
+  text-shadow: none;
+}
+/* line 226, ../sass/_cabecerapaginaResponsive.scss */
+html body.imagenes .cabeceraPagina .tituloMenuBusqueda .menu a {
+  color: white;
+  text-shadow: none;
+}
+
+@media (max-width: 989px) {
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina {
+    min-width: 768px;
+  }
+  /* line 162, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
+    margin-left: -364px;
+    width: 728px;
+  }
+  /* line 166, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+    width: 20%;
+    font-size: 23px;
+  }
+  /* line 171, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+    font-size: 17px;
+  }
+  /* line 174, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a::before {
+    font-size: 23px;
+  }
+  /* line 179, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuSecciones {
+    width: 60%;
+  }
+  /* line 182, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuOpciones {
+    width: 20%;
+  }
+
+  /* line 239, ../sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 960px!important;
+  }
+
+  /* line 242, ../sass/_cabecerapaginaResponsive.scss */
+  h1 {
+    padding-top: 3px;
+  }
+
+  /* line 245, ../sass/_cabecerapaginaResponsive.scss */
+  nav.menu {
+    padding-top: 12px;
+  }
+}
+@media (min-width: 990px) {
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina {
+    min-width: 980px;
+  }
+  /* line 162, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
+    margin-left: -470px;
+    width: 940px;
+  }
+  /* line 166, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+    width: 20%;
+    font-size: 23px;
+  }
+  /* line 171, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+    font-size: 17px;
+  }
+  /* line 174, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a::before {
+    font-size: 23px;
+  }
+  /* line 179, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuSecciones {
+    width: 60%;
+  }
+  /* line 182, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuOpciones {
+    width: 20%;
+  }
+
+  /* line 252, ../sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 1200px!important;
+  }
+
+  /* line 255, ../sass/_cabecerapaginaResponsive.scss */
+  h1 {
+    padding-top: 3px;
+  }
+
+  /* line 258, ../sass/_cabecerapaginaResponsive.scss */
+  nav.menu {
+    padding-top: 12px;
+  }
+}
+@media (min-width: 1240px) {
+  /* line 160, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina {
+    min-width: 1230px;
+  }
+  /* line 162, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor {
+    margin-left: -585px;
+    width: 1170px;
+  }
+  /* line 166, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda h1 {
+    width: 20%;
+    font-size: 25px;
+  }
+  /* line 171, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 {
+    font-size: 19px;
+  }
+  /* line 174, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav h3 a::before {
+    font-size: 25px;
+  }
+  /* line 179, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuSecciones {
+    width: 60%;
+  }
+  /* line 182, ../sass/_cabecerapaginaResponsive.scss */
+  body .cabeceraPagina .contenedor .tituloMenuBusqueda nav.menuOpciones {
+    width: 20%;
+  }
+
+  /* line 265, ../sass/_cabecerapaginaResponsive.scss */
+  .cabeceraFondo.escalado {
+    background-size: 1500px!important;
+  }
+
+  /* line 268, ../sass/_cabecerapaginaResponsive.scss */
+  h1 {
+    padding-top: 1px;
+  }
+
+  /* line 271, ../sass/_cabecerapaginaResponsive.scss */
+  nav.menu {
+    padding-top: 10px;
+  }
+}
+@-webkit-keyframes wiggle {
+  /* line 31, ../sass/screen-proyecto.scss */
+  from {
+    opacity: 0.2;
+  }
+
+  /* line 32, ../sass/screen-proyecto.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes colorin {
+  /* line 36, ../sass/screen-proyecto.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 37, ../sass/screen-proyecto.scss */
+  to {
+    opacity: 0.5;
+  }
+}
+
+/* Definicion de los distintos estados de visualización en funcion del modo seleccionado*/
+/* Tres modos: descripcion, imagenes y reacciones */
+/* line 573, ../sass/screen-proyecto.scss */
+html body.descripcion .resumenProyecto {
+  z-index: 110;
+  opacity: 1;
+}
+/* line 576, ../sass/screen-proyecto.scss */
+html body.descripcion .resumenProyecto .infoAdicionalProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 581, ../sass/screen-proyecto.scss */
+html body.descripcion .indexTitle {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 585, ../sass/screen-proyecto.scss */
+html body.descripcion .descripcionProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 589, ../sass/screen-proyecto.scss */
+html body.descripcion .imagenesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 594, ../sass/screen-proyecto.scss */
+html body.descripcion .reaccionesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 601, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto {
+  z-index: 110;
+  opacity: 0.85;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -ms-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  -ms-border-radius: 5px / 5px;
+  -o-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0 2px 5px;
+}
+/* line 607, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto .navegacion, html body.imagenes .resumenProyecto .infoProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 610, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto .infoAdicionalProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 614, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade {
+  opacity: 0.2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 2px 5px;
+}
+/* line 617, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade .navegacion {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 621, ../sass/screen-proyecto.scss */
+html body.imagenes .resumenProyecto.fade .infoProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 627, ../sass/screen-proyecto.scss */
+html body.imagenes .indexTitle {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 632, ../sass/screen-proyecto.scss */
+html body.imagenes .descripcionProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 637, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 640, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto .imagenFullScreen {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 643, ../sass/screen-proyecto.scss */
+html body.imagenes .imagenesProyecto .imagenFullScreen.activo {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 649, ../sass/screen-proyecto.scss */
+html body.imagenes .reaccionesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 656, ../sass/screen-proyecto.scss */
+html body.reacciones .resumenProyecto {
+  z-index: 110;
+  opacity: 1;
+}
+/* line 659, ../sass/screen-proyecto.scss */
+html body.reacciones .resumenProyecto .infoAdicionalProyecto {
+  z-index: -1;
+  opacity: 0;
+}
+/* line 664, ../sass/screen-proyecto.scss */
+html body.reacciones .indexTitle {
+  z-index: 100;
+  opacity: 1;
+}
+/* line 668, ../sass/screen-proyecto.scss */
+html body.reacciones .descripcionProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 673, ../sass/screen-proyecto.scss */
+html body.reacciones .imagenesProyecto {
+  z-index: -1;
+  opacity: 0;
+  display: none;
+}
+/* line 678, ../sass/screen-proyecto.scss */
+html body.reacciones .reaccionesProyecto {
+  z-index: 100;
+  opacity: 1;
+}
+
+/* line 59, ../sass/screen-proyecto.scss */
+html body.light a:link, html body.light a:visited, html body.light a:active {
+  text-decoration: none;
+  color: #393939;
+}
+/* line 64, ../sass/screen-proyecto.scss */
+html body.light .auxiliar {
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+/* line 72, ../sass/screen-proyecto.scss */
+html body.light .auxiliar .resumenProyectoFondo {
+  top: 0px;
+  left: 50%;
+  width: 1500px;
+  margin-left: -750px;
+  height: 1100px;
+  position: absolute;
+  z-index: 500;
+  clip: rect(105px, 1365px, 460px, 935px);
+}
+/* line 83, ../sass/screen-proyecto.scss */
+html body.light .fondoContenedor {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -300;
+}
+/* line 90, ../sass/screen-proyecto.scss */
+html body.light .fondoContenedor .fondoProyecto {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100;
+}
+/* line 101, ../sass/screen-proyecto.scss */
+html body.light .cabeceraPagina .contenedor #fading {
+  position: absolute;
+  left: 0px;
+  top: 155px;
+  border-top: 1px solid white;
+  height: 10px;
+  opacity: 0;
+}
+/* line 116, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 119, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .indexTitle {
+  font: 26px/32px "colaborativaBook";
+  color: #393939;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 40px;
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  height: 77px;
+  z-index: 1000;
+}
+/* line 129, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .indexTitle h2 {
+  height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  bottom: 10px;
+}
+/* line 138, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen {
+  position: fixed;
+  top: 105px;
+  z-index: 500;
+}
+/* line 142, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  position: absolute;
+  top: 0px;
+  z-index: 1100;
+}
+/* line 148, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto hgroup {
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dadada;
+}
+/* line 153, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto h1 {
+  font: 26px/30px "colaborativaMedium";
+  color: #393939;
+  padding-bottom: 25px;
+}
+/* line 158, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto h2 {
+  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
+}
+/* line 162, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto p {
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
+  margin-bottom: 15px;
+}
+/* line 167, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 174, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(57, 57, 57, 0.5);
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  -ms-border-radius: 4px / 4px;
+  -o-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0px;
+  box-shadow: rgba(255, 255, 255, 0.5) 0 1px 0px;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 188, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li {
+  display: inline;
+  float: left;
+  border-right: 1px solid rgba(57, 57, 57, 0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+}
+/* line 198, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: center;
+  line-height: 30px;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
+}
+/* line 213, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:link, html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:visited, html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:active, html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:hover, html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a.activo {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s false;
+  border-bottom: none;
+  -webkit-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
+}
+/* line 227, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a.activo {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 238, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:hover {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
+}
+/* line 249, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:active {
+  -webkit-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  box-shadow: inset 0px 0px 5px rgba(50, 50, 50, 0.2);
+  text-shadow: 0px 1px rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
+}
+/* line 261, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li:last-child {
+  border-right: none;
+}
+/* line 265, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 272, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 277, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: #393939;
+  margin-top: 185px;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 286, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto cite {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 289, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  border: 3px solid white;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+/* line 297, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+/* line 303, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 306, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto h2 {
+  font: 26px/32px "colaborativaBook";
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #393939;
+}
+/* line 312, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .descripcionProyecto p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
+}
+/* line 319, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: #393939;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 326, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 330, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
+  font: 26px/32px "colaborativaBook";
+  color: #393939;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+/* line 337, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dadada;
+}
+/* line 342, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
+  font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  padding-bottom: 10px;
+  color: #393939;
+}
+/* line 346, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
+  border-bottom: none;
+  color: #393939;
+}
+/* line 351, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
+  padding-bottom: 12px;
+}
+/* line 355, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
+  padding-bottom: 0px;
+}
+/* line 358, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
+  padding-bottom: 0px;
+}
+/* line 362, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article p {
+  padding-top: 8px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: #393939;
+}
+/* line 367, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
+  border-top: 1px solid #dadada;
+}
+/* line 370, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
+  padding-bottom: 22px;
+}
+/* line 372, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  margin: 0px;
+}
+/* line 378, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
+  padding: 0px 0px 0px 0px;
+}
+/* line 381, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 8px 0px 0px;
+  margin: 0px;
+  height: 40px;
+}
+/* line 388, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 393, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+  display: table-cell;
+  width: 70%;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 400, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
+  color: black;
+}
+/* line 404, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
+  display: table-cell;
+  width: 30%;
+  text-align: right;
+  vertical-align: top;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: rgba(57, 57, 57, 0.8);
+}
+/* line 414, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
+  overflow: auto;
+  width: 100%;
+}
+/* line 417, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
+  float: left;
+  clear: both;
+}
+/* line 418, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  border: 3px solid white;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+/* line 428, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
+  margin-left: 170px;
+  margin-top: 4px;
+}
+/* line 431, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
+  overflow: hidden;
+  line-height: 24px;
+  height: 48px;
+}
+/* line 436, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.light .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 446, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -100;
+}
+/* line 457, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  z-index: -90;
+  width: 100%;
+  height: 100%;
+}
+/* line 459, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 470, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
+  width: 100%;
+  height: 90px;
+  z-index: 500;
+  bottom: 0px;
+  position: fixed;
+}
+/* line 479, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
+  display: table;
+  margin: 0px auto;
+}
+/* line 482, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
+  padding-top: 5px;
+}
+/* line 484, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
+  display: inline;
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-shadow: none;
+}
+/* line 491, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
+  display: none;
+}
+/* line 494, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: white;
+  opacity: 0.2;
+  content: "\25CF";
+  font-size: 20px;
+  -webkit-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -moz-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -ms-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -o-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+}
+/* line 502, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
+  color: white;
+  opacity: 0.75;
+}
+/* line 506, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
+  opacity: 1;
+  color: white;
+}
+/* line 510, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
+  color: white;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -moz-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -ms-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -o-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+}
+/* line 515, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo {
+  -webkit-animation-name: colorin;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+/* line 520, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.blinking {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+/* line 526, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 534, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  display: none;
+  text-align: center;
+  margin: 0px auto;
+  z-index: -1;
+  opacity: 0;
+}
+/* line 541, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
+  display: table;
+  z-index: 100;
+  opacity: 1;
+}
+/* line 546, ../sass/screen-proyecto.scss */
+html body.light .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
+  font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  padding: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  height: 40px;
+  display: block;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/* line 59, ../sass/screen-proyecto.scss */
+html body.dark a:link, html body.dark a:visited, html body.dark a:active {
+  text-decoration: none;
+  color: white;
+}
+/* line 64, ../sass/screen-proyecto.scss */
+html body.dark .auxiliar {
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+/* line 72, ../sass/screen-proyecto.scss */
+html body.dark .auxiliar .resumenProyectoFondo {
+  top: 0px;
+  left: 50%;
+  width: 1500px;
+  margin-left: -750px;
+  height: 1100px;
+  position: absolute;
+  z-index: 500;
+  clip: rect(105px, 1365px, 460px, 935px);
+}
+/* line 83, ../sass/screen-proyecto.scss */
+html body.dark .fondoContenedor {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -300;
+}
+/* line 90, ../sass/screen-proyecto.scss */
+html body.dark .fondoContenedor .fondoProyecto {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -100;
+}
+/* line 101, ../sass/screen-proyecto.scss */
+html body.dark .cabeceraPagina .contenedor #fading {
+  position: absolute;
+  left: 0px;
+  top: 155px;
+  border-top: 1px solid rgba(250, 250, 250, 0.3);
+  height: 10px;
+  opacity: 0;
+}
+/* line 116, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 119, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .indexTitle {
+  font: 26px/32px "colaborativaBook";
+  color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 40px;
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  height: 77px;
+  z-index: 1000;
+}
+/* line 129, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .indexTitle h2 {
+  height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: absolute;
+  bottom: 10px;
+}
+/* line 138, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen {
+  position: fixed;
+  top: 105px;
+  z-index: 500;
+}
+/* line 142, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: none;
+  position: absolute;
+  top: 0px;
+  z-index: 1100;
+}
+/* line 148, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto hgroup {
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.6);
+}
+/* line 153, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto h1 {
+  font: 26px/30px "colaborativaMedium";
+  color: white;
+  padding-bottom: 25px;
+}
+/* line 158, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto h2 {
+  font: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 162, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto p {
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}
+/* line 167, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion {
+  display: block;
+  margin-bottom: 25px;
+}
+/* line 174, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  -ms-border-radius: 4px / 4px;
+  -o-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 188, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li {
+  display: inline;
+  float: left;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+}
+/* line 198, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: center;
+  line-height: 30px;
+  font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-shadow: none;
+}
+/* line 213, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:link, html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:visited, html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:active, html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:hover, html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a.activo {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s false;
+  border-bottom: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.4);
+}
+/* line 227, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a.activo {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 238, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:hover {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+/* line 249, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li a:active {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.4);
+}
+/* line 261, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul li:last-child {
+  border-right: none;
+}
+/* line 265, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 272, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+}
+/* line 277, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: white;
+  margin-top: 185px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.6);
+  padding-bottom: 50px;
+  margin-bottom: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 286, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto cite {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 289, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: silver;
+  border: none;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 297, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto figure figcaption {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+/* line 303, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 306, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto h2 {
+  font: 26px/32px "colaborativaBook";
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+/* line 312, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .descripcionProyecto p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 319, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto {
+  -webkit-transition: opacity 0.5s linear, z-index 0.5s linear;
+  -moz-transition: opacity 0.5s linear z-index 0.5s linear;
+  -ms-transition: opacity 0.5s linear z-index 0.5s linear;
+  -o-transition: opacity 0.5s linear z-index 0.5s linear;
+  transition: opacity 0.5s linear, z-index 0.5s linear;
+  font: 14px/20px "lucida Grande", Geneva, sans-serif;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 326, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto h1 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 330, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section h2 {
+  font: 26px/32px "colaborativaBook";
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+/* line 337, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dadada;
+}
+/* line 342, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 {
+  font: 16px/17px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  padding-bottom: 10px;
+  color: white;
+}
+/* line 346, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h3 a {
+  border-bottom: none;
+  color: white;
+}
+/* line 351, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4 {
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  padding-bottom: 12px;
+}
+/* line 355, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:first-child {
+  padding-bottom: 0px;
+}
+/* line 358, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article h4:last-child {
+  padding-bottom: 0px;
+}
+/* line 362, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article p {
+  padding-top: 8px;
+  font: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+}
+/* line 367, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article:first-child {
+  border-top: 1px solid #dadada;
+}
+/* line 370, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets {
+  padding-bottom: 22px;
+}
+/* line 372, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table;
+  height: 40px;
+  padding: 0px 0px 8px 0px;
+  margin: 0px;
+}
+/* line 378, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet:last-child {
+  padding: 0px 0px 0px 0px;
+}
+/* line 381, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 8px 0px 0px;
+  margin: 0px;
+  height: 40px;
+}
+/* line 388, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .twitterImagenPerfil img {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 393, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+  display: table-cell;
+  width: 70%;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: middle;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+}
+/* line 400, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto .twitterNombre {
+  color: black;
+}
+/* line 404, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.tweets .tweet .tiempo {
+  display: table-cell;
+  width: 30%;
+  text-align: right;
+  vertical-align: top;
+  font: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 414, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog {
+  overflow: auto;
+  width: 100%;
+}
+/* line 417, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo {
+  float: left;
+  clear: both;
+}
+/* line 418, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .imagenArticulo img, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .imagenArticulo img {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: silver;
+  border: none;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px / 2px;
+  -ms-border-radius: 2px / 2px;
+  -o-border-radius: 2px / 2px;
+  border-radius: 2px / 2px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* line 428, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo {
+  margin-left: 170px;
+  margin-top: 4px;
+}
+/* line 431, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo p, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo p {
+  overflow: hidden;
+  line-height: 24px;
+  height: 48px;
+}
+/* line 436, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloPrensa .textoArticulo h4, html body.dark .cuerpoPagina .contenedor .reaccionesProyecto section article.articuloBlog .textoArticulo h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 446, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -100;
+}
+/* line 457, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  z-index: -90;
+  width: 100%;
+  height: 100%;
+}
+/* line 459, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .imagenFullScreen h2 {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 470, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: none;
+  width: 100%;
+  height: 90px;
+  z-index: 500;
+  bottom: 0px;
+  position: fixed;
+}
+/* line 479, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes {
+  display: table;
+  margin: 0px auto;
+}
+/* line 482, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul {
+  padding-top: 5px;
+}
+/* line 484, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li {
+  display: inline;
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-shadow: none;
+}
+/* line 491, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li a {
+  display: none;
+}
+/* line 494, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:after {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: white;
+  opacity: 0.2;
+  content: "\25CF";
+  font-size: 20px;
+  -webkit-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -moz-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -ms-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -o-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+}
+/* line 502, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:hover:after {
+  color: white;
+  opacity: 0.75;
+}
+/* line 506, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li:active:after {
+  opacity: 1;
+  color: white;
+}
+/* line 510, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo:after {
+  color: white;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -moz-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -ms-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  -o-transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+  transition: opacity 0.5s cubic-bezier(1, 0.01, 0, 1.01);
+}
+/* line 515, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.activo {
+  -webkit-animation-name: colorin;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+}
+/* line 520, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul li.blinking {
+  -webkit-animation-name: wiggle;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+/* line 526, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .selectorImagenes ul:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+/* line 534, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+  -webkit-transition: opacity 1s linear, z-index 1s linear;
+  -moz-transition: opacity 1s linear z-index 1s linear;
+  -ms-transition: opacity 1s linear z-index 1s linear;
+  -o-transition: opacity 1s linear z-index 1s linear;
+  transition: opacity 1s linear, z-index 1s linear;
+  display: none;
+  text-align: center;
+  margin: 0px auto;
+  z-index: -1;
+  opacity: 0;
+}
+/* line 541, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div.activo {
+  display: table;
+  z-index: 100;
+  opacity: 1;
+}
+/* line 546, ../sass/screen-proyecto.scss */
+html body.dark .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div p {
+  font: 15px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+  color: white;
+  padding: 0px;
+  padding-top: 10px;
+  margin: 0px;
+  height: 40px;
+  display: block;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+@media (max-width: 989px) {
+  /* line 689, ../sass/screen-proyecto.scss */
+  html body .fondoContenedor .fondoProyecto {
+    min-width: 768px;
+  }
+  /* line 694, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 728px;
+  }
+  /* line 696, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor #fading {
+    margin-left: -10px;
+    width: 496px;
+  }
+  /* line 703, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor {
+    width: 728px;
+    min-width: 728px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 708, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle {
+    margin-left: -384px;
+    width: 496px;
+  }
+  /* line 711, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle h2 {
+    margin-left: 20px;
+    width: 476px;
+  }
+  /* line 716, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen {
+    width: 728px;
+  }
+  /* line 718, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto {
+    right: -20px;
+    width: 268px;
+    margin-left: 114px;
+    padding: 20px 20px 30px 20px;
+  }
+  /* line 725, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul {
+    width: 228px;
+  }
+  /* line 727, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li {
+    width: 76px;
+  }
+  /* line 730, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 74px;
+  }
+  /* line 736, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul {
+    width: 228px;
+  }
+  /* line 738, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li {
+    width: 114px;
+  }
+  /* line 741, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 112px;
+  }
+  /* line 747, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto {
+    width: 228px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  /* line 753, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 268px;
+    margin-left: -20px;
+    padding: 5px 20px 0px 20px;
+  }
+  /* line 761, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto {
+    width: 476px;
+    margin-left: 0px;
+  }
+  /* line 764, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto img {
+    width: 472px;
+  }
+  /* line 768, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .reaccionesProyecto {
+    width: 476px;
+    margin-left: 0px;
+  }
+  /* line 775, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 728px;
+  }
+
+  /* line 793, ../sass/screen-proyecto.scss */
+  body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+    width: 84%;
+  }
+
+  /* line 796, ../sass/screen-proyecto.scss */
+  #fading {
+    background-image: url(../imagenes/sombra-496.png);
+  }
+
+  /* line 799, ../sass/screen-proyecto.scss */
+  .fondoProyecto.escalado {
+    background-size: 960px!important;
+  }
+}
+@media (min-width: 990px) {
+  /* line 689, ../sass/screen-proyecto.scss */
+  html body .fondoContenedor .fondoProyecto {
+    min-width: 980px;
+  }
+  /* line 694, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 940px;
+  }
+  /* line 696, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor #fading {
+    margin-left: -10px;
+    width: 640px;
+  }
+  /* line 703, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor {
+    width: 940px;
+    min-width: 940px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 708, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle {
+    margin-left: -490px;
+    width: 640px;
+  }
+  /* line 711, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle h2 {
+    margin-left: 20px;
+    width: 620px;
+  }
+  /* line 716, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen {
+    width: 940px;
+  }
+  /* line 718, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto {
+    right: -20px;
+    width: 340px;
+    margin-left: 150px;
+    padding: 20px 20px 30px 20px;
+  }
+  /* line 725, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul {
+    width: 300px;
+  }
+  /* line 727, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li {
+    width: 100px;
+  }
+  /* line 730, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 98px;
+  }
+  /* line 736, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul {
+    width: 300px;
+  }
+  /* line 738, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li {
+    width: 150px;
+  }
+  /* line 741, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 148px;
+  }
+  /* line 747, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto {
+    width: 300px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  /* line 753, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 340px;
+    margin-left: -20px;
+    padding: 5px 20px 0px 20px;
+  }
+  /* line 761, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto {
+    width: 620px;
+    margin-left: 0px;
+  }
+  /* line 764, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto img {
+    width: 616px;
+  }
+  /* line 768, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .reaccionesProyecto {
+    width: 620px;
+    margin-left: 0px;
+  }
+  /* line 775, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 940px;
+  }
+
+  /* line 806, ../sass/screen-proyecto.scss */
+  body .contenedor .reaccionesProyecto section article.tweets .tweet p.tweetTexto {
+    width: 80%;
+  }
+
+  /* line 809, ../sass/screen-proyecto.scss */
+  #fading {
+    background-image: url(../imagenes/sombra-640.png);
+  }
+
+  /* line 812, ../sass/screen-proyecto.scss */
+  .fondoProyecto.escalado {
+    background-size: 1200px!important;
+  }
+}
+@media (min-width: 1240px) {
+  /* line 689, ../sass/screen-proyecto.scss */
+  html body .fondoContenedor .fondoProyecto {
+    min-width: 1230px;
+  }
+  /* line 694, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor {
+    width: 1170px;
+  }
+  /* line 696, ../sass/screen-proyecto.scss */
+  html body .cabeceraPagina .contenedor #fading {
+    margin-left: -15px;
+    width: 800px;
+  }
+  /* line 703, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor {
+    width: 1170px;
+    min-width: 1170px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* line 708, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle {
+    margin-left: -615px;
+    width: 800px;
+  }
+  /* line 711, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .indexTitle h2 {
+    margin-left: 30px;
+    width: 770px;
+  }
+  /* line 716, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen {
+    width: 1170px;
+  }
+  /* line 718, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto {
+    right: -30px;
+    width: 430px;
+    margin-left: 185px;
+    padding: 30px 30px 45px 30px;
+  }
+  /* line 725, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul {
+    width: 369px;
+  }
+  /* line 727, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li {
+    width: 123px;
+  }
+  /* line 730, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones3 ul li:last-child {
+    width: 121px;
+  }
+  /* line 736, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul {
+    width: 370px;
+  }
+  /* line 738, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li {
+    width: 185px;
+  }
+  /* line 741, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .navegacion.botones2 ul li:last-child {
+    width: 183px;
+  }
+  /* line 747, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto {
+    width: 370px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  /* line 753, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .contenedorResumen .resumenProyecto .infoAdicionalProyecto .infoImagenesProyecto {
+    width: 430px;
+    margin-left: -30px;
+    padding: 5px 30px 0px 30px;
+  }
+  /* line 761, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto {
+    width: 770px;
+    margin-left: 0px;
+  }
+  /* line 764, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .descripcionProyecto img {
+    width: 766px;
+  }
+  /* line 768, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .reaccionesProyecto {
+    width: 770px;
+    margin-left: 0px;
+  }
+  /* line 775, ../sass/screen-proyecto.scss */
+  html body .cuerpoPagina .contenedor .imagenesProyecto .infoImagenesProyecto .captionImagenes div {
+    width: 1170px;
+  }
+
+  /* line 820, ../sass/screen-proyecto.scss */
+  body .contenedor .resumenProyecto {
+    top: 95px;
+  }
+
+  /* line 823, ../sass/screen-proyecto.scss */
+  #fading {
+    background-image: url(../imagenes/sombra-800.png);
+  }
+
+  /* line 826, ../sass/screen-proyecto.scss */
+  .fondoProyecto.escalado {
+    background-size: 1500px!important;
+  }
+}

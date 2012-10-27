@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		{% include _socialmeta-home.html %}
+		<link href="/css/screen-home.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-home-top.html %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+	</head>
+	{% for proyecto in site.categories.proyectos %}
+		{% if proyecto.language == page.language %}
+			{% if proyecto.en-cabecera %}
+				{% if forloop.first %}
+					{% assign plantilla = proyecto.template %}
+				{% endif %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	<body class="{{ plantilla }}">
+		{% include _header-responsive.html %}
+		<div class="contenedorHome" >
+			<div class="contenedorPoster">
+			{% assign contadorProyecto = '' %}
+			{% assign contadorProyecto = tempProyecto %}
+			{% capture tempProyecto %}{{ contadorProyecto }}*{% endcapture %}
+			{% assign indexProyecto = contadorProyecto.size %}
+			{% for proyecto in site.categories.proyectos %}
+				{% if proyecto.language == page.language %}
+					{% if proyecto.en-cabecera %}
+						{% capture tempProyecto %}{{ contadorProyecto }}*{% endcapture %}
+						{% assign contadorProyecto = tempProyecto %}
+						{% assign indexProyecto = contadorProyecto.size %}
+						{% if forloop.first %}
+						<div class="posterProyecto activo" id="proyecto{{ indexProyecto }}" colorFondo="{{ proyecto.colorFondo }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						{% else %}
+						<div class="posterProyecto" href="{{ proyecto.url }}" id="proyecto{{ indexProyecto }}" colorFondo="{{ proyecto.colorFondo }}" template="{{ proyecto.template }}" style="background: url(/imagenes/proyectos/{{ proyecto.slug }}-poster.jpg) center center no-repeat"></div>
+						{% endif %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			</div>
+			<div class="selectorProyectos">
+				<ul>
+					{% assign contadorSelProyecto = '' %}
+					{% assign contadorSelProyecto = tempSelProyecto %}
+					{% capture tempSelProyecto %}{{ contadorSelProyecto }}*{% endcapture %}
+					{% assign indexSelProyecto = contadorSelProyecto.size %}
+					{% for proyecto in site.categories.proyectos %}
+						{% if proyecto.language == page.language %}
+							{% if proyecto.en-cabecera %}
+							{% capture tempSelProyecto %}{{ contadorSelProyecto }}*{% endcapture %}
+							{% assign contadorSelProyecto = tempSelProyecto %}
+							{% assign indexSelProyecto = contadorSelProyecto.size %}
+								{% if forloop.first %}
+								<li class="activo"><a href="#{{ indexSelProyecto }}">{{ proyecto.slug }}</a></li>
+								{% else %}
+								<li><a href="#{{ indexSelProyecto }}">{{ proyecto.slug }}</a></li>
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+			<section class="novedades clearfix">
+				<h1>{{ page.home_novedades }}</h1>
+				<section class="novedadesArticulos">
+					<h2>{{ page.home_novedades_ultimos }}</h2>
+					{% assign numero-de-articulos = 3 %}
+					<div class="articulosLista clearfix">
+					{% assign contador = '' %}
+					{% assign contador = temp %}
+					{% capture temp %}{{ contador }}*{% endcapture %}
+					{% assign an_integer = contador.size %}
+					
+					{% for item in site.categories.articulos %}
+						{% if item.language == page.language %}
+							{% capture temp %}{{ contador}}*{% endcapture %}
+							{% assign contador = temp %}
+							{% assign an_integer = contador.size %}
+							{% if an_integer <=  numero-de-articulos %}
+								<article class="articuloBlog">
+									<div class="imagenArticulo">
+										<a href="{{ item.url }}" style="background: url(http://{{ item.imagen }}.jpg) center center no-repeat"></a>
+									</div>
+									<div class="textoArticulo">
+										<hgroup>
+											<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+											<h4>{{ item.subtitulo }} </h4>
+										</hgroup>
+									</div>
+								</article>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+					</div>
+					<p><a>{{ page.home_novedades_leermas }}</a></p>
+				</section>
+				<section class="novedadesTweets ">
+					<h2>{{ page.home_novedades_tweet }}</h2>
+					<div class="tweetsLista clearfix">
+						<article>
+							<h3 class="tweetContenido parrafo">RT @<a class="twitter-anywhere-user" href="http://twitter.com/tarquia">tarquia</a>: Asana: Aplicación. The way to work toguether Do Great Things.Asana is the shared task list for your team. The p... http:// ...</h3>
+							<span class="tweetAtributos">
+							<p class="tweetFecha tweet"><a class="tweetFecha-link listadoTitulo" data-timestamp="Thu, Jul 26 2012 11:43:39 +0000" href="http://twitter.com/tarquia/status/228455539082940400" target="_blank" title="Thu Jul 26 2012 13:43:39 GMT+0200 (CEST)">hace 1 hora</a></p>
+							</span>
+						</article>
+					</div>
+					<p class="tweetInfo tweet">Retuiteado por <a class="tweetInfo-retweeter-link listadoTitulo" href="http://twitter.com/colaborativaeu" target="_blank">colaborativaeu</a></p>
+				</section>
+			</section>
+		</div>
+		<script src='/javascripts/libs/jquery-1.7.2.min.js' type='text/javascript'></script>
+		<script src='/javascripts/funciones-home.js' type='text/javascript'></script>
+		{% include _footer-responsive.html %}
+	</body>
+</html>

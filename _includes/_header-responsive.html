@@ -1,0 +1,57 @@
+{% if page.layout == "home" or page.layout == "equipo-colaborativo" %}
+	{% assign fixed = "" %}
+{% else %}
+	{% assign fixed = "fixed" %}
+{% endif %}
+
+{% case page.layout %} 
+	{% when "portfolio-proyecto" %}
+	<header class="cabeceraPagina notranslate {{ fixed }} proyecto">
+		<div class="cabeceraFondo {% if page.escalaFondo %}escalado{% endif %}" style="background: url(/imagenes/proyectos/{{ page.slug }}-background.jpg) center top no-repeat"></div>
+	{% when "blog-articulo" %}
+		{% for item in site.categories.articulos-categorias %}
+			{% if item.language == page.language %}
+				{% if item.slug == page.categorias.[0] %}
+					{% if item.tiled_background %}
+						<header class="cabeceraPagina notranslate {{ fixed }} proyecto">
+							<div class="cabeceraFondo {% if item.escalaFondo %}escalado{% endif %}" style="background: url(/imagenes/proyectos/{{ item.slug }}-tile.png)"></div>
+					{% else %}
+						<header class="cabeceraPagina notranslate {{ fixed }} proyecto">
+							<div class="cabeceraFondo {% if item.escalaFondo %}escalado{% endif %}" style="background: url(/imagenes/proyectos/{{ item.slug }}-background.jpg) center top no-repeat"></div>
+					{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% else %}
+	<header class="cabeceraPagina notranslate {{ fixed }}">
+{% endcase %}
+	<div class="funnyline"></div>
+	<div class="contenedor">
+		<div class="tituloMenuBusqueda">
+			{% if page.language == "es" %}
+				{% assign urlIdioma = "" %}
+			{% else %}
+				{% assign urlIdioma = "/en" %}
+			{% endif %}
+			<h1><a href="{{ urlIdioma }}/" title="Inicio" rel="home" class="menu" id="logo">{{ site.titulo }}</a></h1>
+			<nav class="menu secciones">
+				<h2>{{ site.navegacion.[page.language] }}</h2>
+				<ul>
+					<li><h3><a class="menuProyectos menu" href="{{ urlIdioma }}/{{ site.navegacion-proyectos.[page.language] | downcase}}/" >{{ site.navegacion-proyectos.[page.language] }}</a></h3></li>
+					<li><h3><a class="menuBlog menu" href="{{ urlIdioma }}/{{ site.navegacion-blog.url | downcase}}/" >{{ site.navegacion-blog.[page.language] }}</a></h3></li>
+					<li><h3><a class="menuEquipo menu" href="{{ urlIdioma }}/{{ site.navegacion-equipo.url | downcase}}/" >{{ site.navegacion-equipo.[page.language] }}</a></h3></li>
+				</ul>
+			</nav>
+			<nav class="menu opciones">
+				<ul>
+					{% if page.language == "es" %}
+					<li><h3><a class="menuIdioma menu" href="{{ page.permalink_otro_idioma }}">English</a></h3></li>
+					{% else %}
+					<li><h3><a class="menuIdioma menu" href="{{ page.permalink_otro_idioma }}">Español</a></h3></li>
+					{% endif %}
+				</ul>
+			</nav>
+		</div>
+		<div id="fading"></div>
+	</div>
+</header>

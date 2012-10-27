@@ -1,0 +1,274 @@
+$cabeceraFuente: "colaborativasemibold";
+$cabeceraIconos: "colaborativa-icons";
+
+@mixin templateHeader($templateNombre, $colorTexto, $estiloLinea, $colorFondoOscuro, $colorFondo){
+	html{
+		body.#{$templateNombre}{
+			.funnyline{
+				width:100%;
+				height:63px;
+				border-bottom: $estiloLinea;
+			}
+			.cabeceraPagina {
+				a:link, a:visited, a:active {
+					color:$colorTexto;
+					text-decoration:none;
+				}
+				a:link{
+					@include transition(all .1s linear);
+				}
+				a:hover, a:hover.active{
+					@if $templateNombre == light {
+						color: #00a9da;
+						text-shadow: rgba(255,255,255,0.1) 0 0 2px, 0 0 10px rgba(255,255,255,0.2), 0 0 30px rgba(255,255,255,0.5);
+					} @else {
+						color: $colorTexto;
+						text-shadow: rgba(255,255,255,0.7) 0 0 2px, 0 0 10px rgba(255,255,255,0.5), 0 0 30px rgba(255,255,255,0.3);
+					}
+				}
+				position:relative;
+				@if $templateNombre == neutral {
+					@include background(linear-gradient(rgba($colorFondoOscuro, 0.8), rgba($colorFondoOscuro, 0.0)),
+										image-url("/imagenes/background.png"),
+										$colorFondo);
+				} @else {
+				}
+				&.fixed{
+					position: fixed;
+					top:0px;
+					left:0px;
+					.tituloMenuBusqueda{
+						position: absolute;
+						bottom:0px;
+						top:0px;
+					}
+					&.proyecto{
+						padding-bottom: 156px;
+						.cabeceraFondo{
+							@include transition( none );
+							position: absolute;
+							top:0px;
+							left:0px;
+							width:100%;
+							height:156px;
+							z-index: -100;
+							opacity:1;
+						}
+					}
+				}
+				width: 100%;
+				@include user-select(none);
+				@include box-sizing (border-box);
+				padding:0px;
+				margin: 0px;
+				z-index: 500;
+				height: 90px;
+				@include transition(all .1s linear);
+				.contenedor{
+					position:absolute;
+					left:50%;
+					top:0px;
+					height:90px;
+					padding:0px;
+					.tituloMenuBusqueda{
+						position: absolute;
+						top:30px;
+						width:100%;
+						display: table;
+						h1{
+							color: $colorTexto;
+							font-family: $cabeceraFuente;
+							@include box-sizing (border-box);
+							display: table-cell;
+							vertical-align: middle;
+							resize: none;
+							@if $templateNombre == light {
+								text-shadow: 0 1px #ffffff;
+							} @else {
+								text-shadow: none;
+							}
+						}
+						nav{
+							@include box-sizing (border-box);
+							display: table-cell;
+							h2{
+								@include hiddenelement;
+							}
+							h3{
+								margin-top:11px;
+								margin-bottom:14px;
+								color: $colorTexto;
+								font-family: $cabeceraFuente;
+								@if $templateNombre == light {
+									text-shadow: 0 1px #ffffff;
+								} @else {
+									text-shadow: none;
+								}	
+							}
+							&.menu.secciones{
+								ul{
+									li{
+										display: inline-block;
+										@include box-sizing (border-box);
+										width:30%;
+										margin: 0;
+										padding: 0px 0px 0px 35px;
+										h3{
+											a{
+												padding: 3px 15px 3px 5px;
+												&::before{
+													font-family: $cabeceraIconos;
+													padding-right: 6px;
+													position: relative;
+													top: 3px;
+												}
+												&.menuBlog:before{
+													content: "\f011";
+												}
+												&.menuProyectos:before{
+													content: "\f013";
+												}
+												&.menuEquipo:before{
+													content: "\f012";
+												}
+											}
+										}
+									}
+								}
+							}
+							&.menu.opciones{
+								ul{
+									li{
+										display: inline-block;
+										width:100%;
+										text-align: right;
+										margin: 0;
+										padding: 0;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@mixin cabecerapaginaResponsive($totalWidth, $columnWidth, $columnGap, $sizeLogo, $sizeMenu, $sizeIconos){
+	body{
+		.cabeceraPagina{
+				min-width: $totalWidth + $columnGap * 2;
+			.contenedor{
+				margin-left: - $totalWidth/2;
+				width: $totalWidth;
+				.tituloMenuBusqueda{
+					h1{
+						width: 20%;
+						font-size: $sizeLogo;
+					}
+					nav{
+						h3{
+							font-size: $sizeMenu;
+							a{
+								&::before{
+									font-size: $sizeIconos;
+								}
+							}
+						}
+						&.menuSecciones{
+							width: 60%;
+						}
+						&.menuOpciones{
+							width: 20%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include templateHeader(neutral, #393939, 1px solid rgba(40,40,40, 0.2), rgb(230,230,230), rgb(250,250,250));
+@include templateHeader(light, #393939, 1px solid rgba(40,40,40, 0.2), rgb(210,210,210), rgb(250,250,250));
+@include templateHeader(dark, white, 1px solid rgba(250,250,250, 0.5), rgb(0,0,0), #393939);
+
+
+//Caso especial para la cabecera mostrando las imágenes de un proyecto 
+html{
+	body.imagenes{
+		.cabeceraPagina{
+			&.fixed{
+				&.proyecto{
+					padding-bottom: 0px;
+					.cabeceraFondo{
+						opacity: 0;
+						z-index: -500;
+					}
+				}
+			}
+			background: rgba(0,0,0,0.7) !important;
+			.funnyline{
+				border-bottom: 1px solid rgba(210,210,210, 0.4);
+			}
+			.tituloMenuBusqueda{
+				a:link, a:visited, a:active {
+					color:white;
+					text-decoration:none;
+				}
+				h1{
+					a{
+						color: white;
+						text-shadow: none;
+					}
+				}
+				.menu{
+					a{
+						color: white;
+						text-shadow: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Tablets
+@media (max-width: 989px) {
+	@include cabecerapaginaResponsive(728px, 228px, 20px, 23px, 17px, 23px);
+	.cabeceraFondo.escalado{
+		background-size: 960px!important;
+	}
+	h1{
+		padding-top:3px;
+	}
+	nav.menu{
+		padding-top:12px;
+	}
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include cabecerapaginaResponsive(940px, 300px, 20px, 23px, 17px, 23px);
+	.cabeceraFondo.escalado{
+		background-size: 1200px!important;
+	}
+	h1{
+		padding-top:3px;
+	}
+	nav.menu{
+		padding-top:12px;
+	}
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include cabecerapaginaResponsive(1170px, 370px, 30px, 25px, 19px, 25px);
+	.cabeceraFondo.escalado{
+		background-size: 1500px!important;
+	}
+	h1{
+		padding-top:1px;
+	}
+	nav.menu{
+		padding-top:10px;
+	}
+}

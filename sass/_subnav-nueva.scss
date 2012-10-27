@@ -1,0 +1,127 @@
+$borderGrey: lighten(#BEBEBE, 8%);
+$innerborderGrey: lighten(#C9C9C9, 8%);
+$colorFondoOscuro: rgb(230,230,230);
+$colorFondo: rgb(250,250,250);
+
+.subnav {
+	width: 100%;
+	$navHeight: 30px;
+	$navbar-border-radius: 4px;
+	$navbar-border: 1px solid $borderGrey;
+	$navbar-border-inside: 1px solid $innerborderGrey;
+	$navbar-font: 12px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+	display:block;
+	ul {
+		border: $navbar-border;
+		@include border-radius( $navbar-border-radius,  $navbar-border-radius);
+		@include box-shadow(white 0 1px 0px);
+		font: $navbar-font;
+		li {
+			display: inline;
+			float: left;
+			border-right: $navbar-border-inside;
+			@include box-sizing (border-box);
+			height: $navHeight;
+			a {
+				@include user-select(none);
+				text-align: center;
+				line-height: $navHeight;
+				font: $navbar-font;
+				display: block;
+				@include box-sizing (border-box);
+				height: $navHeight;
+				padding-top: 8px;
+				padding-bottom: 5px;
+				padding-right: 30px;
+				padding-left: 30px;
+				text-shadow: 0px 1px rgba(255,255,255,0.75);
+				color: rgb(128,128,128);
+				&:link, &:visited, &:active, &:hover{
+					text-decoration: none;
+					@include single-transition(all, 0.5s);
+					border-bottom:none;
+				}
+				&.activo {
+					@include single-box-shadow(rgba(0,0,0,0.1), 0px, 0px, 5px, false, true);
+					text-shadow: 0px 1px rgba(255,255,255,0.3);
+					background: #E5E5E5;
+					@include single-transition(all, 0.5s);
+				}
+				&:hover {
+					@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
+					text-shadow: 0px 1px rgba(255,255,255,0.5);
+					background: #D8D8D8;
+				}
+				&:active {
+					@include single-box-shadow(rgba(0,0,0,0.2), 0px, 0px, 5px, false, true);
+					text-shadow: 0px 1px rgba(255,255,255,0.3);
+					background: #CFCFCF;
+				}
+			}
+			&:last-child {
+				border-right: none;
+			}
+		}
+		&:after{
+			clear:both;
+			display: table;
+			content: "";
+		}
+	}
+}
+.subnav.fixed {
+	@include background(image-url("/imagenes/background.png"),
+						$colorFondo);
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin-top: 15px;
+	z-index: 450;
+	border-bottom: 1px solid $borderGrey;
+	@include single-box-shadow(rgba(0,0,0,0.2), 0px, 1px, 4px, false, false);
+	.nav {
+		border-top: 1px solid $innerborderGrey;
+		@include single-box-shadow(none);
+		@include border-radius( 0px,  0px);
+		margin: 0 auto;
+		border: none;
+		li:first-child {
+			border-left: 1px solid $innerborderGrey;
+		}
+		li:first-child > a, li:first-child > a:hover {
+			@include border-radius( 0px, 0px );
+		}
+	}
+	&:before{
+		@include background(image-url("/imagenes/background.png"),
+							$colorFondo);
+		width:100%;
+		height:40px;
+		display: table;
+		content: "";
+		border-bottom: 1px solid $borderGrey;
+	}
+}
+
+@media (max-width: 989px) {
+	.subnav.fixed .nav {
+		width: 728px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (min-width: 990px) {
+	.subnav.fixed .nav {
+		width: 940px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media (min-width: 1240px){
+	.subnav.fixed .nav {
+		width: 1170px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}

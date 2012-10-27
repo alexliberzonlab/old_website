@@ -1,0 +1,9 @@
+{% for proyecto in site.categories.proyectos %}
+	{% if proyecto.language == page.language %}
+	{% for colaboradores in proyecto.colaboradores %}
+		{% if colaboradores == item.slug %}
+			<a href='{{ proyecto.url }}'>{{ proyecto.title }}</a>
+		{% endif %}
+	{% endfor %}
+	{% endif %}
+{% endfor %}

@@ -1,0 +1,425 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_general";
+@import "_cabecerapaginaResponsive";
+@import "compass/typography/vertical_rhythm";
+
+
+$fontTitulo:  "colaborativaMedium";
+$fontSubtitulo: "DroidSansRegular";
+$fontTitulo2: "colaborativasemibold";
+$fontBase:  "DroidSansRegular";
+$fontSmall: "DroidSansRegular";
+
+
+@mixin imageStyleLight{
+	@include box-sizing (border-box);
+	background:white;
+	border: 3px solid white;
+	@include single-box-shadow(rgba(0,0,0,0.4), 0px, 0px, 3px, false, false);
+}
+
+@mixin imageStyleDark{
+	@include box-sizing (border-box);
+	background:silver;
+	border: none;
+	@include single-box-shadow(rgba(0,0,0,0.5), 0px, 0px, 10px, false, true);
+}
+
+@mixin templateArticulo($templateNombre, $colorFondo, $colorTexto, $colorBorde){
+	html{
+		body.#{$templateNombre} {
+			background-color: $colorFondo;
+			.cabeceraPagina{
+				.contenedor{
+					#fading{
+						position:absolute;
+						top:155px;
+						@if $templateNombre == light {
+							border-top: 1px solid white;
+						} @else {
+							border-top: 1px solid rgba(250,250,250,0.3);
+						}
+						height: 10px;
+						opacity:0;
+					}
+				}
+			}
+			.cuerpoPagina{
+				a:link, a:visited, a:active{
+					text-decoration: none;
+					color: $colorTexto;
+				}
+				.contenedor{
+					margin-left: auto;
+					margin-right: auto;
+					.contenedorPoster{
+						width:100%;
+						display:block;
+						overflow: hidden;
+						height:1100px;
+						position:fixed;
+						left:0px;
+						top:0px;
+						z-index:-500;
+						.posterArticulo{
+							width:1500px;
+							height:1100px;
+							position:absolute;
+							left:50%;
+							top:0px;
+							margin-left:-750px;
+							z-index:-500;
+							&.tiled{
+								width:100%;
+								height:100%;
+								left:50%;
+								top:0px;
+								margin-left: -50%;
+							}
+						}
+					}
+					.indexTitle{
+						font: $fontTitulo;
+						color: $colorTexto;
+						@include box-sizing (border-box);
+						padding-top:40px;
+						position:fixed;
+						top:80px;
+						left:50%;
+						height:70px;
+						z-index:1000;
+						h2{
+							height:32px;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+							position: absolute;
+							bottom:10px;
+						}
+					}
+					.contenedorResumen{
+						position:fixed;
+						top:105px;
+						z-index: 500;
+						.resumenArticulo{
+							a:link, a:visited, a:active{
+								color: rgba($colorTexto, 0.7);
+								text-decoration: underline;
+								&:hover{
+									color: $colorTexto;
+								}
+							}
+							@include box-sizing (border-box);
+							position: absolute;
+							top:0px;
+							left:0px;
+							z-index:1100;
+							.resumen{
+								hgroup{
+									h1{
+										font-family: $fontTitulo;
+										color: $colorTexto;
+									}
+									h2{
+										font-family: $fontSubtitulo;
+										color: $colorTexto;
+									}
+								}
+								p{
+									font-family: $fontSmall;
+									color: $colorTexto;
+								}
+							}
+							.tweetList{
+								border-color: $colorBorde;
+								h1{
+									font-family: $fontSubtitulo;
+									color: $colorTexto;
+								}
+								.tweet{
+									@include box-sizing (border-box);
+									display: table;
+									.twitterImagenPerfil{
+										@include box-sizing (border-box);
+										display:table-cell;
+										padding:5px 8px 0px 0px;
+										margin:0px;
+										img{
+											@if $templateNombre == light {
+												@include imageStyleLight;
+											} @else {
+												@include imageStyleDark;
+											}
+											@include border-radius(2px, 2px);
+											padding:0px;
+											margin:0px;
+										}
+									}
+									p.tweetTexto{
+										display:table-cell;
+										padding:0px;
+										margin:0px;
+										vertical-align: middle;
+										font-family: $fontSmall;
+										color: rgba($colorTexto,0.9);
+										.twitterNombre{
+											color: $colorTexto;
+										}
+										.tiempo{
+											color: rgba($colorTexto,0.7);
+										}
+									}
+								}
+								.tweetLink{
+									font-family: $fontBase;
+									color: $colorTexto;
+									a:link, a:visited, a:active{
+										color: rgba($colorTexto, 0.7);
+										text-decoration: underline;
+										&:hover{
+											color: $colorTexto;
+										}
+									}
+								}
+							}
+						}
+						.categoriaArticulo{
+							h1{
+								@include hiddenelement;
+							}
+							h2{
+								font-family: $fontSubtitulo;
+								color: $colorTexto;
+							}
+							.categoria{
+								@include box-sizing (border-box);
+								display: table;
+								.categoriaThumbnail{
+									@include box-sizing (border-box);
+									display:none;
+									padding:0px;
+									margin:0px 0px 0px 0px;
+									@if $templateNombre == light {
+										@include imageStyleLight;
+									} @else {
+										@include imageStyleDark;
+									}
+									background-color: grey;
+								}
+								h4{
+									display:table-cell;
+									padding:0px 0px 0px 0px;
+									margin:0px;
+									vertical-align: top;
+									font-family: $fontSmall;
+									color: $colorTexto;
+								}
+							}
+							p{
+								font-family: $fontSmall;
+							}
+						}
+					}
+					.descripcionArticulo{
+						z-index: 100;
+						opacity: 1;
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						color: $colorTexto;
+						margin-top: 170px;
+						@include box-sizing (border-box);
+						border-color: $colorBorde;
+						cite{
+							font-family: $fontSmall;
+						}
+						.imagen{
+							@if $templateNombre == light {
+								@include imageStyleLight;
+							} @else {
+								@include imageStyleDark;
+							}
+							@include box-sizing (border-box);
+							display: block;
+							overflow:hidden;
+							background-position-x: 50%;
+							@include background-size (cover);
+						}
+						h1{
+							@include hiddenelement;
+						}
+						h2{
+							font-family: $fontTitulo2;
+							color: $colorTexto;
+						}
+						p{
+							font-family: $fontBase;
+							color: $colorTexto;
+							a:link, a:visited, a:active{
+								color: rgba($colorTexto, 0.7);
+								text-decoration: underline;
+								&:hover{
+									color: $colorTexto;
+								}
+							}
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+
+
+
+
+@mixin responsiveArticulo($totalWidth, $columnWidth, $gutterWidth, $baseFontSize, $baseLineSize, $fontTituloSize, $fontSubtituloSize, $fontTitulo2Size, $fontSmall){
+	$base-font-size: $baseFontSize;
+	$base-line-height: $baseLineSize;
+	@include establish-baseline;
+	html{
+		body{
+			.cabeceraPagina{
+				.contenedor{
+					width: $totalWidth;
+					#fading{
+						left: $columnWidth + $gutterWidth;
+						margin-left: - $gutterWidth/2;
+						width: 2*$columnWidth + 2 * $gutterWidth;
+					}
+				}
+			}
+			.contenedor{
+				width: $totalWidth;
+				min-width: $totalWidth;
+				padding-left: $gutterWidth;
+				padding-right: $gutterWidth;
+				.indexTitle{
+					margin-left: -$columnWidth/2;
+					width: $columnWidth*2 + $gutterWidth + 2;
+				}
+				.contenedorResumen{
+					width: $totalWidth;
+					.resumenArticulo{
+						width: $columnWidth + 2*$gutterWidth;
+						margin-left: -($gutterWidth);
+						padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
+						.resumen{
+							@include rhythm(2/4, 0, 0, 1.5, $baseFontSize);
+							hgroup{
+								h1{
+									@include rhythm(0, 0, 0, 2/4, $baseFontSize);
+									@include adjust-font-size-to($fontTituloSize, 5/4);
+								}
+								h2{
+									@include rhythm(0, 0, 0, 4/4, $baseFontSize);
+									@include adjust-font-size-to($fontSubtituloSize, 1);
+								}
+							}
+							p{
+								@include adjust-font-size-to($fontSmall, 1);
+							}
+						}
+						.tweetList{
+							@include leading-border();
+							@include trailing-border();
+							@include rhythm(0, 2/4, 2/4, 0, $baseFontSize);
+							h1{
+								@include adjust-font-size-to($fontSubtituloSize, 1);
+								@include margin-trailer(1/3, $fontSmall);
+							}
+							.tweet{
+								@include adjust-font-size-to($fontSmall, 1);
+								.twitterImagenPerfil img{
+									height: rhythm(2.75, $fontSmall);
+								}
+							}
+							.tweetLink{
+								@include rhythm(2/4, 0, 0, 0, $baseFontSize);
+								@include adjust-font-size-to($fontSmall);
+							}
+						}
+						.categoriaArticulo{
+							@include rhythm(1.5, 0, 0, 0, $baseFontSize);
+							h2{
+								@include adjust-font-size-to($fontSubtituloSize, 1);
+								@include rhythm(0, 0, 0, 2/4, $baseFontSize);
+							}
+							.categoria{
+								@include rhythm(0, 0, 0, 0, $baseFontSize);
+								.categoriaThumbnail{
+									width: rhythm(2.75, $fontSmall);
+									height: rhythm(2.75, $fontSmall);
+									@include border-radius(rhythm(2.75, $fontSmall)/2, rhythm(2.75, $fontSmall)/2);
+								}
+							}
+							p{
+								@include rhythm(3/4, 0, 0, 0, $baseFontSize);
+								@include adjust-font-size-to($fontSmall);
+							}
+						}
+					}
+				}
+				.descripcionArticulo{
+					@include trailing-border();
+					@include rhythm(0, 0, 1, 4, $baseFontSize);
+					@include adjust-font-size-to($baseFontSize);
+					width: 2*$columnWidth + $gutterWidth;
+					margin-left: $columnWidth + $gutterWidth;
+					.imagen{
+						width:  2*$columnWidth + $gutterWidth - 2;
+						height: (2*$columnWidth + $gutterWidth - 2)*2/3;
+						@include margin-trailer(6/4);
+					}
+					h2{
+						@include adjust-font-size-to($fontTitulo2Size);
+					}
+					p{
+						@include adjust-font-size-to($baseFontSize);
+						@include margin-trailer();
+						em{
+							font-style:italic
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include templateArticulo(light, rgb(250,250,250), #393939, #DADADA);
+@include templateArticulo(dark, #393939, white, rgba(250,250,250,0.6));
+
+
+//Tablets
+@media (max-width: 989px) {
+	@include responsiveArticulo(728px, 228px, 20px,
+			$baseFontSize: 14px, $baseLineSize: 22px,
+			$fontTituloSize: 26px, $fontSubtituloSize: 16px, $fontTitulo2Size: 20px, $fontSmall: 12px);
+	#fading{
+		background-image: url(../imagenes/sombra-496.png);
+	}
+	.adicional{
+		display:none;
+	}
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsiveArticulo(940px, 300px, 20px,
+			$baseFontSize: 16px, $baseLineSize: 24px,
+			$fontTituloSize: 26px, $fontSubtituloSize: 16px, $fontTitulo2Size: 20px, $fontSmall: 14px);
+	#fading{
+		background-image: url(../imagenes/sombra-640.png);
+	}
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsiveArticulo(1170px, 370px, 30px,
+			$baseFontSize: 16px, $baseLineSize: 24px,
+			$fontTituloSize: 28px, $fontSubtituloSize: 18px, $fontTitulo2Size: 20px, $fontSmall: 14px);
+	#fading{
+		background-image: url(../imagenes/sombra-800.png);
+	}
+}

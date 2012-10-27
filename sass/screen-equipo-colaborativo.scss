@@ -1,0 +1,200 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "compass/utilities/general/clearfix";
+@import "fonts/fontfaces";
+@import "_general";
+@import "_cabecerapaginaResponsive";
+@import "_footerpaginaResponsive";
+
+
+$iconosEnlaces: 48px "colaborativa-icons";
+$datosSmall: 12px/18px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+$colaborativoDescripcionTitulo: 26px/32px "colaborativaBook";
+$colaborativoDescripcionSubtitulo: 16px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$colaborativoDescripcionTexto: 14px/24px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+$colaborativoDescripcionCaption: 12px/20px "DroidSansRegular", Arial, Helvetica, Geneva, sans-serif;
+
+
+@mixin templateColaborativo($templateNombre, $colorFondo, $colorTexto, $estiloBorde){
+	html{
+		body.#{$templateNombre} {
+			background-color: $colorFondo;
+			.cabeceraPagina{
+				.contenedor{
+					#fading{
+						@if $templateNombre == light {
+							border-top: 1px solid white;
+						} @else {
+							border-top: 1px solid rgba(250,250,250,0.5);
+						}
+					}
+				}
+			}
+			.cuerpoPagina{
+				a:link, a:visited, a:active{
+					text-decoration: none;
+					color: $colorTexto;
+				}
+				.contenedor{
+					margin-left: auto;
+					margin-right: auto;
+					position: relative;
+					.datosColaborativo{
+						h3{
+							@include hiddenelement;
+						}
+						@include box-sizing (border-box);
+						position: absolute;
+						top:155px;
+						left:50%;
+						.enlacesSociales {
+							position: relative;
+							text-align: center;
+							display: inline-block;
+							@include box-sizing (border-box);
+							padding:0px;
+							width:100%;
+							margin-left:auto;
+							margin-right:auto;
+							margin-bottom:20px;
+							div{
+								display: inline-block;
+								@include box-sizing (border-box);
+								padding:0px;
+								margin:0px;
+								a{
+									font: $textoEnlaces;
+									display:block;
+									span{
+										@include hiddenelement;
+									}
+								}
+								a:before{
+									font: $iconosEnlaces;
+									padding-right: 0px;
+									position: relative;
+								}
+							}
+							a:link, a:visited{
+								color:$colorTexto;
+								opacity:0.6;
+								&:hover{
+									color:$colorTexto;
+									opacity:0.8;
+								}
+								&:active{
+									color:$colorTexto;
+									opacity:0.8;
+								}
+							}
+							a[href*='twitter.com']:before{
+								content: "\f028";
+							}
+							a[href*='facebook.com']:before{
+								content: "\f023";
+							}
+							a[href*='linkedin.com']:before{
+								content: "\f027";
+							}
+							a.enlaceExterno[href*='youtube.com']:before{
+								content: "\f029";
+							}
+							a[href*='github.com']:before{
+								content: "\f006";
+							}
+							a[href*='flickr.com']:before{
+								content: "\f024";
+							}
+							a[href*='issuu.com']:before{
+								content: "\f026";
+							}
+						}
+						.enlacesExternos{
+							color: $colorTexto;
+							font:$datosSmall;
+							text-align: center;
+							p{
+								margin-bottom: 10px;
+							}
+						}
+					}
+					.descripcionColaborativo{
+						@include transition( (opacity .5s linear, z-index .5s linear) );
+						color: $colorTexto;
+						margin-top: 80px;
+						margin-bottom: 80px;
+						padding-bottom: 20px;
+						@include box-sizing (border-box);
+						border-bottom: $estiloBorde;
+						hgroup{
+							h1{
+								font: $colaborativoDescripcionTitulo;
+							}
+							h2{
+								font: $colaborativoDescripcionSubtitulo;
+								margin-top: 20px;
+								margin-bottom: 10px;
+								color: $colorTexto;
+							}
+							margin-bottom: 20px;
+							padding-bottom: 20px;
+							border-bottom: $estiloBorde;
+						}
+						section{
+							h1{
+								@include hiddenelement;
+							}
+							p{
+								margin-top: 30px;
+								margin-bottom: 30px;
+								font: $colaborativoDescripcionTexto;
+								color: $colorTexto;
+							}
+						}
+
+					}
+				}
+			}	
+		}
+	}
+}
+
+
+
+@mixin responsiveColaborativo($totalWidth, $columnWidth, $gutterWidth){
+	.contenedor{
+		width: $totalWidth;
+		.datosColaborativo{
+			width: $columnWidth + 2*$gutterWidth;
+			margin-left: -($totalWidth/2 + $gutterWidth);
+			padding: $gutterWidth $gutterWidth $gutterWidth*3/2 $gutterWidth;
+		}
+		.descripcionColaborativo{
+			width: 2*$columnWidth + $gutterWidth;
+			margin-left: $columnWidth + $gutterWidth;
+			.imagen{
+				width:  2*$columnWidth + $gutterWidth - 2;
+				height: (2*$columnWidth + $gutterWidth - 2)*2/3;
+			}
+		}
+	}
+}
+
+@include templateColaborativo(light, rgb(250,250,250), #393939, 1px solid #DADADA);
+@include templateColaborativo(dark, #393939, white, 1px solid rgba(250,250,250,0.6));
+
+//Tablets
+@media (max-width: 989px) {
+	@include responsiveColaborativo(728px, 228px, 20px);
+}
+//Normal screens
+@media (min-width: 990px) {
+	@include responsiveColaborativo(940px, 300px, 20px);
+
+}
+//Big screens
+@media (min-width: 1240px) {
+	@include responsiveColaborativo(1170px, 370px, 30px);
+}

@@ -1,0 +1,87 @@
+---
+twitter_link: {es: "Participa en la conversación a través de twitter"}
+---
+
+{% for item in site.categories.articulos-categorias %}
+	{% if item.slug == page.categorias.[0] %}
+		{% assign template = item.template %}
+	{% endif %}
+{% endfor %}
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+	<head>
+		<title> {{ site.titulo }} {{ site.version }} | {{ page.title }}</title>
+		<meta charset='UTF-8'/>
+		<link href="/css/screen-articulo.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		{% include _scripts-portfolio-proyectos-top.html %}
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+	</head>
+	<body class="{{ template }}">
+		{% include _header-responsive.html %}
+		<div class="cuerpoPagina">
+			<div class="contenedor">
+				<div class="contenedorPoster">
+					{% for item in site.categories.articulos-categorias %}
+						{% if item.language == page.language %}
+							{% if item.slug == page.categorias.[0] %}
+								{% if item.tiled_background %}
+									<div class="posterArticulo tiled" style="background: url(/imagenes/proyectos/{{ item.slug }}-tile.png) "></div>
+								{% else %}
+									<div class="posterArticulo" style="background: url(/imagenes/proyectos/{{ item.slug }}-poster.jpg) center center no-repeat"></div>
+								{% endif %}
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</div>
+				<div class="contenedorResumen">
+					<div class="resumenArticulo">
+						<div class="resumen">
+							<hgroup>
+								<h1>{{ page.title }}</h1>
+								<h2>{{ page.subtitulo }}</h2>
+							</hgroup>
+							<p>Por Javier Burón y Magda Sánchez</p>
+							<p>Hace tres días</p>
+						</div>
+						<section class="tweetList">
+							<h1>N menciones en Twitter<span class="adicional">, último tweet</span></h1>
+							<div class="tweet">
+								<span class="twitterImagenPerfil"><img src="/imagenes/placeholder_profile.jpg"></span><p class="tweetTexto"><span class="twitterNombre">TwitterUserName</span> This is the text of the tweet, of course no more than 140 characters. <span class="tiempo">Tweet timestamp</span></p>
+							</div>
+							<div class="tweetLink">
+								<p><a class=".tooltip" href="http://twitter.com/intent/tweet?url={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}"
+								    rel="tooltip" title="{{ page.categoria4.tweet.tooltip }}" onclick="return !window.open(this.href, 'tweet', 'menubar=no')">{{ page.twitter_link.es  }}</a></p>
+							</div>
+						</section>
+						<section class="categoriaArticulo">
+							<h1>Categoría</h1>
+							{% for item in site.categories.articulos-categorias %}
+								{% if item.language == page.language %}
+									{% if item.slug == page.categorias.[0] %}
+										<h2>Parte de {{ item.title }}</h2>
+										<div class="categoria">
+											<div class="categoriaThumbnail" style="background: url(/imagenes/proyectos/{{ item.slug }}-thumbnail.png) "></div>
+											<h4>{{ item.descripcion }}</h4>
+										</div>
+										<div>
+											<p><a href="{{ item.url }}">Ver más artículos sobre este tema</a></p>
+										</div>
+									{% endif %}
+								{% endif %}
+							{% endfor %}
+						</section>
+					</div>
+				</div>
+				<div class="indexTitle"></div>
+				<section class="descripcionArticulo">
+					<h1>{{ site.proyectos-descripcion.[page.language] }}</h1>
+					<div class="imagen" style="background-image: url(http://{{ page.imagen }}_c.jpg)"></div>
+					{{ content }}
+				</section>
+			</div>
+		</div>
+		<script src='/javascripts/cabecera-sombra.js' type='text/javascript'></script>
+		{% include _scripts-portfolio-proyectos-bottom.html %}
+	</body>
+</html>
+
