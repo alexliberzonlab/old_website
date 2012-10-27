@@ -1,1 +1,0 @@
-tanto en los layouts como en los includes no hay texto introducido directamente, todo viene desde los ficheros de la carpeta post, los ficheros.md del root para las secciones de la web y las variables en el fichero _config.yml
