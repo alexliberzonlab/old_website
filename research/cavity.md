@@ -13,8 +13,7 @@ CFD-online wiki:
 
 ### Youtube clip about the experiment
 
-[video on youtube](http://www.youtube.com/embed/ju7Fi0nG0w0)
-
+<html><iframe width="420" height="315" src="http://www.youtube.com/embed/ju7Fi0nG0w0" frameborder="0" allowfullscreen></iframe></html>
 
 
 ### Our study
@@ -25,5 +24,3 @@ We focused on two aspects of the 3D lid driven cavity flow:
     
 2. Experimental and numerical study of the low Reynolds number instability
 	* [Yuri Feldman](http://directory.caltech.edu/cgi-bin/search.cgi?uid=yurifeld), ex-Ph.D. student of Prof. Alex Gelfgat has studied the instability using their home-made DNS solver. We have verified the instability in our experimental system, more info is available from the manuscript: [arxiv](http://arxiv.org/abs/1107.0449) and Physics of Fluids, Volume 23, Issue 8, pp. 084106-084106-7 (2011)  
-
-
