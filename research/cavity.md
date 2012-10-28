@@ -13,9 +13,7 @@ CFD-online wiki:
 
 ### Youtube clip about the experiment
 
-<html>
-<iframe width="420" height="315" src="http://www.youtube.com/embed/ju7Fi0nG0w0" frameborder="0" allowfullscreen></iframe>
-</html>
+<html><iframe width="420" height="315" src="http://www.youtube.com/embed/ju7Fi0nG0w0" frameborder="0" allowfullscreen></iframe></html>
 
 
 ### Our focus
