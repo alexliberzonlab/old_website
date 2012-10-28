@@ -1,44 +1,30 @@
 ---
 layout: default
-title: Research page is under construction
+title: Lid driven cavity flow
 ---
 
-### visit the old website page on:
-
-[Research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
 
 
+### Why lid driven cavity flow is interesting
+
+CFD-online wiki:
+
+> The lid-driven cavity problem has long been used a test or validation case for new codes or new solution methods. The problem geometry is simple and two-dimensional, and the boundary conditions are also simple. The standard case is fluid contained in a square domain with Dirichlet boundary conditions on all sides, with three stationary sides and one moving side (with velocity tangent to the side).
+
+### Youtube clip about the experiment
+
+<html>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/ju7Fi0nG0w0" frameborder="0" allowfullscreen></iframe>
+</html>
 
 
-### Some of our research projects
+### Our focus
+We focused on two aspects of the 3D lid driven cavity flow:
 
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
-
-#### [Multi hot-wire](/research/multihotwire)
-![](/images/calibration_in_situ.jpg)
-
-#### [MEMS sensor](/research/microsensor)
-![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG) 
-
-#### [Particles in turbulence](/research/twophase)
-![](/images/twophase.jpg)
-
-#### [Lid driven cavity](/research/cavity)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) 
-
-#### [Real time 3D-PTV](/research/realtime)
-![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
-
-####  [PIV and Infrared Imaging](/research/pivir)
-![](/images/piv_ir_image.jpg)
-
-#### [Rotating turbulence](/research/rotating)
-![](/images/rotating.jpg) 
-
-#### [Polymers in turbulence](/research/polymers)
-![](/images/polymers.jpg)
-
-#### [PC air cooling by unsteady flows](/research/heat)
-![](/images/pc-heat.jpg) 
+1. Lagrangian description of a quasy-2D flow in the cubic cavity
+	* see the poster of Reut Elfassi
+    
+2. Experimental and numerical study of the low Reynolds number instability
+	* [Yuri Feldman](http://directory.caltech.edu/cgi-bin/search.cgi?uid=yurifeld), ex-Ph.D. student of Prof. Alex Gelfgat has studied the instability using their home-made DNS solver. We have verified the instability in our experimental system, more info is available from the manuscript: [arxiv](http://arxiv.org/abs/1107.0449) and Physics of Fluids, Volume 23, Issue 8, pp. 084106-084106-7 (2011)  
 
 
