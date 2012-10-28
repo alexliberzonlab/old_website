@@ -13,10 +13,11 @@ CFD-online wiki:
 
 ### Youtube clip about the experiment
 
-<html><iframe width="420" height="315" src="http://www.youtube.com/embed/ju7Fi0nG0w0" frameborder="0" allowfullscreen></iframe></html>
+[video on youtube](http://www.youtube.com/embed/ju7Fi0nG0w0)
 
 
-### Our focus
+
+### Our study
 We focused on two aspects of the 3D lid driven cavity flow:
 
 1. Lagrangian description of a quasy-2D flow in the cubic cavity
