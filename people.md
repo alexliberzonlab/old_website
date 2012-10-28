@@ -9,8 +9,8 @@ title: People
 * Arkady Tsinober (Emeritus Prof.)
 
 ### Senior scientists and engineers
-* Michael Kholmyansky
-* Gregory Gulitski
+* Michael Kholmyansky, Ph.D.
+* Gregory Gulitski, Ph.D.
 
 ### Postdocs
 * Zachary Taylor, Ph.D.
@@ -21,18 +21,18 @@ title: People
 
 
 ### M.Sc. students
-* David Altura
+* David Altura, co-supervised with Prof. Neima Brauner
 * Hadar Traugott
-* Hadar Ben Gida
-* Hadar Biran
+* Hadar Ben Gida, co-supervised with Dr. Roi Gurka
+* Hadar Biran, co-supervised with Dr. Idit Avrahami
 * Shlomo Markman
-* Avi Friedman
-* Erez Wenger
+* Avi Friedman, co-supervised with Dr. Gabor Kosa
+* Erez Wenger, co-supervised with Prof. Tsinober
+* Mark Baevsky
 
 
 ### Undergraduates and visitors
 * Katy Barishev
-* Mark Baevsky
 * Alon Sussman
 * Dina Bass
 
