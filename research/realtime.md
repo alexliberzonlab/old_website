@@ -26,9 +26,9 @@ We have completed the first round of experiments in the Lid Driven Cavity facili
 
 The results appear to be very interesting, beyond the real time image processing story and summarized in the manuscript submitted to the Experiments in Fluids journal. More details are available from Mark or Alex. 
 
-Read the short summary: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3DAbstract.pdf)
+Read a short summary: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3DAbstract.pdf)
 
-See the slideshow of Mark final seminar: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3Dmark_seminar.pdf)
+Slideshow: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3Dmark_seminar.pdf)
 
 
 
