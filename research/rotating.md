@@ -1,44 +1,48 @@
 ---
 layout: default
-title: Research page is under construction
----
+title: Turbulence under an oscillating grid, w/o rotation
 
-### visit the old website page on:
-
-[Research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
+This study is performed at [ETH Zurich](http://www.ifu.baug.ethz.ch)
 
 
+### Turbulent flow under an oscillating grid, stationary (non-rotating) flow case
+
+<html>
+<object type="application/x-shockwave-flash" style="width:425px; height:350px;" data="http://www.youtube.com/v/_PeqD8IaiCA">
+<param name="wmode" value="transparent"></param>
+<param name="movie" value="http://www.youtube.com/v/_PeqD8IaiCA"></param>
+</object>
+</html>
 
 
-### Some of our research projects
+Turbulent flow affected by rotation
+-----------------------------------
 
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
+### The apparatus
 
-#### [Multi hot-wire](/research/multihotwire)
-![](/images/calibration_in_situ.jpg)
-
-#### [MEMS sensor](/research/microsensor)
-![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG) 
-
-#### [Particles in turbulence](/research/twophase)
-![](/images/twophase.jpg)
-
-#### [Lid driven cavity](/research/cavity)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) 
-
-#### [Real time 3D-PTV](/research/realtime)
-![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
-
-####  [PIV and Infrared Imaging](/research/pivir)
-![](/images/piv_ir_image.jpg)
-
-#### [Rotating turbulence](/research/rotating)
-![](/images/rotating.jpg) 
-
-#### [Polymers in turbulence](/research/polymers)
-![](/images/polymers.jpg)
-
-#### [PC air cooling by unsteady flows](/research/heat)
-![](/images/pc-heat.jpg) 
+<html>
+<object type="application/x-shockwave-flash" style="width:425px; height:350px;" data="http://www.youtube.com/v/jINOHCYHWJ8">
+<param name="wmode" value="transparent"></param>
+<param name="movie" value="http://www.youtube.com/v/jINOHCYHWJ8"></param>
+</object>
+</html>
 
 
+### Rotating case 1
+
+<html>
+<object type="application/x-shockwave-flash" style="width:425px; height:350px;" data="http://www.youtube.com/v/0OitPAV2c-w">
+<param name="wmode" value="transparent"></param>
+<param name="movie" value="http://www.youtube.com/v/0OitPAV2c-w"></param>
+</object>
+</html>
+
+
+### Rotating case 2
+
+<html>
+<object type="application/x-shockwave-flash" style="width:425px; height:350px;" data="http://www.youtube.com/v/nk4bI_MxoBs">
+<param name="wmode" value="transparent"></param>
+<param name="movie" value="http://www.youtube.com/v/nk4bI_MxoBs"></param>
+</object>
+</html>
