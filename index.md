@@ -10,7 +10,7 @@ Turbulence Structure Laboratory is a research laboratory at the School of Mechan
 > **Turbulence** it is a disordered motion of fluid that has enormous practical importance. We believe that detailed experiments, jointly performed with the numerical simulations and leaded by the theoretical predictions will help us gaining better insight into the structure of turbulence. 
 
 
-We develop a unique technology such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](/research).  
+We develop a unique technology such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](/research.html).  
 
 
 ### Gallery: 
