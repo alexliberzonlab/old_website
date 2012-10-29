@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Turbulence under an oscillating grid, w/o rotation
+---
 
 This study is performed at [ETH Zurich](http://www.ifu.baug.ethz.ch)
 
