@@ -1,44 +1,42 @@
 ---
 layout: default
-title: Research page is under construction
+title: Real time 3D Particle Tracking with FPGA
 ---
 
-### visit the old website page on:
+### The bottleneck problem
 
-[Research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
-
-
+The bottleneck of the high speed tracking systems today is the data transfer. Our real time image processing solution on FPGA is removing this constraint. One can achieve a single-camera-with-FPGA solution for the 3D Particle Tracking at very moderate budget. No synchronization, no data transfer limits, no framegrabbers, no image processing in software. Record and track in Matlab/Python or our 3D-PTV software. 
 
 
-### Some of our research projects
 
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
+![][1]
 
-#### [Multi hot-wire](/research/multihotwire)
-![](/images/calibration_in_situ.jpg)
+![][2]
 
-#### [MEMS sensor](/research/microsensor)
-![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG) 
+![][3]  
+Mark and Eldad setting up the mirrors
 
-#### [Particles in turbulence](/research/twophase)
-![](/images/twophase.jpg)
 
-#### [Lid driven cavity](/research/cavity)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) 
 
-#### [Real time 3D-PTV](/research/realtime)
-![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
+### First results
 
-####  [PIV and Infrared Imaging](/research/pivir)
-![](/images/piv_ir_image.jpg)
+![][4]
 
-#### [Rotating turbulence](/research/rotating)
-![](/images/rotating.jpg) 
+We have completed the first round of experiments in the Lid Driven Cavity facility. The 2D Sobel-based PTV system worked in parallel to the regular 3D-PTV system and the results were compared in the mid-plane of the cavity. 
 
-#### [Polymers in turbulence](/research/polymers)
-![](/images/polymers.jpg)
+The results appear to be very interesting, beyond the real time image processing story and summarized in the manuscript submitted to the Experiments in Fluids journal. More details are available from Mark or Alex. 
 
-#### [PC air cooling by unsteady flows](/research/heat)
-![](/images/pc-heat.jpg) 
+Read the short summary: [PDF][5] 
+
+See the slideshow of Mark final seminar: [PDF][6] 
+
+
+
+ [1]: http://lh3.google.com/particle.tracking/RucBpp99CvI/AAAAAAAABAg/_QJCbyJw_Z0/s288/Image017.jpg ""
+ [2]: http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg ""
+ [3]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.FPGA?action=download&upname=mark_eldad_mirrors_test.png ""
+ [4]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.FPGA?action=download&upname=Slide09.png ""
+ [5]: http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3DAbstract.pdf
+ [6]: http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3Dmark_seminar.pdf
 
 
