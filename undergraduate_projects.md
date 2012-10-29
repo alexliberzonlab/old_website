@@ -3,12 +3,10 @@ layout: default
 title: Open research projects for undergraduate/graduate students
 ---
 
-### Undergraduate final projects and Graduate (M.Sc., Ph.D.) thesis %%:
-
 
 #### Tracking software graphical interface - help scientists to experiment
 
-![](http://upload.wikimedia.org/wikipedia/en/3/3e/Ptv.jpg) ![](http://ptvwiki.netcipia.net/xwiki/bin/download/Main/Multiplane+tutorial/fig1.jpg)
+![](/images/ptv.jpg)
 
 
 
