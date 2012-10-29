@@ -16,16 +16,17 @@ We develop unique technologies such as **multi-hot-cold-wire anemometers** and *
 
 
 ### Gallery: 
-![Alps field experiment](/images/calibration_in_situ.jpg)
-![](/images/lab.jpg)
-![](/images/theprobe.jpg)
-![Lid-driven cavity facility](/images/cavity.jpg)
+![](images/calibration_in_situ.jpg)
+![](images/lab.jpg)
+![](images/theprobe.jpg)
+![](images/cavity.jpg)
 
 Visit also our video gallery [Video](/videogallery)
 
 
 
 ### More info:
+
 * See example notes of our new *Advanced Measurement Methods in Fluid Dynamics and Heat Transfer* [Courses](/courses). 
 * Faculty of Engineering 2008 journal (בטאון הפקולטה ל 2008) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2008bitaon.pdf)
 * Faculty of Engineering 2010 highlights (בטאון הפקולטה ל 2010) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2010bitaon.pdf)
@@ -33,3 +34,4 @@ Visit also our video gallery [Video](/videogallery)
 
 ### How to find us:
 [How to find the laboratory](/howtofindus)
+
