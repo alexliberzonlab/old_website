@@ -1,44 +1,44 @@
 ---
 layout: default
-title: Research page is under construction
+title: Micro-electro-mechanical technology for turbulent research
 ---
 
-### visit the old website page on:
-
-[Research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
+### Ph.D. research of [Youry Borisenkov] 
 
 
+### Micro-electro-mechanical-systems (MEMS)
 
 
-### Some of our research projects
+> Microelectromechanical systems (MEMS) is the technology of the very small, and merges at the nano-scale into nanoelectromechanical systems (NEMS) and nanotechnology. MEMS are also referred to as micromachines (in Japan), or Micro Systems Technology - MST (in Europe). MEMS are separate and distinct from the hypothetical vision of Molecular nanotechnology or Molecular Electronics. MEMS are made up of components between 1 to 100 micrometers in size (i.e. 0.001 to 0.1 mm) and MEMS devices generally range in size from a 20 micrometers (20 millionth of a meter) to a millimeter. They usually consist of a central unit that processes data, the microprocessor and several components that interact with the outside such as microsensors. At these size scales, the standard constructs of classical physics do not always hold true. Due to MEMS' large surface area to volume ratio, surface effects such as electrostatics and wetting dominate volume effects such as inertia or thermal mass.
 
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
+More info at [Wikipedia](http://en.wikipedia.org/wiki/Microelectromechanical_systems)
 
-#### [Multi hot-wire](/research/multihotwire)
-![](/images/calibration_in_situ.jpg)
 
-#### [MEMS sensor](/research/microsensor)
-![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG) 
+### Micro flow sensing technologies available
 
-#### [Particles in turbulence](/research/twophase)
-![](/images/twophase.jpg)
 
-#### [Lid driven cavity](/research/cavity)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) 
+* Optical - microPIV, microPTV, etc.
+* Mechanical - wall shear sensors
 
-#### [Real time 3D-PTV](/research/realtime)
-![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
 
-####  [PIV and Infrared Imaging](/research/pivir)
-![](/images/piv_ir_image.jpg)
+### First design
+![](http://lh3.ggpht.com/_Ehhk1abDUqc/Si4pfGKEbsI/AAAAAAAAGTo/oczLPcFe1B4/s400/Arkady%27s%20suggestion.jpg)
 
-#### [Rotating turbulence](/research/rotating)
-![](/images/rotating.jpg) 
 
-#### [Polymers in turbulence](/research/polymers)
-![](/images/polymers.jpg)
+### First successful manufacturing
 
-#### [PC air cooling by unsteady flows](/research/heat)
-![](/images/pc-heat.jpg) 
+![](http://lh3.ggpht.com/_Ehhk1abDUqc/Si-t23UQz1I/AAAAAAAAGXI/Bs1EuRe8hJw/s400/new4.jpg)
+
+[Slideshow](files/presentation.pdf) resentation slides >>> ]]
+
+
+![](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s400/P1010129.JPG)
+
+
+
+
+[Youry Borisenkov]: /people/youryborisenkov
+
+
 
 
