@@ -1,18 +1,14 @@
 ---
 layout: default
-title: Research page is under construction
+title: Research projects
 ---
 
-### visit the old website page on:
+# Research projects
 
-[Research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
+Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others.
 
+[Previous research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
 
-
-
-### Some of our research projects
-
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others. 
 
 #### [Multi hot-wire](/research/multihotwire)
 ![](/images/calibration_in_situ.jpg)
