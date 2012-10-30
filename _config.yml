@@ -5,7 +5,6 @@ markdown: kramdown
 pygments: true
 permalink: /:year/:month/:day/:title
 paginate: 10
-exclude: ["Rakefile", "LICENSE.txt", "README.md", "CNAME"]
 title: Turbulence Structure Laboratory
-url: http://turbulencelab.github.com
+baseurl: /~alexlib/efdl/
 github_user: turbulencelab
