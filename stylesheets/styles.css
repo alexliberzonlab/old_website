@@ -278,8 +278,8 @@ header li {
 }
 
 header li:hover {
-	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+   background: #C3001D;
+  background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
   background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
   background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
@@ -321,8 +321,8 @@ footer {
   width:170px;
   float:left;
   position:fixed;
-  bottom:10px;
-	padding-left: 50px;
+  bottom:5px;
+  padding-left: 50px;
 }
 
 @media print, screen and (max-width: 960px) {

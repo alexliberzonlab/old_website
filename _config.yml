@@ -7,4 +7,4 @@ permalink: /:year/:month/:day/:title
 paginate: 10
 title: Turbulence Structure Laboratory
 baseurl: /~alexlib/efdl/
-github_user: turbulencelab
+url: http://www.eng.tau.ac.il
