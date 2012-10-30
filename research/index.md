@@ -7,8 +7,6 @@ title: Research projects
 
 Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others.
 
-[Previous research page of the Turbulence Structure Laboratory](http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.Research)
-
 
 #### [Multi hot-wire](multihotwire.html)
 ![](../images/calibration_in_situ.jpg)

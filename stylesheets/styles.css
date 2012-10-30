@@ -223,7 +223,7 @@ header {
 }
 
 p.header {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 h1.header {
@@ -256,11 +256,10 @@ header ul {
 header li {
 	list-style-type: none;
   width:132px;
-  height:15px;
-	margin-bottom: 12px;
+  height:14px;
+	margin-bottom: 5px;
 	line-height: 1em;
-	padding: 6px 6px 6px 7px;
-
+	padding: 1px 1px 1px 1px;
 	background: #AF0011;
 	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -268,12 +267,10 @@ header li {
   background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
   background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
   background: linear-gradient(top, #AF0011 0%,#820011 100%);
-
-	border-radius:4px;
+	border-radius:1px;
   border:1px solid #0D0D0D;
-
 	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
+	box-shadow: i	nset 0px 1px 1px 0 rgba(233,2,38, 1);
 
 }
 

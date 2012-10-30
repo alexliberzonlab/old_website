@@ -18,6 +18,7 @@ title: People
 ### Ph.D. students
 * Youry Borisenkov
 * Yosef Meller
+* [**Open position**](openpositions.html)
 
 
 ### M.Sc. students
