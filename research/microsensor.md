@@ -22,7 +22,7 @@ More info at [Wikipedia](http://en.wikipedia.org/wiki/Microelectromechanical_sys
 
 
 ### First design
-![](http://lh3.ggpht.com/_Ehhk1abDUqc/Si4pfGKEbsI/AAAAAAAAGTo/oczLPcFe1B4/s400/Arkady%27s%20suggestion.jpg)
+![](../images/suggested_design.jpg)
 
 
 ### First successful manufacturing

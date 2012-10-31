@@ -1,15 +1,26 @@
-# YouryBorisenkov
+---
+layout: default
+title: Youry Borisenkov
+---
 
-## Youry Borisenkov
+## YouryBorisenkov
 
- ![][1] 
+## Contact details: 
 
-
+<html>
+<img src = "../images/youry.jpg" align = "right">
+Youry Borisenkov<br>
+Ph.D student <br>
+Desk/Lab: +972-3-6405261 <br>
+Fax: +972-3-6407334 <br>
+Cell: +972-52-3836163 <br>
+Home: +972-77-7961395 <br>
+youry.bo@gmail.com <br>
+</html>
 
 ### Ph.D Research Theme
 
-[MEMS-based micro flow sensor][2] 
-
+[MEMS-based micro flow sensor](../research/microsensor.html)
 
 
 ### Education
@@ -18,61 +29,19 @@
 
 **Micro-machined Shear Stress Sensor** 
 
+![](../images/shear3.jpg) 
 
+Origin of Wall Shear-Stress (Padmanabhan et al,1997 ) 
 
-![][3] 
+Some Pictures of the Sensor: 
 
+![](../images/shear1.jpg) 
+![](../images/shea2.jpg)
+ 
 
-:   :    Origin of Wall Shear-Stress(Padmanabhan et al,1997 ) 
+ [*Thesis Abstract*](../files/Abstract.doc) 
 
-### 
-
-Some Pictures of the Sensor- 
-
-### 
-:   ![][4] ![][5] 
-
-  
+### B.Sc  (Mech. eng) - Tel Aviv University [2002-2006]   
   
 
 
- *Thesis Abstract* - [Attach:Abstract.doc][6] 
-
-  
-  
-  
-
-
-B.Sc  (Mech. eng) - Tel Aviv University [2002-2006]   
-  
-  
-
-
-## 
-
-### 
-
- Contact details: 
-
-### Youry Borisenkov
-
-Ph.D student 
-
-Desk/Lab: +972-3-6405261 
-
-Fax: +972-3-6407334 
-
-Cell: +972-52-3836163 
-
-Home: +972-77-7961395 
-
-youry.bo@gmail.com 
-
-School of Mechanical Engineering Faculty of Engineering Tel-Aviv University Israel
-
- [1]: http://newhost.site/pmwiki.php?n=People.YouryBorisenkov?action=download&upname=youry.jpg ""
- [2]: http://newhost.site/pmwiki.php?n=Research.MEMSSensor
- [3]: http://newhost.site/pmwiki.php?n=People.YouryBorisenkov?action=download&upname=shear3.jpg ""
- [4]: http://newhost.site/pmwiki.php?n=People.YouryBorisenkov?action=download&upname=shear1.jpg ""
- [5]: http://newhost.site/pmwiki.php?n=People.YouryBorisenkov?action=download&upname=shea2.jpg ""
- [6]: http://newhost.site/pmwiki.php?n=People.YouryBorisenkov?action=download&upname=Abstract.doc

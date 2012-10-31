@@ -23,7 +23,7 @@ We develop unique technologies such as **multi-hot-cold-wire anemometers** and *
 ![]({{site.url}}{{site.baseurl}}/images/theprobe.jpg)
 ![]({{site.url}}{{site.baseurl}}/images/cavity.jpg)
 
-Visit also our video gallery [Video](/videogallery)
+Visit also our video gallery [Video](videogallery.html)
 
 	
 
@@ -35,7 +35,7 @@ Visit also our video gallery [Video](/videogallery)
 
 
 ### How to find us:
-[How to find the laboratory](/howtofindus.html)
+[How to find the laboratory](howtofindus.html)
 
 ###  [Open positions](openpositions.html)
 

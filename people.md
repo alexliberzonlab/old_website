@@ -5,8 +5,8 @@ title: People
 
 ### Faculty
 
-* Alex Liberzon, Head (Associate Prof.)
-* Arkady Tsinober (Emeritus Prof.)
+* [Alex Liberzon](http://www.eng.tau.ac.il/~alexlib), Head (Associate Prof.)
+* [Arkady Tsinober](http://www.eng.tau.ac.il/~tsinober) (Emeritus Prof.)
 
 ### Senior scientists and engineers
 * Michael Kholmyansky, Ph.D.
@@ -16,7 +16,7 @@ title: People
 * Zachary Taylor, Ph.D.
 
 ### Ph.D. students
-* Youry Borisenkov
+* [Youry Borisenkov]({{site.baseurl}}/people/youry.html)
 * Yosef Meller
 * [**Open position**](openpositions.html)
 
