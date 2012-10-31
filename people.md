@@ -13,7 +13,7 @@ title: People
 * Gregory Gulitski, Ph.D.
 
 ### Postdocs
-* Zachary Taylor, Ph.D.
+* [Zachary Taylor, Ph.D.]({{site.baseurl}}/people/zach.html)
 
 ### Ph.D. students
 * [Youry Borisenkov]({{site.baseurl}}/people/youry.html)
