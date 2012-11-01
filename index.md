@@ -14,7 +14,13 @@ Turbulence Structure Laboratory is a research laboratory at the School of Mechan
 
 We develop unique technologies such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](/research).  
 
+### News: 
+Read more on our [Blog](blog.html)
 
+* Meet us on [ETC 14](http://etc14.ens-lyon.fr/)
+* Congratulations to [Hadar Traugott](people/hadar_traugott.html) who has won the "Outstanding presentation" award at Israel Mechanical Engineering Society 2012 symposium. 
+* Congratulations to Hadar Traugott for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
+* Congratulations to [Hadar Ben Gida](people/hadar_ben_gida.html) for receiving the The Rinna Bolle Student Travel Fund of Tel Aviv University
 
 
 ### Gallery: 
