@@ -1,24 +1,34 @@
-# HadarTraugott
+---
+layout: default
+title: Hadar Traugott
+---
 
-Hadar works on the resuspension of solid particles in turbulent environment. Turbulent flow picks up the solid particles lying on the bottom with and without mean flow (or mean shear). This aspect is not known as good as the resuspension in fixed or moving beds of flowing channels. The question whether different mechanisms of resuspension are observable experimentally. 
+## HadarTraugott
+
+Hadar Traugott works on the resuspension of solid particles in turbulent environment. Turbulent flow picks up the solid particles lying on the bottom with and without mean flow (or mean shear). This aspect is not known as good as the resuspension in fixed or moving beds of flowing channels. The question whether different mechanisms of resuspension are observable experimentally. 
+
+Hadar Traugott has won the first prize at the [Israel Mechanical Engineering Society 2012 symposium](http://www.icme2012.org.il/) for the outstanding student presentation. The presentation is attached  <http://www.eng.tau.ac.il/~icme2012/all_nf1/ICME_082_Traugott.pdf>. 
+
+Hadar also received the Dean's award for the outstanding achievements during M.Sc. studies. Her work has been presented at:
+
+* ETC 13 conference, see the link to the publication:
+
+> H. Traugott, T. Hayse and A. LIberzon, "Resuspension of particles in an oscillating grid turbulent ﬂow using PIV and 3D-PTV." Journal of physics: Conference Series, volume 318: 052021 (2011). <http://iopscience.iop.org/1742-6596/318/5>
+
+* COST MP0806 Workshop in Leiden on "Particles in turbulence", see the link to the presentation here: <http://www.lorentzcenter.nl/lc/web/2012/488/presentations/Traugott.pdf>
 
 
-
-![][1]
+![](../images/020320111917.jpg)
 
 
 
 ### Preliminary results
 
-![][2]
+![](../images/traj19.png)
 
 3D trajectory of a lifted particle from the moment of pick-up and to the full resuspension. 
-
 
 
 ### Presentation of Hadar's work at St. Anthony Falls Laboratory
 
 <https://speakerdeck.com/alexlib/resuspension-of-spherical-particles-in-the-oscillating-grid-turbulence>
-
- [1]: http://newhost.site/pmwiki.php?n=People.HadarTraugott?action=download&upname=020320111917.jpg ""
- [2]: http://newhost.site/pmwiki.php?n=People.HadarTraugott?action=download&upname=traj19.png ""
