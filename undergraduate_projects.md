@@ -6,7 +6,7 @@ title: Open research projects for undergraduate/graduate students
 
 #### Tracking software graphical interface - help scientists to experiment
 
-![](/images/ptv.jpg)
+![](images/pyptv_snapshot.png)
 
 
 

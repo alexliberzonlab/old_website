@@ -43,5 +43,13 @@ Visit also our video gallery [Video](videogallery.html)
 ### How to find us:
 [How to find the laboratory](howtofindus.html)
 
-###  [Open positions](openpositions.html)
+###  Open positions
+
+We are looking for the Ph.D. candidates and postdocs for the following topics: [Open positions](openpositions.html)
+
+
+### Undergraduate projects
+
+We offer few undergraduate projects for the Mechanical, Biomedical or Electrical Engineering students. Some examples are listed on the [Undergraduate projects](undergraduate_projects.html) page. 
+
 
