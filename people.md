@@ -26,7 +26,7 @@ title: People
 * [Hadar Traugott]({{site.baseurl}}/people/hadar_traugott.html)
 * Hadar Ben Gida, co-supervised with Dr. Roi Gurka
 * Hadar Biran, co-supervised with Dr. Idit Avrahami
-* Shlomo Markman
+* [Shlomo Markman](people/shlomo_markman.html)
 * Avi Friedman, co-supervised with Dr. Gabor Kosa
 * Erez Wenger, co-supervised with Prof. Tsinober
 * Mark Baevsky
@@ -53,6 +53,6 @@ title: People
 * [Reut Elfassi](http://au.linkedin.com/pub/reut-elfassi/20/3b6/397), M.Sc. Graduated Jan. 2010
 * [David Ratner](http://il.linkedin.com/pub/david-ratner/4/a98/140), M.Sc. Graduated Nov. 2010 [backup](people/david_ratner.html)
 * [Mark Kreizer](http://il.linkedin.com/pub/mark-kreizer/9/36/464), M.Sc. Graduated Feb. 2011
-* [Tracey Hayse](http://www.linkedin.com/in/traceyhayse), MITSI program, 2011
+* [Tracey Hayse](http://www.linkedin.com/in/traceyhayse), MITSI program, 2011 [backup](people/tracey.html)
 * [Tyler Mehrman](http://zetapsi.mit.edu/brothers/11/), MISTI program, 2012
 * [Dikla Kersh](http://il.linkedin.com/pub/dikla-kersh/14/85b/27), M.Sc. Graduated Nov. 2012

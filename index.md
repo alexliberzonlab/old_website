@@ -14,13 +14,18 @@ Turbulence Structure Laboratory is a research laboratory at the School of Mechan
 
 We develop unique technologies such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](/research).  
 
-### News: 
-Read more on our [Blog](blog.html)
+### News: (see more on our [blog](blog.html))
 
 * Meet us on [ETC 14](http://etc14.ens-lyon.fr/)
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) who has won the "Outstanding presentation" award at Israel Mechanical Engineering Society 2012 symposium. 
 * Congratulations to Hadar Traugott for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
 * Congratulations to [Hadar Ben Gida](people/hadar_ben_gida.html) for receiving the The Rinna Bolle Student Travel Fund of Tel Aviv University
+* Recent publications: 
+    * Estimate of turbulent dissipation in a decaying turbulent grid flow, Exp. Thermal Fluid Science [link][11] 
+    * On the effects of dilute polymers on driven cavity turbulent flow, Int. J. Heat and Fluid Flow [link][12] 
+    * Three-dimensional particle tracking method using FPGA-based real-time image processing and four-view image splitter, Experiments in Fluids [link][13] 
+
+
 
 
 ### Gallery: 
@@ -32,14 +37,6 @@ Read more on our [Blog](blog.html)
 Visit also our video gallery [Video](videogallery.html)
 
 	
-
-
-### Additional info:
-* See example notes of our new *Advanced Measurement Methods in Fluid Dynamics and Heat Transfer* [Courses](/courses). 
-* Faculty of Engineering 2008 journal (בטאון הפקולטה ל 2008) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2008bitaon.pdf)
-* Faculty of Engineering 2010 highlights (בטאון הפקולטה ל 2010) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2010bitaon.pdf)
-
-
 ### How to find us:
 [How to find the laboratory](howtofindus.html)
 
@@ -53,3 +50,15 @@ We are looking for the Ph.D. candidates and postdocs for the following topics: [
 We offer few undergraduate projects for the Mechanical, Biomedical or Electrical Engineering students. Some examples are listed on the [Undergraduate projects](undergraduate_projects.html) page. 
 
 
+
+### Additional info:
+* See example notes of our new *Advanced Measurement Methods in Fluid Dynamics and Heat Transfer* [Courses](/courses). 
+* Faculty of Engineering 2008 journal (בטאון הפקולטה ל 2008) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2008bitaon.pdf)
+* Faculty of Engineering 2010 highlights (בטאון הפקולטה ל 2010) devoted a page to our laboratory (in Hebrew): [PDF](/files/Pagesfrom2010bitaon.pdf)
+* Laser safety forms: [PDF](files/laser_safety.pdf)
+
+
+
+[11]: http://www.sciencedirect.com/science/article/pii/S0894177712000118
+[12]: http://dx.doi.org/10.1016/j.ijheatfluidflow.2011.08.005
+[13]: http://www.springerlink.com/content/?Author=Alex+Liberzon
