@@ -24,10 +24,10 @@ Read more on our [Blog](blog.html)
 
 
 ### Gallery: 
-![]({{site.url}}{{site.baseurl}}/images/calibration_in_situ.jpg)
-![]({{site.url}}{{site.baseurl}}/images/lab.jpg)
-![]({{site.url}}{{site.baseurl}}/images/theprobe.jpg)
-![]({{site.url}}{{site.baseurl}}/images/cavity.jpg)
+![](images/calibration_in_situ.jpg)
+![](images/lab.jpg)
+![](images/theprobe.jpg)
+![](images/cavity.jpg)
 
 Visit also our video gallery [Video](videogallery.html)
 
