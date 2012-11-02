@@ -51,7 +51,7 @@ title: People
 * [Roman Povolotsky](http://il.linkedin.com/pub/roman-povolotsky/19/442/782), B.Sc. Graduated 2010
 * Eldad Sumnon, B.Sc. Graduated 2009
 * [Reut Elfassi](http://au.linkedin.com/pub/reut-elfassi/20/3b6/397), M.Sc. Graduated Jan. 2010
-* [David Ratner](http://il.linkedin.com/pub/david-ratner/4/a98/140), M.Sc. Graduated Nov. 2010
+* [David Ratner](http://il.linkedin.com/pub/david-ratner/4/a98/140), M.Sc. Graduated Nov. 2010 [backup](people/david_ratner.html)
 * [Mark Kreizer](http://il.linkedin.com/pub/mark-kreizer/9/36/464), M.Sc. Graduated Feb. 2011
 * [Tracey Hayse](http://www.linkedin.com/in/traceyhayse), MITSI program, 2011
 * [Tyler Mehrman](http://zetapsi.mit.edu/brothers/11/), MISTI program, 2012

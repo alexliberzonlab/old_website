@@ -1,38 +1,30 @@
-# DavidRatner
-
-![][1]
-
-From left to right: Reut, Mark and David 
-
+---
+layout: default
+title: David Ratner
+---
 
 
-![][2]
+## David Ratner
 
-
-
-## Research
-
-[Two Phase - Particles in turbulence][3] 
+![](http://www.eng.tau.ac.il/images/photos/faculty/ceremony-29-5-2011/HTML/tau%2029-5-11%20229_std.jpg)
 
 
 
-### The experiment - 3D-PTV of Kolmogorov size particles in a lid-driven cavity
 
-![][4]
+### Research topic: Lagrangian analysis of two-phase turbulent flows
 
-
-
-## Thesis
-
-[Preview here][5] 
+[Draft version of the M.Sc. thesis](http://www.box.net/shared/tsgipyb5il) 
 
 
+### Photos from the lab:
 
-![][6]
+![](../images/experiment.png)
 
- [1]: http://lh5.ggpht.com/particle.tracking/R5W_JTkCwTI/AAAAAAAABeY/KhyABxGyHO4/s288/Image006.jpg ""
- [2]: http://lh3.ggpht.com/_Ehhk1abDUqc/ShHJlRfU4SI/AAAAAAAAF7A/ywsnwoAZ4qw/s144/17052009302.jpg ""
- [3]: http://www.eng.tau.ac.il/~alexlib/efdl/pmwiki.php?n=Research.TwoPhase
- [4]: http://newhost.site/pmwiki.php?n=People.DavidRatner?action=download&upname=experiment.png ""
- [5]: http://www.box.net/shared/tsgipyb5il
- [6]: http://www.eng.tau.ac.il/images/photos/faculty/ceremony-29-5-2011/HTML/tau%2029-5-11%20229_std.jpg ""
+3D-PTV of Kolmogorov size particles in a lid-driven cavity
+
+
+![](http://lh5.ggpht.com/particle.tracking/R5W_JTkCwTI/AAAAAAAABeY/KhyABxGyHO4/s288/Image006.jpg)
+
+From left to right: Reut Elfassi, Mark Kreizer and David Ratner
+
+
