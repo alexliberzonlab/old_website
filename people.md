@@ -28,7 +28,7 @@ title: People
 * Hadar Biran, co-supervised with Dr. Idit Avrahami
 * [Shlomo Markman](people/shlomo_markman.html)
 * Avi Friedman, co-supervised with Dr. Gabor Kosa
-* Erez Wenger, co-supervised with Prof. Tsinober
+* [Erez Wenger](people/erez_wenger.html), co-supervised with Prof. Tsinober
 * Mark Baevsky
 
 
@@ -55,4 +55,4 @@ title: People
 * [Mark Kreizer](http://il.linkedin.com/pub/mark-kreizer/9/36/464), M.Sc. Graduated Feb. 2011
 * [Tracey Hayse](http://www.linkedin.com/in/traceyhayse), MITSI program, 2011 [backup](people/tracey.html)
 * [Tyler Mehrman](http://zetapsi.mit.edu/brothers/11/), MISTI program, 2012
-* [Dikla Kersh](http://il.linkedin.com/pub/dikla-kersh/14/85b/27), M.Sc. Graduated Nov. 2012
+* [Dikla Kersh](http://il.linkedin.com/pub/dikla-kersh/14/85b/27), M.Sc. Graduated Nov. 2012 [backup](people/dikla_kersh.html)

@@ -1,13 +1,14 @@
-# ErezWenger
+---
+layout: default
+title: Erez Wenger
+---
 
-![][1]
+## Erez Wenger
+
+Short bio on LinkedIn: [Erez Wenger](http://www.linkedin.com/pub/erez-wenger/23/891/3a3)
+
+![](../images/Erez1.jpg)
 
 
-
-    [Erez Wenger][2] 
-    
-
-is M.Sc. student working on the novel micro-hot-cold-film sensor. Erez's work focuses on the obtaining velocity and temperature gradients in pre-heated jet using the smallest MEMS anemometry probe.
-
- [1]: http://m1.licdn.com/mpr/mpr/shrink_100_100/p/3/000/069/311/2949b2c.jpg ""
- [2]: http://www.linkedin.com/pub/erez-wenger/23/891/3a3
+I work on the subject of temperature field in a heated turbulent jet.
+Using micro-machined sensors to capture and analyze the fluctuation of velocity and temperature of a heated turbulent jet.

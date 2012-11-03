@@ -1,46 +1,28 @@
-# DiklaKersh
+---
+layout: default
+title: Dikla Kersh
+---
 
-![][1]
+## Dikla Kersh
 
+My bio on [LinkedIn](http://il.linkedin.com/pub/dikla-kersh/14/85b/27)
 
+![](../images/IMG_9091.jpg)
 
-## Research topic
+### Research topic
 
-### Pulsating flow in an elastic tube'''
-
-### [M.Sc. Thesis in PDF format][2]
-
-![][3]
-
-
-
-![][4]
+Pulsating flow in an elastic tube - [M.Sc. Thesis in PDF format](https://www.box.com/s/b36a307a346ed09ffeae)
 
 
-
-![][5]
-
+![](../images/experimental_setup_scheme.jpg)
 
 
 ### Labview control of a pulsating signal
 
-![][6]
-
-
+![](http://lh6.ggpht.com/_Ehhk1abDUqc/S34zIrGp_1I/AAAAAAAAJ0k/ZEcntdlgKF0/s400/Labview%20control%20system.jpg)
 
 ### Preliminary results
 
-![][7]
+![](http://lh4.ggpht.com/_Ehhk1abDUqc/S342CQWEw5I/AAAAAAAAJ1Y/NjS3P8o5qjI/s400/profiles_700_quiver.jpg)
 
-
-
-![][8]
-
- [1]: http://newhost.site/pmwiki.php?n=People.DiklaKersh?action=download&upname=dikla.jpg ""
- [2]: https://www.box.com/s/b36a307a346ed09ffeae
- [3]: http://newhost.site/pmwiki.php?n=People.DiklaKersh?action=download&upname=experimental_setup_scheme.jpg ""
- [4]: http://newhost.site/pmwiki.php?n=People.DiklaKersh?action=download&upname=experimental_setup_scheme.png ""
- [5]: http://newhost.site/pmwiki.php?n=People.DiklaKersh?action=download&upname=IMG_9091.jpg ""
- [6]: http://lh6.ggpht.com/_Ehhk1abDUqc/S34zIrGp_1I/AAAAAAAAJ0k/ZEcntdlgKF0/s400/Labview%20control%20system.jpg ""
- [7]: http://lh4.ggpht.com/_Ehhk1abDUqc/S342CQWEw5I/AAAAAAAAJ1Y/NjS3P8o5qjI/s400/profiles_700_quiver.jpg ""
- [8]: http://newhost.site/pmwiki.php?n=People.DiklaKersh?action=download&upname=profiles.jpg ""
+![](../images/profiles.jpg)

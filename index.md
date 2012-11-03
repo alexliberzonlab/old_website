@@ -27,7 +27,6 @@ We develop unique technologies such as **multi-hot-cold-wire anemometers** and *
 
 
 
-
 ### Gallery: 
 ![](images/calibration_in_situ.jpg)
 ![](images/lab.jpg)
