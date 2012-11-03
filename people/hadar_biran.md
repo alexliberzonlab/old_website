@@ -1,23 +1,18 @@
-# HadarBiran
+---
+layout: default
+title: Hadar Biran
+---
 
-Hadar Biran is working on bio-medical fluid mechanics problem. The project is a collaboration between the TSL, Dr. Idit Avrahami and the Interventional Cardiology Department at the Rabin Medical Center (Beilinson). 
-
-Hadar will use the experimental system constructed by [Dikla Kersh][1] and re-constructed by [Katya Barishev][2] to experiment and develop the novel blood flow measurement technique based on imaging modalities. 
-
-
-
-![][3]
+## HadarBiran
 
 
+![](../images/275461_572268587_2429687_n.jpg)
 
-![][4]
+Hadar Biran is working on bio-medical fluid mechanics problem. The project is a collaboration between the TSL, [Dr. Idit Avrahami](http://highlearn.afeka.ac.il/users/www/17672/Dr_Idit_Avrahami.htm) and the Interventional Cardiology Department at the Rabin Medical Center (Beilinson). 
+
+Hadar will use the experimental system constructed by [Dikla Kersh](dikla_kersh.html) and re-constructed by [Katya Barishev](katya_barishev.html) to experiment and develop the novel blood flow measurement technique based on imaging modalities. 
+
+![](../images/hadar_in_work.jpg)
 
 
-
-![][5]
-
- [1]: http://newhost.site/pmwiki.php?n=People.DiklaKersh
- [2]: http://newhost.site/pmwiki.php?n=People.KatyaBarishev
- [3]: http://newhost.site/pmwiki.php?n=People.HadarBiran?action=download&upname=275461_572268587_2429687_n.jpg ""
- [4]: http://newhost.site/pmwiki.php?n=People.HadarBiran?action=download&upname=hadar_in_work.jpg ""
- [5]: http://newhost.site/pmwiki.php?n=People.HadarBiran?action=download&upname=transparent_model.jpg ""
+![](../images/transparent_model.jpg)
