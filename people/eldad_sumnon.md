@@ -1,10 +1,14 @@
-# EldadSumnon
+---
+layout: default
+title: Eldad Sumnon
+---
+## Eldad Sumnon
 
-![][1]
+![](../images/mark_eldad_mirrors_test.png)
 
+Eldad (on the left) did his last year undergraduate project with our lab, working together with [Mark Kreizer](mark_kreizer.html) 
+(on the right) on the four-view image splitter project (in the hands of Mark) 
 
+### Poster of the final year project
+![](../images/eldad_poster.jpg)
 
-![][2]
-
- [1]: http://newhost.site/pmwiki.php?n=People.EldadSumnon?action=download&upname=mark_eldad_mirrors_test.png ""
- [2]: http://newhost.site/pmwiki.php?n=People.EldadSumnon?action=download&upname=eldad_poster.jpg ""

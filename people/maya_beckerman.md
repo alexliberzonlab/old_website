@@ -1,10 +1,14 @@
-# MayaBeckerman
+---
+layout: default
+title: Eldad Sumnon
+---
 
-![][1]
+## Maya Beckerman
 
+![](../images/maya_beckerman.jpg)
 
+Maya did her final year project on the air flow cooling of the PC case, using unsteady flow control.
 
-## Poster [![][3]][3]
+## Poster 
 
- [1]: http://lh4.ggpht.com/_Ehhk1abDUqc/ScbMJXrw4RI/AAAAAAAAE8g/0dAjPrzBLag/s288/22032009051.jpg ""
- []: http://newhost.site/pmwiki.php?n=People.MayaBeckerman?action=download&upname=poster.pdf
+[Poster in PDF](../files/poster.pdf)
