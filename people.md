@@ -22,7 +22,7 @@ title: People
 
 
 ### M.Sc. students
-* David Altura, co-supervised with Prof. Neima Brauner
+* [David Altura](people/david_altura.html), co-supervised with Prof. Neima Brauner
 * [Hadar Traugott](people/hadar_traugott.html)
 * [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
