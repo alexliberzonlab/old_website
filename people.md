@@ -27,7 +27,7 @@ title: People
 * [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
 * [Shlomo Markman](people/shlomo_markman.html)
-* Avi Friedman, co-supervised with Dr. Gabor Kosa
+* [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
 * [Erez Wenger](people/erez_wenger.html), co-supervised with Prof. Tsinober
 * [Mark Baevsky](people/mark_baevsky.html)
 
