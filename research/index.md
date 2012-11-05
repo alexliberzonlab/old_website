@@ -35,7 +35,7 @@ Turbulence Structure Laboratory main research topics are turbulent flows in natu
 #### [Polymers in turbulence](polymers.html)
 ![](../images/polymers.jpg)	
 
-#### [PC air cooling by unsteady flows](heat.html)
+#### [PC air cooling by unsteady flows](cooling.html)
 ![](../images/pc-heat.jpg) 
 
 
