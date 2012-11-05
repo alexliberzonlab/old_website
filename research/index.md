@@ -3,9 +3,13 @@ layout: default
 title: Research projects
 ---
 
-## Research projects
+## Present research projects
 
-Turbulence Structure Laboratory main research topics are turbulent flows in natural and industrial applications. We focus on the atmospheric boundary layer flows, flows with additives, particle-laden flows and others.
+(see below the link to the past research projects and to the patents)
+
+The main research topics are turbulent flows in natural and industrial applications. Moreover, our speciality is in accurate measurements of velocity derivatives in Eulerian and Lagrangian settings, using either multi-hot-wire or 3D particle tracking technology. We also implement our methods to unsteady flows (pulsating, periodic, etc.) of air and liquids in cooling applications, micro-electronics industry applications (coating, etching, etc.), bio-medical applications and resuspension of particulate materials from smooth and rough walls. 
+
+Few examples are given below: 
 
 
 #### [Multi hot-wire](multihotwire.html)
@@ -26,16 +30,18 @@ Turbulence Structure Laboratory main research topics are turbulent flows in natu
 #### [Real time 3D-PTV](realtime.html)
 ![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
 
-####  [PIV and Infrared Imaging](pivir.html)
-![](../images/piv_ir_image.jpg)
 
-#### [Rotating turbulence](rotating.html)
-![](../images/rotating.jpg) 
 
 #### [Polymers in turbulence](polymers.html)
 ![](../images/polymers.jpg)	
 
 #### [PC air cooling by unsteady flows](cooling.html)
 ![](../images/pc-heat.jpg) 
+
+
+
+### [Past research projects](past_research.html)
+
+### [Patents](patents.html)
 
 

@@ -17,6 +17,8 @@ The bottleneck of the high speed tracking systems today is the data transfer. Ou
 Mark and Eldad setting up the mirrors
 
 
+<https://picasaweb.google.com/lh/photo/esmsJ2BlK-cdPxUyO1UpTdMTjNZETYmyPJy0liipFm0?feat=directlink>
+
 
 ### First results
 

@@ -1,8 +1,14 @@
-# XPIV
+---
+layout: default
+title: XPIV - multi-plane stereoscopic PIV
+---
 
-## XPIV - Multi-plane Stereoscopic Particle Image Velocimetry system
+## XPIV - multi-plane stereoscopic PIV
 
-We ([Roi Gurka][1] & Alex Liberzon) introduce three dimensional measurement technique (called XPIV) based on a Particle Image Velocimetry (PIV) system. The technique provides three-dimensional and statistically significant velocity data. The main principle of the technique lies in the combination of defocus, stereoscopic and multi-plane illumination concepts. The results of the turbulent boundary layer in a flume are presented below. The quality of the velocity data is evaluated by using the velocity profiles and relative turbulent intensity of the boundary layer. The analysis indicates that the XPIV is a reliable experimental tool for the three dimensional fluid velocity measurements. Introduction 
+XPIV is our original development (patent pending) technology, developed back in 1999 - 2003 during the 
+Ph.D. studies together with Roi Gurka. 
+
+[Roi Gurka] and Alex Liberzon introduce three dimensional measurement technique (called XPIV) based on a Particle Image Velocimetry (PIV) system. The technique provides three-dimensional and statistically significant velocity data. The main principle of the technique lies in the combination of defocus, stereoscopic and multi-plane illumination concepts. The results of the turbulent boundary layer in a flume are presented below. The quality of the velocity data is evaluated by using the velocity profiles and relative turbulent intensity of the boundary layer. The analysis indicates that the XPIV is a reliable experimental tool for the three dimensional fluid velocity measurements. Introduction 
 
 Experimental investigation of turbulent flows requires techniques that allow three-dimensional measurements with high spatial and temporal resolutions. Particle Image Velocimetry (PIV) is a state-of-the-art method in fluid dynamics research that provides high spatial resolution in two-dimensional slice of the flow (Adrian 1991; Raffel et al. 1998), and appears to be an appropriate basis for three-dimensional velocity measurements. The technique has only technological limitations to achieve a temporal resolution due to the illumination source (lasers) and recording media (CCD) frequencies which are available today. 
 
@@ -20,7 +26,7 @@ Understanding the drawbacks and advantages of the obtainable measurement systems
 
 
 
-![][2]
+![](http://alexl.files.wordpress.com/2006/01/xpiv1.jpg)
 
 Fig. 1. Experimental facility: 1) Flume, 2) water reservoirs, 3) piping, 4) double Nd: YAG laser and its power supply unit, 5) optical table, 6) frame 7) CCD 1 (left), 8) CCD 2 (right), 9) 45 mirror, 10) quarter plate, 11) beam splitting unit, 12) cylindrical lens, 13) three parallel laser sheets. The coordinate system is as follows: x - streamwise, y - wall normal and, z - spanwise directions 
 
@@ -28,7 +34,7 @@ Fig. 1. Experimental facility: 1) Flume, 2) water reservoirs, 3) piping, 4) doub
 
 
 
-![][3]
+![](http://alexl.files.wordpress.com/2006/01/xpiv2.jpg)
 
 Fig. 2. Schematic view of the optical array: 1) spherical lens 2) 45 deg. mirror, 3) half-wave plate on rotary mount, 4) polarizing beamsplitter, 5) non-polarizing beamsplitter, 6) right-angle prism, and 7) cylindrical lens. 
 
@@ -38,7 +44,7 @@ Both CCD cameras in their stereoscopic configuration acquires the images of the 
 
 
 
-![][4]
+![](http://alexl.files.wordpress.com/2006/01/xpiv3.jpg)
 
 Fig. 3. Original three plane PIV image (left), and enhanced three plane PIV image (right) 
 
@@ -53,19 +59,19 @@ Image processing algorithm
 
 
 
-![][5]
+![](http://alexl.files.wordpress.com/2006/01/xpiv4.jpg)
 
 Fig 4. Particles in the focal plane (left), particles in two defocus planes (center), and the size distribution and its derivative (right) . Results 
 
 
 
-![][6]
+![](http://www.eng.uwo.ca/people/rgurka/xpiv_example.jpg)
 
 Fig. 5. Instantaneous three-dimensional velocity field 
 
 
 
-![][7]
+![](http://alexl.files.wordpress.com/2006/01/xpiv6.jpg)
 
 Fig. 6. Isosurfaces of the negative (blue) and positive (red) Reynolds stresses components (spanwise-normalwise) elongated in the streamwise direction. 
 
@@ -77,10 +83,4 @@ Liberzon A., Gurka R., and Hetsroni G. (2004) “XPIV - Multi-plane Stereoscopic P
 
 Liberzon A., Gurka R., Lampert S. and G. Hetsroni, (2005) “Multi-dimensional characterization of coherent structures using three-plane stereoscopic PIV?, from the 6th Int. Symposium on PIV, Pasadena, CA, September 2005
 
- [1]: http://www.bgu.ac.il/~gurka
- [2]: http://alexl.files.wordpress.com/2006/01/xpiv1.jpg ""
- [3]: http://alexl.files.wordpress.com/2006/01/xpiv2.jpg ""
- [4]: http://alexl.files.wordpress.com/2006/01/xpiv3.jpg ""
- [5]: http://alexl.files.wordpress.com/2006/01/xpiv4.jpg ""
- [6]: http://www.eng.uwo.ca/people/rgurka/xpiv_example.jpg ""
- [7]: http://alexl.files.wordpress.com/2006/01/xpiv6.jpg ""
+ [Roi Gurka]: http://www.bgu.ac.il/~gurka
