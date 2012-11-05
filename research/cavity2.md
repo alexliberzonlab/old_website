@@ -1,31 +1,27 @@
-# Lid-driven cavity flow 
+---
+layout: default
+title: Lid-driven cavity flow 
+---
 
+## Lid-driven cavity flow 
+
+#### General overview of the setup:
+
+![](http://web.gyte.edu.tr/enerji/ercanerturk/drivencavity/drivencavity/drivencavity-blue.gif)
+
+From: <http://web.gyte.edu.tr/enerji/ercanerturk/drivencavity/cavityflow.htm>
 
 
 #### Experimental apparatus
 
- [Attach:lid\_driven\_cavity.png][1][ Δ][1] [![][3]][3] [![][4]][4] 
-
+<html>
+<table style="width:194px;"><tr><td align="center" style="height:194px;background:url(https://picasaweb.google.com/s/c/transparent_album_background.gif) no-repeat left"><a href="https://picasaweb.google.com/114646012645957748689/LidDrivenCavity?authuser=0&feat=embedwebsite"><img src="https://lh6.googleusercontent.com/-iUWd1l0-Tu4/R4O9HTkCwFE/AAAAAAAAIB4/qi1i0AwEkiY/s160-c/LidDrivenCavity.jpg" width="160" height="160" style="margin:1px 0 0 4px;"></a></td></tr><tr><td style="text-align:center;font-family:arial,sans-serif;font-size:11px"><a href="https://picasaweb.google.com/114646012645957748689/LidDrivenCavity?authuser=0&feat=embedwebsite" style="color:#4D4D4D;font-weight:bold;text-decoration:none;">Lid-driven cavity</a></td></tr></table>
+</html>
   
-
-
-
-
-#### General info:
-
-![][4]
-
-From **<http://web.gyte.edu.tr/enerji/ercanerturk/drivencavity/cavityflow.htm>**  
  <param name='movie' value='http://video.google.com/googleplayer.swf?docId=1330460642179812976'/> <param name='allowScriptAccess' value='sameDomain' /> <param name='quality' value='best' /> <param name='bgcolor' value='#ffffff' /> <param name='scale' value='noScale' /> <param name='salign' value='TL' /> <param name='wmode' value='transparent' /> <param name='FlashVars' value='playerMode=embedded' />  
 
 
 
-##### Links
+#### Links
 
-*   [http://www.featflow.de/album/catalog/ldc\_low\_2d/data.html][5]
-
- [1]: http://newhost.site/pmwiki.php?n=Lab.LidDrivenCavity?action=upload&upname=lid_driven_cavity.png
- []: http://picasaweb.google.com/particle.tracking/LidDrivenCavity
- []: http://picasaweb.google.com/particle.tracking/LidDrivenCavity/photo#5153170941735518354
- [4]: http://web.gyte.edu.tr/enerji/ercanerturk/drivencavity/drivencavity/drivencavity-blue.gif ""
- [5]: http://www.featflow.de/album/catalog/ldc_low_2d/data.html
+* [LDC simulation](http://www.featflow.de/album/catalog/ldc_low_2d/data.html)
