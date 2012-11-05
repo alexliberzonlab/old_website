@@ -34,7 +34,7 @@ title: People
 
 ### Undergraduates and visitors
 * [Katy Barishev](people/katya_barishev.html)
-* Alon Sussman
+* [Alon Sussman](people/alon_sussmann.html)
 * Dina Bass
 * [Lon T. Cherryholmes](people/lon.html)
 * [Tyler Mehrman](people/tyler.html)
