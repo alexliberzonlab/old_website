@@ -8,7 +8,9 @@ title: Alex Liberzon
 * Professional website: [Alex Liberzon](http://www.eng.tau.ac.il/~alexlib)
 * Personal blog: [Phanta Rhei - everything flows](http://alexl.wordpress.com)
 
-![](../images/alex_lab2.jpg)
+<html>
+<img src = "../images/alex_lab2.jpg" align = "right">
+</html>
 
 Alex has joined the Turbulence Structure Laboratory since 2006, after his postdoctoral
 period at ETH Zurich. Alex graduated from the Mechanical Engineering at the Technion, Haifa in 2003. 
