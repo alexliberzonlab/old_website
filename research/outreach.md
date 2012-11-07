@@ -17,9 +17,6 @@ The work was a collaborative effort of scientists from the Max Planck Institute 
 The scientists say their research -- detailed in the Feb.10 issue of the journal Science -- could have implications for a number of fields of science and engineering, from efficiently mixing industrial materials to modeling the interiors of stars. 
 
 
-
-* * *
-
 <http://www.sciencedaily.com/releases/2002/06/020624073121.htm> 
 
 **Researchers Hunt For Turbulence: NASA Works To Help Pilots Weather The Skies** 
