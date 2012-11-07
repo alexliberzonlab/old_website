@@ -5,6 +5,10 @@ title: Mark Baevsky
 
 ## Mark Baevsky
 
+<html>
+<img src = "../images/mark_baevsky.jpg" align = "right" width = "300">
+</html>
+
 Mark Baevsky was our undergraduate student working together with [Hadar Traugott](hadar_traugott.html) on the project "Resuspension of particles in turbulent flows" and also working on the final project in Mechanical Engineering on the design and production of the "Soft silicon pipe apparatus". 
 
 Starting from October 2012, Mark started his M.Sc. thesis research. The topic will be related to the pulsating and unsteady flows in compliant tubes (see his final project) with variable thickness and compliance. 

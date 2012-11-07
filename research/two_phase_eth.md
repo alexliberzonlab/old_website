@@ -6,8 +6,6 @@ IFU has purchased the second 3D-PTV system, that can capture 500 frames per seco
 
 
 
-![][1]
+![](http://alexl.files.wordpress.com/2006/06/firsttrajectories.jpg)
 
 Screenshot of 3D-PTV software with the first trajectories
-
- [1]: http://alexl.files.wordpress.com/2006/06/firsttrajectories.jpg ""
