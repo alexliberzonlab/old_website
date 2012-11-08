@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Kamin" fund from the Chief Scientist
+published: true
 ---
 
 ## "Kamin" fund from the Chief Scientist of the Ministry of Industry, Trade & Labor 
