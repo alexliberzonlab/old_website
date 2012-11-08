@@ -16,9 +16,10 @@ We develop unique technologies such as **multi-hot-cold-wire anemometers** and *
 
 ### News: (see more on our [blog](blog.html))
 
-* Meet us on [ETC 14](http://etc14.ens-lyon.fr/)
+* We got "Kamin" fund, in collaboration with the Technion and BGU to develop the flexible-blade in-line rheometer
+* [Hadar Ben Gida](people/hadar_ben_gida.html) passed his M.Sc. seminar, congratulations. 
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) who has won the "Outstanding presentation" award at Israel Mechanical Engineering Society 2012 symposium. 
-* Congratulations to Hadar Traugott for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
+* Congratulations to [Hadar Traugott](people/hadar_traugott.html) for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
 * Congratulations to [Hadar Ben Gida](people/hadar_ben_gida.html) for receiving the The Rinna Bolle Student Travel Fund of Tel Aviv University
 * Recent publications: 
     * Estimate of turbulent dissipation in a decaying turbulent grid flow, Exp. Thermal Fluid Science [link][11] 
