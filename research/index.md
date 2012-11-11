@@ -12,36 +12,20 @@ The main research topics are turbulent flows in natural and industrial applicati
 Few examples are given below: 
 
 
-#### [Multi hot-wire](multihotwire.html)
-![](../images/calibration_in_situ.jpg)
-
-#### [Pulsating flows](pulsating.html)
-![](http://lh4.ggpht.com/_Ehhk1abDUqc/S342CQWEw5I/AAAAAAAAJ1Y/NjS3P8o5qjI/s400/profiles_700_quiver.jpg "Flow field")
-
-#### [MEMS sensor](microsensor.html)
-![MEMS sensor](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s288/P1010129.JPG) 
-
-#### [Particles in turbulence](twophase.html)
-![](../images/twophase.jpg)
-
-#### [Lid driven cavity](cavity.html)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) 
-
-#### [Real time 3D-PTV](realtime.html)
-![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
+[Multi hot-wire](multihotwire.html) | [Pulsating flows](pulsating.html) 
+------------ | ------------- 
+![](../images/calibration_in_situ.jpg) | ![](../images//profiles_700_quiver.jpg "Flow field")  
+[MEMS sensor](microsensor.html) | [Particles in turbulence](twophase.html)
+![MEMS sensor](../images/P1010129.JPG) | ![](../images/twophase.jpg)
+[Lid driven cavity](cavity.html) | [Real time 3D-PTV](realtime.html)
+![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) | ![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
+[Polymers in turbulence](polymers.html) | [PC air cooling by unsteady flows](cooling.html)
+![](../images/polymers.jpg)	 | ![](../images/pc-heat.jpg) 
 
 
 
-#### [Polymers in turbulence](polymers.html)
-![](../images/polymers.jpg)	
+#### [Past research projects](past_research.html)
 
-#### [PC air cooling by unsteady flows](cooling.html)
-![](../images/pc-heat.jpg) 
-
-
-
-### [Past research projects](past_research.html)
-
-### [Patents](patents.html)
+#### [Patents](patents.html)
 
 
