@@ -3,7 +3,8 @@ layout: default
 title: Micro-electro-mechanical technology for turbulent research
 ---
 
-### Ph.D. research of [Youry Borisenkov] 
+### Ph.D. research of [Youry Borisenkov](/people/youryborisenkov)
+ 
 
 
 ### Micro-electro-mechanical-systems (MEMS)
@@ -21,23 +22,29 @@ More info at [Wikipedia](http://en.wikipedia.org/wiki/Microelectromechanical_sys
 * Mechanical - wall shear sensors
 
 
+
 ### First design
 ![](../images/suggested_design.jpg)
+![](../images/P1010129.JPG)
 
 
 ### First successful manufacturing
 
 ![](http://lh3.ggpht.com/_Ehhk1abDUqc/Si-t23UQz1I/AAAAAAAAGXI/Bs1EuRe8hJw/s400/new4.jpg)
 
-[Slideshow](files/presentation.pdf) resentation slides >>> ]]
+
+### More photos
+
+<img src = "../images/mems1.jpg" width="300">|<img src = "../images/2.jpg" width="300"> 
+--------------|------------- 
+<img src = "../images/6.jpg" width="300">|<img src = "../images/7.jpg" width="300">  
+<img src = "../images/8.jpg" width="300">|<img src = "../images/9.jpg" width="300">
 
 
-![](https://lh5.googleusercontent.com/-mWCPTnbqlrk/TfKL2F7-THI/AAAAAAAALWU/gcfHpSUpDYA/s400/P1010129.JPG)
 
 
 
 
-[Youry Borisenkov]: /people/youryborisenkov
 
 
 

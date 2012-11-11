@@ -13,14 +13,23 @@ Few examples are given below:
 
 
 [Multi hot-wire](multihotwire.html) | [Pulsating flows](pulsating.html) 
------------- | ------------- 
-![](../images/calibration_in_situ.jpg) | ![](../images//profiles_700_quiver.jpg "Flow field")  
+:------------: | :-------------: 
+<img src = "../images/calibration_in_situ.jpg" width = "200"> | <img src = "../images/profiles_700_quiver.jpg" width = "200">
+
+
 [MEMS sensor](microsensor.html) | [Particles in turbulence](twophase.html)
-![MEMS sensor](../images/P1010129.JPG) | ![](../images/twophase.jpg)
+:------------: | :-------------: 
+<img src = "../images/P1010129.JPG" width = "200"> | <img src = "../images/twophase.jpg" width = "200"> 
+
+
 [Lid driven cavity](cavity.html) | [Real time 3D-PTV](realtime.html)
-![](http://lh6.ggpht.com/_Ehhk1abDUqc/SR7kA0Gw1HI/AAAAAAAADkA/FXUIcQqCQRc/s288/assembly_belt_large_aquarium.jpg) | ![](http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
+:------------: | :-------------: 
+ <img src = "../images/assembly_belt_large_aquarium.jpg" width = "200">  | <img src = "../images/Image005.jpg" width = "200"> 
+
+
 [Polymers in turbulence](polymers.html) | [PC air cooling by unsteady flows](cooling.html)
-![](../images/polymers.jpg)	 | ![](../images/pc-heat.jpg) 
+:------------: | :-------------: 
+<img src = "../images/polymers.jpg" width = "200"> | <img src = "../images/pc-heat.jpg" width = "200"> 
 
 
 

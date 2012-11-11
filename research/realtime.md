@@ -13,24 +13,31 @@ The bottleneck of the high speed tracking systems today is the data transfer. Ou
 
 ![]( http://lh3.google.com/particle.tracking/R72ZOs-L0aI/AAAAAAAABjY/Oili4BO4QfM/s288/Image005.jpg)
 
-![](../images/mark_eldad_mirrors_test.png) 
-Mark and Eldad setting up the mirrors
+<html>
+<img src="../images/mark_eldad_mirrors_test.png" width = "300"> 
+</html>
+
+Mark and Eldad adjusting the mirrors
+
+[Manual of the MC1324 camera](manual_mc1324.html)
 
 
-<https://picasaweb.google.com/lh/photo/esmsJ2BlK-cdPxUyO1UpTdMTjNZETYmyPJy0liipFm0?feat=directlink>
 
+### The results
 
-### First results
-
-![](../images/Slide09.png)
+<html>
+<img src = "../images/Slide09.png" width = "400" align="right")
+</html>
 
 We have completed the first round of experiments in the lid driven cavity facility. The 2D Sobel-based PTV system worked in parallel to the regular 3D-PTV system and the results were compared in the mid-plane of the cavity. 
 
-The results appear to be very interesting, beyond the real time image processing story and summarized in the manuscript submitted to the Experiments in Fluids journal. More details are available from Mark or Alex.
+The results appear to be very interesting, beyond the real time image processing story and summarized in the manuscript which is published in the Experiments in Fluids journal [Publications](../publications.html)
 
-Read a short summary: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3DAbstract.pdf)
+Read a short summary: [PDF](../files/Abstract.pdf)
 
-Slideshow: [PDF](http://docs.google.com/viewer?url=http%3A%2F%2Fwww.eng.tau.ac.il%2F~alexlib%2Fefdl%2Fpmwiki.php%3Fn%3DResearch.FPGA%3Faction%3Ddownload%26upname%3Dmark_seminar.pdf)
+Slideshow: [PDF](../files/mark_seminar.pdf)
+
+
 
 
 

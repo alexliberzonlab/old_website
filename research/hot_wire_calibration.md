@@ -1,4 +1,8 @@
-# HotWireCalibration
+---
+layout: default
+title: Look up table based multi - hot wire calibration
+---
+
 
 ## Multi-hot/cold-wire probe calibration algorithm, based on look-up tables
 

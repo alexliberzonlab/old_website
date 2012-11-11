@@ -182,16 +182,16 @@ table {
 
 th {
   font-family: 'Arvo', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
   padding: 10px;
-  background: #232323;
   color: #FDFEFB;
+  border: 1px solid #ccc;
  }
 
 td {
   padding: 10px;
-	background: #ccc;
+  border: 1px solid #ccc;
  }
 
 

@@ -11,10 +11,16 @@ title: Software
 
 
 ### Particle Tracking Velocimetry (3D-PTV) 
+* [OpenPTV](http://www.openptv.net) - Open Source Particle Tracking Velocimetry consortium
 * [3dptv.github.com](http://3dptv.github.com)
 * Mark Kreizer optical ray tracing software for the image view splitter designs (his original design and the ETH Zurich design) [ZIP file](/files/beamsplitter.zip)
 
-### Multi-hot-wire calibration using LUT [Efi Ezri project](/people/Efi_Ezri)
+### Look-up table (LUT) multi-hot-wire calibration
+
+<http://code.google.com/p/hotwirelut/wiki/Introduction>
+
+You can clone the repository using SVN:
+
 * `svn checkout http://hotwirelut.googlecode.com/svn/trunk/ hotwirelut`
 
 ### Miscellaneous
