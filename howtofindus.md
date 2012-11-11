@@ -29,6 +29,27 @@ Find your way to the laboratory, walking East between the Wolfson building of th
 
 ### Some visual information:
 
-![]({{site.baseurl}}/images/P5200086.jpg)
-![]({{site.baseurl}}/images/P5200049.jpg)
-![]({{site.baseurl}}/images/lab_entrance.jpg)
+![](./images/P5200086.jpg)
+![](./images/P5200049.jpg)
+![](./images/lab_entrance.jpg)
+
+
+### From the train station to the office
+
+The walking map: [Walking map by Google maps](http://goo.gl/maps/juOAE)
+
+
+From the train station take the exit towards the University (left side). When you exit, you get into the bus station:
+
+1. if you want to walk, the instructions are attached, it will take approximately 10 minutes. Just keep walking straight as you exit the train station and you'll reach the stairs on your right - walk up and follow the road straight up. After 50 m cross the street to the left and follow the stairs again to the parking around the university. Cross the parking and enter the university through the gate 16 (take some ID to show the security). Enter the gate and walk just straight, the third building on your right is the gray building - this is the Wolfson Building of Mechanical Engineering.
+
+
+Enter the building at the main entrance (you'll be on your right as you pass half of the building) and follow the stairs to the 3rd floor, my office is on the right, office room 316. 
+
+ 
+2. if you use the bus, Bus 7 or 45 (Dan) take you to Engineering, gate no. 14 - it's just one stop. If you enter the gate no. 14, our building is on the left, the security will show you. 
+
+
+Don't hesitate to call to the lab or office (sometimes we have difficulties to get calls inside the building, you'll find it easier next to the windows) 03-6408928
+
+
