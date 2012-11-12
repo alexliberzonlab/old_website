@@ -38,8 +38,8 @@ There is a need to develop the software, working fine for the discrete, small an
 
 Another option is to take each streak as an object and using the 2D to 3D world transformation to build their 3D picture. It's not clear how to proceed, but really challenging path, as one would have a continuous 3D trajectory of a particle, with curvature, length, etc.
 
- [1]: http://www.eng.tau.ac.il/~alexlib/pmwiki.php?n=TAU.StreaksGtGtGt?action=download&upname=Movie12_Scene28_1_183.jpg ""
- [2]: http://www.eng.tau.ac.il/~alexlib/pmwiki.php?n=TAU.StreaksGtGtGt?action=download&upname=Movie12_Scene28_2_183.jpg ""
- [3]: http://www.eng.tau.ac.il/~alexlib/pmwiki.php?n=TAU.StreaksGtGtGt?action=download&upname=Movie12_Scene28_3_183.jpg ""
- [4]: http://www.eng.tau.ac.il/~alexlib/pmwiki.php?n=TAU.StreaksGtGtGt?action=download&upname=Movie12_Scene28_4_183.jpg ""
+ [1]: ../images/Movie12_Scene28_1_183.jpg ""
+ [2]: ../images/Movie12_Scene28_2_183.jpg ""
+ [3]: ../images/Movie12_Scene28_3_183.jpg ""
+ [4]: ../images/Movie12_Scene28_4_183.jpg ""
 
