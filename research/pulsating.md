@@ -15,3 +15,6 @@ The pulsating flows in compliant pipes is very complex system in which the flow 
 ### Preliminary results 
 
 ![](http://lh4.ggpht.com/_Ehhk1abDUqc/S342CQWEw5I/AAAAAAAAJ1Y/NjS3P8o5qjI/s400/profiles_700_quiver.jpg "Flow field")
+
+
+More info is on the page of [Dikla Kersh](../people/dikla_kersh.html)

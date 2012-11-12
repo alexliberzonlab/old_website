@@ -5,19 +5,6 @@ title: Books and book sections
 
 ## Books and book sections
 
-### A. Liberzon
-
-
-![](./images/particle_laden_symposium.jpg)
-
-[Link to the book on Google books](http://books.google.co.il/books?id=ltmr9R7JzLMC&pg=PA271&dq=liberzon&lr=&as_brr=3&ei=XaDZR_fTI5KatAOeovD3AQ&rview=1&sig=vty7Jvmi8JKbISoK-VWpZYJqYwg&redir_esc=y)
-
-
-<img src ="http://www.springerlink.com/content/h28346/cover-large.gif" width="130">
-
-[Link to the book][http://link.springer.com/book/10.1007/978-3-540-32603-8/page/1] 
-
-
 
 
 ### A. Tsinober
@@ -64,6 +51,19 @@ Topological Fluid Mechanics: Proceedings of the IUTAM Symposium, Cambridge, UK, 
 ***
 
 [Progress in Turbulence](http://books.google.com/books?id=CZEreDEoXXEC&pg=PA36&vq=tsinober&rview=1&source=gbs_search_r&cad=0_2&sig=vFqQ2QeJw3SmjjP-VOajEPtrC1o#PPA31,M1) 
+
+
+### A. Liberzon
+
+
+![](./images/particle_laden_symposium.jpg)
+
+[Link to the book on Google books](http://books.google.co.il/books?id=ltmr9R7JzLMC&pg=PA271&dq=liberzon&lr=&as_brr=3&ei=XaDZR_fTI5KatAOeovD3AQ&rview=1&sig=vty7Jvmi8JKbISoK-VWpZYJqYwg&redir_esc=y)
+
+
+<img src ="http://www.springerlink.com/content/h28346/cover-large.gif" width="130">
+
+[Link to the book](http://link.springer.com/book/10.1007/978-3-540-32603-8/page/1) 
 
 
 

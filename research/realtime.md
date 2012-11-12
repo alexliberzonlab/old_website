@@ -26,7 +26,7 @@ Mark and Eldad adjusting the mirrors
 ### The results
 
 <html>
-<img src = "../images/Slide09.png" width = "400" align="right")
+<img src = "../images/Slide09.png" width = "300" align="right">
 </html>
 
 We have completed the first round of experiments in the lid driven cavity facility. The 2D Sobel-based PTV system worked in parallel to the regular 3D-PTV system and the results were compared in the mid-plane of the cavity. 

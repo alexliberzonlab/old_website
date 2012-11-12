@@ -17,7 +17,7 @@ Few examples are given below:
 <img src = "../images/calibration_in_situ.jpg" width = "200"> | <img src = "../images/profiles_700_quiver.jpg" width = "200">
 
 
-[MEMS sensor](microsensor.html) | [Particles in turbulence](twophase.html)
+[MEMS sensor](microsensor.html) | [Particles in turbulence](two_phase.html)
 :------------: | :-------------: 
 <img src = "../images/P1010129.JPG" width = "200"> | <img src = "../images/twophase.jpg" width = "200"> 
 

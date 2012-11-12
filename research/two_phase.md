@@ -1,38 +1,37 @@
-# Two-phase
+---
+layout: default
+title: Particle laden turbulent flows
+---
+
 
 ## Two-phase flows of solid particles in liquids
 
-### Why?
+### Where this problem is important?
 
-![][1] ![][2]
+![](http://lh3.google.com/_79Da28_58Ek/RkSz-A6KBUI/AAAAAAAAXo0/dQi-qwSTtTg/s800/sand_storm.jpg) 
 
 
 
-### What?
+### What we need to understand
 
 What we do not really know is: 
-
-
 
 1.  Coupling between the flow and the solid particle motion: 
     *   one- or two-way coupling? 
     *   what's important beyond the Stokes number? 
 
-This strongly affects our ability to model the two-phase, particulate flows on the computer and be sure that what we model really works 
+This strongly affects our ability to model the two-phase, particulate flows on the computer and be sure that what we model really works. A short introduction from the Wikipedia:[Particle laden flows](http://en.wikipedia.org/wiki/Particle-laden_flows)
 
 
 
-### How?
+### How do we study particle laden flows?
 
-We can **double** the [3D-PTV][3] system, that can capture **500 frames per second (fps)**, capture and store the images for about 10 minutes of the experiment. We can use another system, for example based on a single high-speed camera of 2000 fps and the four-mirror view splitter ([See it here][4]) and take measurements of the liquid phase (our usual flow tracers that diffract a green light) and the solid phase (solid particles of Silica Gel that are roughly 500 micrometers in diameter and have density of 1.4 gr/cm3). 
+We can **duplicate** the [3D-PTV](3dptv.html) system, that captures **500 frames per second (fps)** and stores the digital images for a long time (tens of minutes). We can use another system, for example based on a single high-speed camera of 2000 fps and the four-mirror view splitter (see the work of [Mark Kreizer](../people/mark_kreizer.html)) and take measurements of the liquid phase (our usual flow tracers that diffract a green light) and the solid phase (solid particles of Silica Gel that are roughly 500 micrometers in diameter and have density of 1.4 gr/cm.c.) 
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/C1WLE70_K1Y" frameborder="0" allowfullscreen></iframe>
   
 
+<img src="http://alexl.files.wordpress.com/2006/06/firsttrajectories.jpg" width="600">
 
-Below you can watch the video clip of our forcing machine with the two kinds of particles (tracers and solid particles) in action:  
- <param name='movie' value='http://video.google.com/googleplayer.swf?docId=1993403010539539382'/> <param name='allowScriptAccess' value='sameDomain' /> <param name='quality' value='best' /> <param name='bgcolor' value='#ffffff' /> <param name='scale' value='noScale' /> <param name='salign' value='TL' /> <param name='wmode' value='transparent' /> <param name='FlashVars' value='playerMode=embedded' />
+Screenshot of 3D-PTV software with the first trajectories
 
- [1]: http://tbn0.google.com/images?q=tbn:Pxrl3OIdcsVLDM:http://lh3.google.com/_79Da28_58Ek/RkSz-A6KBUI/AAAAAAAAXo0/dQi-qwSTtTg/s800/sand_storm.jpg ""
- [2]: http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg/180px-Libya_4608_Idehan_Ubari_Dunes_Luca_Galuzzi_2007.jpg ""
- [3]: http://www.eng.tau.ac.il/~alexlib/ptvwiki
- [4]: http://www.eng.tau.ac.il/~alexlib/ptvwiki/pmwiki.php?n=PTV.Splitter

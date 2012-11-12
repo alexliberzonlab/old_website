@@ -1,6 +1,11 @@
-# PODVorticity
+---
+layout: default
+title: POD of vorticity
+---
 
-Proper Orthogonal Decomposition (POD) of Vorticity = Identification of Coherent Structures in a Turbulent Boundary Layer Flow 
+## Proper Orthogonal Decomposition (POD) of vorticity vector fields
+
+**Proper Orthogonal Decomposition (POD) of Vorticity = Identification of Coherent Structures in a Turbulent Boundary Layer Flow**
 
 Turbulence and turbulent flows continue to magnetize the investigators as a problem that still requires understanding and the prediction of behavior. Starting from sketches of the turbulent flows of Leonardo Da Vinci, people repeatedly put forth effort to describe the flow properties. 
 
@@ -16,16 +21,16 @@ The example given below is the reconstruction of the 3D picture of the coherent 
 
 
 
-![][1]?w=484&h=351
+![](http://alexl.files.wordpress.com/2005/12/3dstructure.png)
 
-3D image, reconstructructed from POD modes3D image, reconstructructed from POD mods References 
+3D image, reconstructed from POD modes 3D image, reconstructed from POD mods 
 
-(see also Publications page): 
+### References 
 
-Liberzon A., Gurka R., Tiselj I. and Hetsroni G. (2005) “Spatial characterization of the numerically simulated vorticity fields of a flow in a flume”, Theoretical and Computation Fluid Dynamics, DOI. 10.1007/s00162-004-0156-y 
+(see also [Publications](../publicaitons.html) page): 
+
+Liberzon A., Gurka R., Tiselj I. and Hetsroni G. (2005) Ã¬Spatial characterization of the numerically simulated vorticity fields of a flow in a flume, Theoretical and Computation Fluid Dynamics, DOI. 10.1007/s00162-004-0156-y 
 
 Liberzon A., Gurka R., Lampert S. and G. Hetsroni, (2005) "Multi-dimensional characterization of coherent structures using three-plane stereoscopic PIV", accepted for oral presentation, 6th Int. Symposium on PIV, Pasadena, CA, September 2005. 
 
-Gurka R., Liberzon A. and Hetsroni G. (2005) "Spatial characteristics of the vorticity fields in a flume", accepted for publication in Int. J. of Heat and Fluid Flow.[link]
-
- [1]: http://alexl.files.wordpress.com/2005/12/3dstructure.png ""
+Gurka R., Liberzon A. and Hetsroni G. (2005) "Spatial characteristics of the vorticity fields in a flume", accepted for publication in Int. J. of Heat and Fluid Flow.
