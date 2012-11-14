@@ -12,12 +12,17 @@ Turbulence Structure Laboratory is a research laboratory at the School of Mechan
 >  Turbulence it is a disordered motion of fluid that has enormous practical importance. We believe that detailed experiments, jointly performed with the numerical simulations and leaded by the theoretical predictions will help us gaining better insight into the structure of turbulence. 
 
 
-We develop unique technologies such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](/research).  
+We develop unique technologies such as **multi-hot-cold-wire anemometers** and **3D particle tracking velocimetry** and implement those to the study the *structure of turbulence*. We are working on the novel methods to cope with the smallest, sub-Kolmogorov, scales of turbulent flows. Read more on the [Research](research/index.html).  
+
+###  Open positions
+
+We are looking for the Ph.D. candidates and postdocs for the following topics: [Open positions](openpositions.html)
+
 
 ### News: (see more on our [blog](blog.html))
 
 * **דרוש/ה סטודנט/ית לתואר שני או שלישי** [Open positions](openpositions.html)   
-* We got "Kamin" fund, in collaboration with the Technion and BGU to develop the flexible-blade in-line rheometer
+* We got "Kamin" fund, in collaboration with the Technion and BGU to develop the flexible-blade in-line rheometer, read about our [Patents](research/patents.html)
 * [Hadar Ben Gida](people/hadar_ben_gida.html) passed his M.Sc. seminar, congratulations. 
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) who has won the "Outstanding presentation" award at Israel Mechanical Engineering Society 2012 symposium. 
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
@@ -28,22 +33,19 @@ We develop unique technologies such as **multi-hot-cold-wire anemometers** and *
     * Three-dimensional particle tracking method using FPGA-based real-time image processing and four-view image splitter, Experiments in Fluids [link][13] 
 
 
-
-### Gallery: 
+### Image gallery 
 ![](images/calibration_in_situ.jpg)
 ![](images/lab.jpg)
 ![](images/theprobe.jpg)
 ![](images/cavity.jpg)
 
+
+### Video gallery
 Visit also our video gallery [Video](videogallery.html)
 
 	
 ### How to find us:
 [How to find the laboratory](howtofindus.html)
-
-###  Open positions
-
-We are looking for the Ph.D. candidates and postdocs for the following topics: [Open positions](openpositions.html)
 
 
 ### Undergraduate projects
