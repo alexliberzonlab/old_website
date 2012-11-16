@@ -26,5 +26,5 @@ You can clone the repository using SVN:
 ### Miscellaneous
 * Thesis style for the Tel Aviv University graduate thesis:
 	* Take it [compressed in a zip file](/files/TAU_thesis_template.zip)
-	* Or use the [online LaTeX compiled project](https://www.scribtex.com/projects/l-alex/tau_thesis_example/dirs/show/)
+	* Or use the [online LaTeX compiled project](https://www.sharelatex.com/project/4fb551385287695c3e033125)
 	* or get the [source code for LyX and LaTeX styles for Tel Aviv University thesis writing on Github](https://github.com/alexlib/tau_thesis_lyx_template)
