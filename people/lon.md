@@ -29,11 +29,7 @@ The Flexible Blade Viscometer is a new type of rotational viscometer. Most rotat
 
 This patent idea started out as just a simple modification to the standard overhead stirrer. One replaces the rigid stirring impeller with flexible blades, with strain gauges attached. The blades rotating in the fluid will bend in accordance to the viscosity of the fluid, i.e. a more viscous fluid will cause the blades to bend more. As well, the faster the blades turn, the more they will bend. Therefore, the measurement of the strain gauges and rpm should be enough to measure the viscosity of the fluid.
 
-Now, we are going in the direction of an Inline Viscometer, which can be attached to a system of pipes, so that one can have the ability to monitor the viscosity of the pipe flow in real-time.
 
 There have been three experiments performed on this Patent. The first was done by Roman Povolotsky, the second by Avi Friedman, and the third was by Me, Avi, and Tal Hadad. In parallel, Shlomo Markman is working on the Computational Fluid Dynamics Analysis.
 
 The first part of my project was to study/research those three experiments, and do theoretical & dimensional analysis on the Viscometer. The second part of my project was to pick and design a prototype. The third and last part, which is on the horizon, is to build the prototype, calibrate it, and show the feasibility of the patent for Newtonian Fluids.
-
-
-![](../images/viscometer.png)

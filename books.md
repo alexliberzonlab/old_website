@@ -9,7 +9,16 @@ title: Books and book sections
 
 ### A. Tsinober
 
-#### An informal introduction to turbulence
+
+
+
+### An informal conceptual introduction to turbulence (2nd Ed., 2009)
+
+![](images/9789048131730.jpg)
+
+[Link to the book](http://link.springer.com/book/10.1007/978-90-481-3174-7/page/1)
+
+#### An informal introduction to turbulence (1st Ed., 2002)
 
 <img src = "./images/informal_introduction.jpg" width="130">
 

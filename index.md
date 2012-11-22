@@ -21,23 +21,20 @@ We are looking for the Ph.D. candidates and postdocs for the following topics: [
 
 ### News: (see more on our [blog](blog.html))
 
+
 * **דרוש/ה סטודנט/ית לתואר שני או שלישי** [Open positions](openpositions.html)   
 * We got "Kamin" fund, in collaboration with the Technion and BGU to develop the flexible-blade in-line rheometer, read about our [Patents](research/patents.html)
 * [Hadar Ben Gida](people/hadar_ben_gida.html) passed his M.Sc. seminar, congratulations. 
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) who has won the "Outstanding presentation" award at Israel Mechanical Engineering Society 2012 symposium. 
 * Congratulations to [Hadar Traugott](people/hadar_traugott.html) for the Excellence in Studies Award of the Graduate School of the Faculty of Engineering
 * Congratulations to [Hadar Ben Gida](people/hadar_ben_gida.html) for receiving the The Rinna Bolle Student Travel Fund of Tel Aviv University
-* Recent publications: 
-    * Estimate of turbulent dissipation in a decaying turbulent grid flow, Exp. Thermal Fluid Science [link][11] 
-    * On the effects of dilute polymers on driven cavity turbulent flow, Int. J. Heat and Fluid Flow [link][12] 
-    * Three-dimensional particle tracking method using FPGA-based real-time image processing and four-view image splitter, Experiments in Fluids [link][13] 
 
 
 ### Image gallery 
-![](images/calibration_in_situ.jpg)
+<img src="images/Picture001.jpg" width="280">
 ![](images/lab.jpg)
 ![](images/theprobe.jpg)
-![](images/cavity.jpg)
+<img src="images/v3v.jpg" width="280">
 
 
 ### Video gallery
