@@ -25,8 +25,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 ### Ph.D. students
 * [Youry Borisenkov](people/youry.html)
-* Yosef Meller
-* [**Open position**](openpositions.html)
+* [Yosef Meller](people/yosef_meller.html)
 
 
 ### M.Sc. students
@@ -46,7 +45,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * []Dina Bass](people/dina_bass.html)
 * [Lon T. Cherryholmes](people/lon.html)
 * [Tyler Mehrman](people/tyler.html)
-* [Ron ]
+* [Ron Shnapp](people/ron_shnapp)
 
 
 ### Alumni
