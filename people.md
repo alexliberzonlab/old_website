@@ -42,7 +42,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Undergraduates and visitors
 * [Katy Barishev](people/katya_barishev.html)
 * [Alon Sussman](people/alon_sussmann.html)
-* []Dina Bass](people/dina_bass.html)
+* [Dina Bass](people/dina_bass.html)
 * [Lon T. Cherryholmes](people/lon.html)
 * [Tyler Mehrman](people/tyler.html)
 * [Ron Shnapp](people/ron_shnapp)
