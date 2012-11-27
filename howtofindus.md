@@ -8,9 +8,13 @@ title: How to find the laboratory
 
 ### How to find us
 
-Our lab is located in a **small building between** the Wolfson building of
-the Faculty of Engineering and the Computer Sciences building, next to the Mechanical Wokshop and 
-the new auditorium no. 020
+### Turbulence Structure Laboratory 
+The lab is located in a **small building between** the Wolfson building of
+the Faculty of Engineering and the Computer Sciences building, next to the Mechanical Wokshop and the new auditorium no. 020, see the map
+
+<img src="https://docs.google.com/drawings/pub?id=1QBADB8recuT0hiqRjvMxX2NoZ7Cm2BPz6lKFZkAn50o&amp;w=960&amp;h=720">
+
+
 
 ### Find Tel Aviv University
 
