@@ -9,6 +9,14 @@ See also our work on [Surfactants](surfactants.html)
 
 This the research project that started during the postdoctoral period at the ETH Zurich. The work is performed in close cooperation with the Swiss group of Dr. Michele Guala, Dr. Beat Luethi, Prof. Wolfgang Kinzelbach and with the direct connection to Prof. Arkady Tsinober. Later we had Dr. Markus Holzner joining our efforts. The results are published in Physics of Fluids in 2005, 2006 and 2009 papers and in numerous conferences and meetings. 
 
+
+### The most interesting question is "how"?
+
+How the minute amount of relatively small polymer molecules (although long, but short as compared to the Kolmogorov small scales of turbulence) can make such an enormous effect:
+
+![](../images/Gadd_Nature_jets.png)  
+From: Gadd, G.E. "Turbulence damping and drag reduction produced by certain additives in water", Nature, 1965
+
 ### Goals
 
 1.  The main goal was (it still is) a comparative study of the small scale properties of a quasi-isotropic turbulence in a Newtonian fluid (water) and in dilute polymer solution (up to 100 wppm) 
