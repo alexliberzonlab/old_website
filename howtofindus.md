@@ -23,7 +23,7 @@ the Faculty of Engineering and the Computer Sciences building, next to the Mecha
 
 ### Find the Faculty of Engineering on the [university map](http://www2.tau.ac.il/map/unimaple1.asp)
 
-![Map of the university]({{site.baseurl}}/images/tau_map.jpg "Our building is between building 34 and 36, right at the parking 15")
+![Map of the university](images/tau_map.jpg "Our building is between building 34 and 36, right at the parking 15")
 
 [PDF map]({{site.baseurl}}/files/taumap.pdf)
 
