@@ -44,7 +44,7 @@ We use:
 
 The rules are:
 
-1. **All our work** has to be **VERSION CONTROL** managed, i.e. thesis, articles, source code, whether it's ~~Word~~, LyX, ~~Matlab~~, ~~Excel~~, LaTeX, Python, etc.
+1. **All our work** has to be **VERSION CONTROL** managed, i.e. thesis, articles, source code, whether it's Word, LyX, ~~Matlab~~, ~~Excel~~, LaTeX, Python, etc.
 2. **Every** single function has to be TESTed. 
 3. Use **Git**, either locally or on [Bitbucket](http://bitbucket.org) or if you deal with the open and publicly available source, then [Github](http://github.com) 
 
