@@ -11,7 +11,17 @@ title: Hadar Traugott
 
 Hadar Traugott works on the resuspension of solid particles in turbulent environment. Turbulent flow picks up the solid particles lying on the bottom with and without mean flow (or mean shear). This aspect is not known as good as the resuspension in fixed or moving beds of flowing channels. The question whether different mechanisms of resuspension are observable experimentally. 
 
+
+### CV
+
+Hadar's resume is available from this link: [Hadar_Traugott_CV.pdf](https://dl.dropbox.com/u/5266698/hadar_traugott_CV.pdf)
+
+
+### Publications
+
 Hadar Traugott has won the first prize at the [Israel Mechanical Engineering Society 2012 symposium](http://www.icme2012.org.il/) for the outstanding student presentation. The presentation is attached  <http://www.eng.tau.ac.il/~icme2012/all_nf1/ICME_082_Traugott.pdf>. 
+
+
 
 Hadar also received the Dean's award for the outstanding achievements during M.Sc. studies. Her work has been presented at:
 
