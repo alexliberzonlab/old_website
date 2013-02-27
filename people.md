@@ -37,14 +37,12 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
 * [Erez Wenger](people/erez_wenger.html), co-supervised with Prof. Tsinober
 * [Mark Baevsky](people/mark_baevsky.html)
+* [Yitzchak Shuman](people/yitzchak_shuman.html), co-supervised with Prof. Slava Krylov
 
 
 ### Undergraduates and visitors
-* [Katy Barishev](people/katya_barishev.html)
-* [Alon Sussman](people/alon_sussmann.html)
+* [Alon Sussmann](people/alon_sussmann.html)
 * [Dina Bass](people/dina_bass.html)
-* [Lon T. Cherryholmes](people/lon.html)
-* [Tyler Mehrman](people/tyler.html)
 * [Ron Shnapp](people/ron_shnapp)
 
 
@@ -64,3 +62,5 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Tracey Hayse](http://www.linkedin.com/in/traceyhayse), MITSI program, 2011 [backup](people/tracey.html)
 * [Tyler Mehrman](http://zetapsi.mit.edu/brothers/11/), MISTI program, 2012
 * [Dikla Kersh](http://il.linkedin.com/pub/dikla-kersh/14/85b/27), M.Sc. Graduated Nov. 2012 [backup](people/dikla_kersh.html)
+* [Lon T. Cherryholmes](people/lon.html), B.Sc., graduated 2013
+* [Katy Barishev](people/katya_barishev.html), B.Sc., graduated 2013
