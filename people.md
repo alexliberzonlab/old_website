@@ -7,7 +7,7 @@ title: People
 
 November 2012. Left to right:   
 Top row: Mark Baevsky, Zachary Taylor, Lon Cherryholmes, Avi Friedman, Alon Sussmann.    
-Bottom row: Ekaterina Barishev, Erez Wenger, Yosef Meller, Alex Liberzon, Hadar Biran, Hadar Traugott  
+Bottom row: Katya Talmor, Erez Wenger, Yosef Meller, Alex Liberzon, Hadar Biran, Hadar Traugott  
 Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 
