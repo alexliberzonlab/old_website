@@ -43,7 +43,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Undergraduates and visitors
 * [Alon Sussmann](people/alon_sussmann.html)
 * [Dina Bass](people/dina_bass.html)
-* [Ron Shnapp](people/ron_shnapp)
+* [Ron Shnapp](people/ron_shnapp.html)
+* [Lilly Verso](people/lilly_verso.html)
 
 
 ### Alumni
