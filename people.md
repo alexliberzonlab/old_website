@@ -1,6 +1,7 @@
 ---
 layout: default
 title: People
+published: true
 ---
 
 <img src = "images/group_photo_nov2012.jpg" width="600">  
@@ -45,6 +46,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Dina Bass](people/dina_bass.html)
 * [Ron Shnapp](people/ron_shnapp.html)
 * [Lilly Verso](people/lilly_verso.html)
+* [Alexander Hinterberger](people/alexander_hinterberger.html)
 
 
 ### Alumni
