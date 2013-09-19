@@ -22,7 +22,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * Gregory Gulitski, Ph.D.
 
 ### Postdocs
-* [Zachary Taylor, Ph.D.](people/zach.html)
+
 
 ### Ph.D. students
 * [Youry Borisenkov](people/youry.html)
@@ -32,20 +32,15 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### M.Sc. students
 * [David Altura](people/david_altura.html), co-supervised with Prof. Neima Brauner
 * [Hadar Traugott](people/hadar_traugott.html)
-* [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
 * [Shlomo Markman](people/shlomo_markman.html)
 * [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
-* [Erez Wenger](people/erez_wenger.html), co-supervised with Prof. Tsinober
 * [Mark Baevsky](people/mark_baevsky.html)
 * [Yitzchak Shuman](people/yitzchak_shuman.html), co-supervised with Prof. Slava Krylov
 
 
 ### Undergraduates and visitors
-* [Alon Sussmann](people/alon_sussmann.html)
-* [Dina Bass](people/dina_bass.html)
 * [Ron Shnapp](people/ron_shnapp.html)
-* [Lilly Verso](people/lilly_verso.html)
 * [Alexander Hinterberger](people/alexander_hinterberger.html)
 
 
@@ -67,3 +62,10 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Dikla Kersh](http://il.linkedin.com/pub/dikla-kersh/14/85b/27), M.Sc. Graduated Nov. 2012 [backup](people/dikla_kersh.html)
 * [Lon T. Cherryholmes](people/lon.html), B.Sc., graduated 2013
 * [Katya Talmor](people/katya_talmor.html), B.Sc., graduated 2013
+* [Alon Sussmann](people/alon_sussmann.html), now at his final year project
+* [Dina Bass](people/dina_bass.html), Graduated B.Sc. Biomedical Engineering, Sep. 2013
+* [Lilly Verso](people/lilly_verso.html), M.Sc. Politechino di Torion, graduated July 2013
+* [Zachary Taylor, Ph.D.](people/zach.html), ex post-doc, Wind Energy Research Center, Canada
+* [Erez Wenger](people/erez_wenger.html), changed his topic to Solar Energy, September 2013
+* [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka, graduated May 2013
+
