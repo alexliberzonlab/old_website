@@ -2,6 +2,7 @@ auto: false
 server: false
 lsi: false
 pygments: true
+markdown: RDiscount
 permalink: /:year/:month/:day/:title
 paginate: 10
 title: Turbulence Structure Laboratory
