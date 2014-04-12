@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Multi hot wire cailbration LUT algorithm
+title: Multi hot wire cailbration Look-Up Table algorithm
 ---
 
 
-## Multi-hot/cold-wire probe calibration algorithm, based on look-up tables
 
 This is a M.Sc. project of Efi Ezri
 

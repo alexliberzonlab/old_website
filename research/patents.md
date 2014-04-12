@@ -3,9 +3,8 @@ layout: default
 title: Patents
 ---
 
-## Patents from our laboratory
+###  Patents from our laboratory
 
-## Patents
 
 1. **Liberzon, A**. and Gurka, R.b, 2011, High sensitivity flexible blade rheometer. 
 

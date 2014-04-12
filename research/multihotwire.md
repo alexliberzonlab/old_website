@@ -4,8 +4,6 @@ title: Multi-hot-wire probe
 ---
 
 
-### Multi-hot-cold-wire anemometer
-
  
 ![](../images/calibration_in_situ.jpg)
 ![](http://lh3.google.com/particle.tracking/R3QZFDkCvjI/AAAAAAAABSQ/VU6CpdzqR74/s288/theprobe.jpg) 

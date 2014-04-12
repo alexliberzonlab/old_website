@@ -3,7 +3,6 @@ layout: default
 title: Electronic tagging
 ---
 
-## ElectronicTagging
 
 #### Pesticide control
 

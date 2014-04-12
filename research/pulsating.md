@@ -4,8 +4,6 @@ title: Pulsating flows in compliant tubes
 ---
 
 
-### Pulsating flow in compliant tubes
-
 The pulsating flows in compliant pipes is very complex system in which the flow is unsteady, inhomogeneous and strongly and bi-directionally coupled with the elastic motion of the flexible enclosure. This creates most difficult situation in which parametrization and experimental study is of utmost importance.
 
 ### Experimental system 

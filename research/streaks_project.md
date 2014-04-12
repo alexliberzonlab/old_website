@@ -3,7 +3,6 @@ layout: default
 title: Streaks tracking project
 ---
 
-# Streaks Tracking
 
 In the very fast flows, when the shutter of the camera is open for too long (relatively to the speed of the particles in the flow) the image is not a particle but a streak: streakline of a particle passing through the field of view. The beauty is that the streaks has so much information that it can improve our tracking ability a lot: it has 
 

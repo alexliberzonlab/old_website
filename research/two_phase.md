@@ -4,7 +4,6 @@ title: Particle laden turbulent flows
 ---
 
 
-## Two-phase flows of solid particles in liquids
 
 ### Where this problem is important?
 

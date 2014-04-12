@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Manual of MC1324 camera operation
+title: Manual of the high speed real-time MC1324 camera operation
 ---
 
-## Mikrotron MC-1324 CMOS High Speed Camera
+
+
+###Mikrotron MC-1324 CMOS High Speed Camera
 
 
 ![][1]

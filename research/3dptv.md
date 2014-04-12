@@ -3,7 +3,6 @@ layout: default
 title: 3D-PTV from ETH Zurich
 ---
 
-## 3D PTV ETH
 
 3D-PTV is an abbreviation of the "three-dimensional particle tracking velocimetry", see more on Wikipedia.
 

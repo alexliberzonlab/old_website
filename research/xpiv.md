@@ -3,7 +3,6 @@ layout: default
 title: XPIV - multi-plane stereoscopic PIV
 ---
 
-## XPIV - multi-plane stereoscopic PIV
 
 XPIV is our original development (patent pending) technology, developed back in 1999 - 2003 during the 
 Ph.D. studies together with Roi Gurka. 

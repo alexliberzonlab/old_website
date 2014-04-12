@@ -1,9 +1,8 @@
 ---
 layout: default
-title: POD of vorticity
+title: POD of enstrophy
 ---
 
-## Proper Orthogonal Decomposition (POD) of vorticity vector fields
 
 **Proper Orthogonal Decomposition (POD) of Vorticity = Identification of Coherent Structures in a Turbulent Boundary Layer Flow**
 

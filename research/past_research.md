@@ -3,9 +3,6 @@ layout: default
 title: Past research projects
 ---
 
-## Past research projects
-
-
 
 #### [XPIV](xpiv.html)
 ![](http://alexl.files.wordpress.com/2006/01/xpiv1.jpg)

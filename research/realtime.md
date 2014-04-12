@@ -3,6 +3,8 @@ layout: default
 title: Real time 3D Particle Tracking with FPGA
 ---
 
+
+
 ### The bottleneck problem
 
 The bottleneck of the high speed tracking systems today is the data transfer. Our real time image processing solution on FPGA is removing this constraint. One can achieve a single-camera-with-FPGA solution for the 3D Particle Tracking at very moderate budget. No synchronization, no data transfer limits, no framegrabbers, no image processing in software. Record and track in Matlab/Python or our 3D-PTV software. 

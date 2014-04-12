@@ -3,7 +3,6 @@ layout: default
 title: Unsteady air flow cooling of electronic devices
 ---
 
-## Cooling of electronic devices by unsteady air flows
 
 <html>
 <img src="../images/promo.jpg" width="200" align = "right">

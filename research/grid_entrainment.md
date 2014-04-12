@@ -3,7 +3,6 @@ layout: default
 title: Entrainment across turbulent/non-turbulent interface
 ---
 
-# Entrainment across turbulent/non-turbulent interface
 
 This research is performed by Markus Holzner, myself, Dr. Michele Guala, in cooperation with Prof. Arkady Tsinober and Prof. Wolfgang Kinzelbach, at ETH Zurich
 

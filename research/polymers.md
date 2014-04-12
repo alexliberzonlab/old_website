@@ -5,7 +5,6 @@ title: Turbulence of dilute polymer solutions
 
 See also our work on [Surfactants](surfactants.html)
 
-## Turbulence in dilute polymers
 
 This the research project that started during the postdoctoral period at the ETH Zurich. The work is performed in close cooperation with the Swiss group of Dr. Michele Guala, Dr. Beat Luethi, Prof. Wolfgang Kinzelbach and with the direct connection to Prof. Arkady Tsinober. Later we had Dr. Markus Holzner joining our efforts. The results are published in Physics of Fluids in 2005, 2006 and 2009 papers and in numerous conferences and meetings. 
 
