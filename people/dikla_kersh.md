@@ -4,7 +4,6 @@ title: Dikla Kersh
 ---
 
 
-
 My bio on [LinkedIn](http://il.linkedin.com/pub/dikla-kersh/14/85b/27)
 
 ![](../images/IMG_9091.jpg)
