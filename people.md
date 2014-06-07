@@ -43,6 +43,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Undergraduates and visitors
 * [Ron Shnapp](people/ron_shnapp.html)
 * [Barak Glassman](people/barak_glassman.html)
+* [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
+* [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
 
 
 
