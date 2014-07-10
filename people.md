@@ -23,6 +23,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 ### Postdocs
 
+* [Want to be here?](open_positions.html)
+
 
 ### Ph.D. students
 * [Youry Borisenkov](people/youry.html)
@@ -31,8 +33,6 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 
 ### M.Sc. students
-
-
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
 * [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
 * [Mark Baevsky](people/mark_baevsky.html)
@@ -42,7 +42,6 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 ### Undergraduates and visitors
 * [Ron Shnapp](people/ron_shnapp.html)
-* [Barak Glassman](people/barak_glassman.html)
 * [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
 * [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
 
@@ -68,12 +67,13 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Katya Talmor](people/katya_talmor.html), B.Sc., graduated 2013
 * [Alon Sussmann](people/alon_sussmann.html), now at his final year project
 * [Dina Bass](people/dina_bass.html), Graduated B.Sc. Biomedical Engineering, Sep. 2013
-* [Zachary Taylor, Ph.D.](people/zach.html), ex post-doc, Wind Energy Research Center, Canada
+* [Zachary Taylor, Ph.D.](people/zach.html), ex-post-doc, Wind Energy Research Center, Canada
 * [Erez Wenger](people/erez_wenger.html), changed his topic to Solar Energy, September 2013
 * [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka, graduated May 2013
 * [Yitzchak Shuman](people/yitzchak_shuman.html), co-supervised with Prof. Slava Krylov
 * [Shlomo Markman](people/shlomo_markman.html)
 * [David Altura](people/david_altura.html), co-supervised with Prof. Neima Brauner
-* [Hadar Traugott](people/hadar_traugott.html)
+* [Hadar Traugott](people/hadar_traugott.html), [Dead Sea Works](http://en.wikipedia.org/wiki/Dead_Sea_Works) 
 * [Alexander Hinterberger](people/alexander_hinterberger.html), Vienna Technical University, Austria. 
+* [Barak Glassman](people/barak_glassman.html)
 
