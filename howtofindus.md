@@ -13,6 +13,11 @@ title: How to reach the laboratory
 </html>
 
 
+### View from the University side 
+
+![](images/view_from_wolfson.png)
+
+
 ### Walking from the train station
 
 [Walking path from the train station](http://goo.gl/maps/lcNq6)
