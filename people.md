@@ -34,8 +34,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### M.Sc. students
 * [Ron Shnapp](people/ron_shnapp.html)
 * [Yoav Kessler](people/yoav_kessler.html), co-supervised with Prof. Slava Krylov
-* [Nimrod Daniel](people/nimrod_daniel.html)
-* [Barak Even Chen](people/nimrod_daniel.html), co-supervised with Prof. Idit Avrahami
+* [Barak Even Chen](people/barak_even_chen.html), co-supervised with Prof. Idit Avrahami
 * [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
 * [Shaily Wald](people/shaily_wald.html), co-supervised with Prof. Idit Avrahami
 * [Nimrod Daniel](people/nimrod_daniel.html)
