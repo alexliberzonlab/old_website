@@ -21,30 +21,29 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Michael Kholmyansky](people/kholmyansky.html), Ph.D.
 * Gregory Gulitski, Ph.D.
 
-### Postdocs
 
-* [Want to be here?](open_positions.html)
+### Postdocs
+* [Youry Borisenkov](people/youry.html)
 
 
 ### Ph.D. students
-* [Youry Borisenkov](people/youry.html)
 * [Yosef Meller](people/yosef_meller.html)
 * [Lilly Verso](people/lilly_verso.html)
 
 
 ### M.Sc. students
-* [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
-* [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
-* [Mark Baevsky](people/mark_baevsky.html)
-
-
+* [Ron Shnapp](people/ron_shnapp.html)
+* [Yoav Kessler](people/yoav_kessler.html), co-supervised with Prof. Slava Krylov
+* [Nimrod Daniel](people/nimrod_daniel.html)
+* [Barak Even Chen](people/nimrod_daniel.html), co-supervised with Prof. Idit Avrahami
+* [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
+* [Shaily Wald](people/shaily_wald.html), co-supervised with Prof. Idit Avrahami
+* [Nimrod Daniel](people/nimrod_daniel.html)
 
 
 ### Undergraduates and visitors
-* [Ron Shnapp](people/ron_shnapp.html)
 * [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
 * [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
-
 
 
 ### Alumni
@@ -76,4 +75,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Hadar Traugott](people/hadar_traugott.html), [Dead Sea Works](http://en.wikipedia.org/wiki/Dead_Sea_Works) 
 * [Alexander Hinterberger](people/alexander_hinterberger.html), Vienna Technical University, Austria. 
 * [Barak Glassman](people/barak_glassman.html)
+* [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
+* [Mark Baevsky](people/mark_baevsky.html)
+* [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
+
 
