@@ -38,6 +38,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
 * [Shaily Wald](people/shaily_wald.html), co-supervised with Prof. Idit Avrahami
 * [Nimrod Daniel](people/nimrod_daniel.html)
+* [Oz Habiby](people/oz_habiby.html)
 
 
 ### Undergraduates and visitors
