@@ -8,23 +8,6 @@ The main research interests are <strong>turbulent flows</strong> in natural and 
 Some examples are given below: 
 
 
-### Multi hot-wire probe and small scales
-
-
-<img src = "../images/calibration_in_situ.jpg" width = "140px" height="140px" class="img-circle">
-
-<p>
-	The lab has been developing this unique multi-hot-cold-wire probe for more than 20 years. The original work has been published in the infamous work by Kit, Dracos and Tsinober in 1991 [JFM](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=398416). The nice photo was taken during the 2005 campaign to Swiss Alps, where the velocity and temperature gradients at highest at the time Taylor microscale Reynolds number (10,000) turbulent flow were measured. 
-</p> <a href="multihotwire.html"> <button type="button" class="btn btn-info btn-sm">More ...</button></a>
-
-### MEMS sensor for the sub-Kolmogorov resolution	
-
-<img src = "../images/P1010129.JPG" width = "140px" height="140px" class="img-circle"> 
-
-<p>
-	The smallest multi-hot-cold-wire probe that we could build using the mechanical tools was of the order of 1-10 Kolmogorov length scales. In order to measure the sub-Kolmogorov scales we had to develop a novel miniature probe based on the sterelithography technology. The new design allows to create a probe of the order of 0.1-0.5 Kolmogorov scale. 
-</p> <a href="microsensor.html"> <button type="button" class="btn btn-info btn-sm">More ...</button></a>
-
 
 ### Particles in turbulence
 
@@ -81,8 +64,6 @@ Some examples are given below:
 An idea to use the unsteadiness of the flow in order to increase the heat transfer coefficient and thus improve the heat transfer rates is not new. We took this idea into the system which is typically poorly designed - the flat heat sink with the air fan cooling. This system is highly inefficient due to the stagnation zones inside the heat sink channels. Our method is improving the heat transfer efficiency of such systems by re-using the natural convection and better flow and heat transfer control. 
 
 </p> <a href="cooling.html"> <button type="button" class="btn btn-info btn-sm">More ...</button></a>
-
-
 
 ### Pulsating flows
 
