@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Turbulence Structure Laboratory
+title: Alex Liberzon Laboratory
 ---
-# Turbulence Structure Laboratory
+# Alex Liberzon Laboratory
 
-## Welcome to the Turbulence Structure Laboratory website
+## Welcome to the Alex Liberzon Laboratory website
 
-Turbulence Structure Laboratory is a research laboratory at the School of Mechanical Engineering, Tel Aviv University, studying the structure of turbulent flows. 
+Alex Liberzon Laboratory is a research laboratory at the School of Mechanical Engineering, Tel Aviv University, studying the structure of turbulent flows. 
 
 ### Turbulence
 

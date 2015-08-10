@@ -4,7 +4,7 @@ title: Lilly Verso
 ---
 
 
-Lilly Verso was first our guest from Polytechnico Di Torino. He's working on his masters degree project at the laboratory of Prof. Daniela Tordella <http://areeweb.polito.it/ricerca/philofluid/people/72-daniela-tordella.html> and visits the Turbulence Structure Laboratory under the IAESTE students exchange program.
+Lilly Verso was first our guest from Polytechnico Di Torino. He's working on his masters degree project at the laboratory of Prof. Daniela Tordella <http://areeweb.polito.it/ricerca/philofluid/people/72-daniela-tordella.html> and visits the Alex Liberzon Laboratory under the IAESTE students exchange program.
 
 Lilly Verso successfully graduated in July 2013 and joined the lab as a Ph. D. student in 2014. Lilly works on the problem of turbulent entrainment across stratified layers. June 2015 is assigned as the Ph.D. candidacy exam. 
 

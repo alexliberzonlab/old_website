@@ -6,7 +6,7 @@ title: Ekaterina Barishev
 
 <img src = "../images/katy_barishev.jpg" width = "250" align ="right">
 
-Hello, My name is Ekaterina Barishev and I’m 4th year BSc student in Bio-Medical Engineering and research assistant to Hadar Biran in Turbulence Structure Laboratory.
+Hello, My name is Ekaterina Barishev and I’m 4th year BSc student in Bio-Medical Engineering and research assistant to Hadar Biran in Alex Liberzon Laboratory.
 
 My final graduation project is: **Flow Characterization In Coronary Tree With Stenosis**.
 

@@ -10,7 +10,7 @@ Michael worked on his final project with the lab, working on the design and cons
 
 ![](../images/oscillating_grid.jpg)
 
-### Prototype, working in the Turbulence Structure Laboratory
+### Prototype, working in the Alex Liberzon Laboratory
 
 
 ![2](http://lh3.ggpht.com/particle.tracking/SGagBYKHvdI/AAAAAAAACJA/MqnpzrOjsXw/s144/Image000.jpg)

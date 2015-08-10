@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Turbulence Structure Laboratory
+title: Alex Liberzon Laboratory
 ---
 
 ### Links
 
-Turbulence Structure Laboratory is affiliated with the following groups and organizations:
+Alex Liberzon Laboratory is affiliated with the following groups and organizations:
 
 1. [International Collaboration on Turbulence Research](http://www.ictr.eu)
 2. [COST action MP0806 "particles in turbulence"](http://mp0806.cineca.it/)

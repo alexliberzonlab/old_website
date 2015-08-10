@@ -20,7 +20,7 @@ My specialization tracks in Mechanical Engineering were:
 1. Structures & Computational Mechanics
 2. Aeronautics & Space
 
-My capstone project, under the direct supervision of Prof. Alex Liberzon, and with the kind assistance of the faculty engineer, Mr. Eli Kronish, is to build and test a prototype of the University Patent-Pending "Flexible-Blade Viscometer" at the Turbulence Structure Laboratory. This project is my final achievement for my Bachelor's degree.
+My capstone project, under the direct supervision of Prof. Alex Liberzon, and with the kind assistance of the faculty engineer, Mr. Eli Kronish, is to build and test a prototype of the University Patent-Pending "Flexible-Blade Viscometer" at the Alex Liberzon Laboratory. This project is my final achievement for my Bachelor's degree.
 
 
 ### Flexible blade viscometer (patent-pending technology)

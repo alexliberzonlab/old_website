@@ -11,7 +11,7 @@ title: Alex Liberzon
 <img src = "../images/alex_lab2.jpg" align = "right">
 </html>
 
-Alex has joined the Turbulence Structure Laboratory since 2006, after his postdoctoral
+Alex has joined the Alex Liberzon Laboratory since 2006, after his postdoctoral
 period at ETH Zurich. Alex graduated from the Mechanical Engineering at the Technion, Haifa in 2003. 
 The research interests are related to experimental fluid dynamics, with the special focus on 
 turbulent flows. More specifically, the major gole is to understand the changes of turbulence

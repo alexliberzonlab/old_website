@@ -5,9 +5,9 @@ title: How to preserve the knowledge in the lab
 
 
 
-### Turbulence Structure Laboratory software guide 
+### Alex Liberzon Laboratory software guide 
 
-All the new members of the Turbulence Structure Laboratory have to find their way to collaborate with the other members. Therefore we strongly recommend to all the existing members to change their working environment to comply with the present list of tools and to all the new members simply to learn the best practice and continue to develop the single, centralized and continuous evolution path of knowledge in the laboratory (i.e. version controlled by Git)
+All the new members of the Alex Liberzon Laboratory have to find their way to collaborate with the other members. Therefore we strongly recommend to all the existing members to change their working environment to comply with the present list of tools and to all the new members simply to learn the best practice and continue to develop the single, centralized and continuous evolution path of knowledge in the laboratory (i.e. version controlled by Git)
 
 
 #### Numerical tools
