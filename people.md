@@ -15,15 +15,9 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Faculty
 
 * [Alex Liberzon](people/alex_lab.html), Head (Associate Prof.)
-* [Arkady Tsinober](http://www.eng.tau.ac.il/~tsinober) (Emeritus Prof.)
 
-### Senior scientists and engineers
-* [Michael Kholmyansky](people/kholmyansky.html), Ph.D.
+### Lab Engineer
 * Gregory Gulitski, Ph.D.
-
-
-### Postdocs
-* [Youry Borisenkov](people/youry.html)
 
 
 ### Ph.D. students
@@ -44,10 +38,10 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Undergraduates and visitors
 * [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
 * [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
+* [Sabrina Shlain](people/sabrina_shlain.html), Tel Aviv University
 
 
 ### Alumni
-* [Slava Yorish](http://www.linkedin.com/pub/svyatoslav-yorish/30/966/105), Georgia Tech, USA
 * Ephi Ezri, M.Sc. Graduated 2008
 * [Assaf Barel](http://il.linkedin.com/pub/assaf-barel/7/364/686), M.Sc. Graduated 2008
 * Eduard Patlakh, M.Sc. Graduated 2008 [backup](people/eduard_patlakh.html)
