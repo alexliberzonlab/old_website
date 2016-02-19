@@ -23,10 +23,11 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 ### Ph.D. students
 * [Yosef Meller](people/yosef_meller.html)
 * [Lilly Verso](people/lilly_verso.html)
+* [Ron Shnapp](people/ron_shnapp.html)
 
 
 ### M.Sc. students
-* [Ron Shnapp](people/ron_shnapp.html)
+
 * [Yoav Kessler](people/yoav_kessler.html), co-supervised with Prof. Slava Krylov
 * [Barak Even Chen](people/barak_even_chen.html), co-supervised with Prof. Idit Avrahami
 * [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
@@ -36,8 +37,6 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 
 ### Undergraduates and visitors
-* [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
-* [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
 * [Sabrina Shlain](people/sabrina_shlain.html), Tel Aviv University
 
 
@@ -72,5 +71,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Avi Friedman](people/avi_friedman.html), co-supervised with Dr. Gabor Kosa
 * [Mark Baevsky](people/mark_baevsky.html)
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
+* [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
+* [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
+
 
 
