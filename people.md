@@ -32,7 +32,6 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Barak Even Chen](people/barak_even_chen.html), co-supervised with Prof. Idit Avrahami
 * [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
 * [Shaily Wald](people/shaily_wald.html), co-supervised with Prof. Idit Avrahami
-* [Nimrod Daniel](people/nimrod_daniel.html)
 * [Oz Habiby](people/oz_habiby.html)
 
 
@@ -73,6 +72,8 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Hadar Biran](people/hadar_biran.html), co-supervised with Dr. Idit Avrahami
 * [Lisa Yang](people/lisa_yang.html), [MIT-Israel program](http://misti.mit.edu/mit-israel)
 * [Sarah Berdugo](people/sarah_berdugo.html), Pierre et Marie Curie University, Paris
+* [Nimrod Daniel](people/nimrod_daniel.html)
+
 
 
 
