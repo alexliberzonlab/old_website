@@ -27,6 +27,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Yosef Meller](people/yosef_meller.html)
 * [Lilly Verso](people/lilly_verso.html)
 * [Ron Shnapp](people/ron_shnapp.html)
+* [Hadar Traugott](people/hadar_traugott.html)
 
 
 ### M.Sc. students

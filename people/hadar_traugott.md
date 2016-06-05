@@ -4,11 +4,18 @@ title: Hadar Traugott
 ---
 
 
+
+
 <html>
 <img src = "../images/020320111917.jpg" align = "right" width = "300">
 </html>
 
-Hadar Traugott works on the resuspension of solid particles in turbulent environment. Turbulent flow picks up the solid particles lying on the bottom with and without mean flow (or mean shear). This aspect is not known as good as the resuspension in fixed or moving beds of flowing channels. The question whether different mechanisms of resuspension are observable experimentally. 
+Hadar is back after a couple of years of research in the Dead Sea Corporations. She is going to do her Ph.D. on the bio-refinery and macro-algae growth in the open sea project. Hadar is a proud awardee of the Boris Mints Institute scholarship. 
+
+
+-----
+
+Hadar Traugott master thesis was the resuspension of solid particles in turbulent environment. Turbulent flow picks up the solid particles lying on the bottom with and without mean flow (or mean shear). This aspect was not known as good as the resuspension in fixed or moving beds of flowing channels. The question whether different mechanisms of resuspension are observable experimentally. 
 
 
 ### CV
