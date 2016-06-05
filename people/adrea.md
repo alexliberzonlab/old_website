@@ -15,4 +15,4 @@ Adrea is working with moths, studying their navigation based on olfactory search
 
 
 
-![](../images/swimmer_project.png)
+![](../images/moth_wind_tunnel.png)
