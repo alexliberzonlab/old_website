@@ -21,7 +21,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 
 
 ### Postdocs
-* Adrea Gonzalez-Karlsson (people/adrea.html), TAU and Volcani Center
+* [Adrea Gonzalez-Karlsson](people/adrea.html), TAU and Volcani Center
 
 ### Ph.D. students
 * [Yosef Meller](people/yosef_meller.html)
