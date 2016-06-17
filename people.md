@@ -27,16 +27,18 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Yosef Meller](people/yosef_meller.html)
 * [Lilly Verso](people/lilly_verso.html)
 * [Ron Shnapp](people/ron_shnapp.html)
-* [Hadar Traugott](people/hadar_traugott.html)
+* [Hadar Traugott](people/hadar_traugott.html), together with Dr. Alex Golberg, Porter School of Environmental Studies
 
 
 ### M.Sc. students
 
-* [Yoav Kessler](people/yoav_kessler.html), co-supervised with Prof. Slava Krylov
-* [Barak Even Chen](people/barak_even_chen.html), co-supervised with Prof. Idit Avrahami
-* [Shirly Steinlauf](people/shirly_steinlauf.html), co-supervised with Prof. Idit Avrahami
-* [Shaily Wald](people/shaily_wald.html), co-supervised with Prof. Idit Avrahami
-* [Oz Habiby](people/oz_habiby.html)
+* [Yoav Kessler](people/yoav_kessler.html), together with Prof. Slava Krylov
+* [Barak Even Chen](people/barak_even_chen.html), together with Prof. Idit Avrahami
+* [Shirly Steinlauf](people/shirly_steinlauf.html), together with Prof. Idit Avrahami
+* [Shaily Wald](people/shaily_wald.html), together with Prof. Idit Avrahami
+* [Oz Habiby](people/oz_habiby.html), together with Dr. Alex Golberg, Porter School of Environmental Studies
+* [Meiron Zollmann](people/meiron_zollmann.html), together with Dr. Alex Golberg, Porter School of Environmental Studies
+
 
 
 ### Undergraduates and visitors
@@ -62,7 +64,7 @@ Missing: Hadar Ben Gida, Youry Borisenkov, Dina Bass
 * [Katya Talmor](people/katya_talmor.html), B.Sc., graduated 2013
 * [Alon Sussmann](people/alon_sussmann.html), now at his final year project
 * [Dina Bass](people/dina_bass.html), Graduated B.Sc. Biomedical Engineering, Sep. 2013
-* [Zachary Taylor, Ph.D.](people/zach.html), ex-post-doc, Wind Energy Research Center, Canada
+* [Zachary Taylor, Ph.D.](people/zach.html), ex-postdoc, Wind Energy Research Center, Canada
 * [Erez Wenger](people/erez_wenger.html), changed his topic to Solar Energy, September 2013
 * [Hadar Ben Gida](people/hadar_ben_gida.html), co-supervised with Dr. Roi Gurka, graduated May 2013
 * [Yitzchak Shuman](people/yitzchak_shuman.html), co-supervised with Prof. Slava Krylov
