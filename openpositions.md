@@ -3,20 +3,17 @@ layout: default
 title: Open positions
 ---
 
-## Open positions
+### Two Ph.D. positions for the international students (June 2016)
+
+1. Lagrangian dynamics of inertial particles crossing turbulent/non-turbulent interface
+1. Lagrangian dynamics of inertial particles crossing turbulent/non-turbulent interface
 
 
-<img src ="images/phd_announcement_gif.png" width ="600">
+**Funding**
 
+[Alex Liberzon Laboratory](http://goo.gl/AxBCv) research focuses on the key mechanisms of turbulent flows. We are one of the partners in the Marie Sklodowska-Curie Action, sponsored by the Horizon 2020 EU program, abbreviated as "COMPLETE". 
 
-### Ph. D. position at the Turbulent Structure Laboratory, Tel Aviv University
-
-### Energy transfer in turbulent flows with dilute polymers
-
-
-**Research**
-
-[Alex Liberzon Laboratory](http://goo.gl/AxBCv) research focuses on the key mechanisms of turbulent flows. In this particular study performed in collaboration with the group of [Prof. Bettina Frohnapfel](http://www.isl.kit.edu/558_519.php) from the Institute of Fluid Dynamics, Karlsruhe Institute of Technology, dilute polymers are used as triggers to the intrinsic changes in energy transfer across turbulent scales of motion. On the smallest turbulent length scales, dilute polymers get stretched and relaxed at very high frequencies, thus affect smallest vortices, show higher concentrations in regions of high strain, and, in turn, influence the turbulent flow itself on all the scales. Polymer molecules and turbulent flow fields mutually interact, showing peculiar behaviour of both phases. On larger, macroscopic length scales, mean shear and spatial velocity gradients influence the dynamics of the dilute polymer alignments and total rate of stretching. The subprojects in this collaborative research program address a variety of aspects concerning energy transfer mechanisms in turbulent flows with laboratory experiments (Tel Aviv) and numerical simulations (Karlsruhe).
+Contact Prof. Alex Liberzon directly for more details.  
 
 **Job description**
 
@@ -26,16 +23,16 @@ This PhD project concerns an experimental study of the dynamics of turbulent flo
 **Location**
 
 
-The work will be carried out at the Turbulent Structure Laboratory, School of Mechanical Engineering, Tel Aviv University. The project is supervised by [Prof. Alex Liberzon](http://www.eng.tau.ac.il/~alexlib) and co-advised by [Prof. Bettina Frohnapfel, KIT](http://www.isl.kit.edu/558_519.php).
+The work will be carried out at the School of Mechanical Engineering, Tel Aviv University. The project is supervised by [Prof. Alex Liberzon](http://www.eng.tau.ac.il/~alexlib) in collaboration with one of the leading EU universities: Politechnico di Torino, Warsaw University, Imperial College, Max Planck Institute in Gottengien, ENS Lyon.
 
 **Requirements**
 
 
-We are looking for an passionate Ph.D. student with strong experimental skills and a good background in fluid mechanics. Optical flow-measurement techniques experience will be optimal. The Ph.D. candidate should have a MSc in physics, mechanical, chemical, aeronautical or civil engineering. Good written and oral communication skills in English are required. Hebrew language skills are not necessary.
+We are looking for a passionate Ph.D. student with a good background in fluid mechanics. Optical flow-measurement techniques experience will be preferred. The Ph.D. candidate should have a MSc in physics, mechanical, chemical, aeronautical or civil engineering. Good written and oral communication skills in English are required. Hebrew language skills are not necessary.
 
 **Conditions of employment**
 
-Upon fulfilling an entrance conditions of a Ph. D. position at the Tel Aviv University, you will get the status of a regular Ph.D. student with an appropriate scholarship for 4 years with an optional extension to 5th year. Scholarship will be extended to the senior Ph.D. student level from the research grant by the Germany-Israel Science Foundation. Student visa to Israel is required. 
+Upon fulfilling an entrance conditions of a Ph. D. position at the Tel Aviv University, you will get the status of a regular Ph.D. student with an appropriate scholarship for 4 years with an optional extension to 5th year. Scholarship will be extended to the extended Ph.D. student level according to the rules of Marie Sklodowska-Curie Action. Student visa to Israel is required. 
 
 **Information**
 
