@@ -15,10 +15,6 @@ title: Open positions
 
 Contact Prof. Alex Liberzon directly for more details.  
 
-**Job description**
-
-
-This PhD project concerns an experimental study of the dynamics of turbulent flows w/o dilute polymers. There is a great need for optical techniques to characterize the dynamics of both the fluid and the polymer molecules. We plan to use the three-dimensional particle tracking velocimetry (http://www.openptv.net) using fluorescent marked polymers and flow tracer particles to measure the turbulent velocity field and the stretching rates of polymers. This project focuses on the characterization of the turbulent velocity and velocity gradients fields in the quasi-homogeneous turbulent flows. 
 
 **Location**
 
