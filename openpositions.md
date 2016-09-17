@@ -3,12 +3,14 @@ layout: default
 title: Open positions
 ---
 
-### Two early research positions for the international researchers or returning Israeli citizens (June 2016)
-
-See the job announcement on [EURAXESS](http://ec.europa.eu/euraxess/index.cfm/jobs/jobDetails/34099915) 
+## Two early research positions for the international researchers or returning Israeli citizens (Sep 2016)
 
 
-Applications are invited for *14 ESR positions* (“Early Stage Researchers”) to be funded by the Marie-Skłodowska- Curie Innovative Training Network “COMPLETE – Cloud-MicroPhysics-Turbulence-Telemetry: An inter-multidisciplinary training network for enhancing the understanding and modeling of atmospheric clouds within the Horizon 2020 Programme of the European Commission. COMPLETE is a consortium of high profile universities, research institutions and companies located in ltaly, France, Germany, Israel, Poland and UK. See job announcement on [EURAXESS](http://ec.europa.eu/euraxess/index.cfm/jobs/jobDetails/34099915)
+Applications are invited for *14 ESR positions* (“Early Stage Researchers”) to be funded by the Marie-Sklodowska- Curie Innovative Training Network “COMPLETE – Cloud-MicroPhysics-Turbulence-Telemetry: An inter-multidisciplinary training network for enhancing the understanding and modeling of atmospheric clouds within the Horizon 2020 Programme of the European Commission. COMPLETE is a consortium of high profile universities, research institutions and companies located in ltaly, France, Germany, Israel, Poland and UK. See job announcement on [EURAXESS](http://ec.europa.eu/euraxess/index.cfm/jobs/jobDetails/34099915)
+
+-----
+
+### Two positions are at Tel Aviv University (and one at industry, see below) 
 
 
 **ESR 7: Lagrangian properties of aerosol parcels at the turbulent/non-turbulent interfaces with density
@@ -31,20 +33,7 @@ Host: [Tel Aviv University, Tel Aviv-Yaffo, Israel](https://english.tau.ac.il/)
 
 Contact person: Prof. Alex Liberzon, [alexlib@eng.tau.ac.il](mailto:alexlib@eng.tau.ac.il)
 
-
-
-Additional position is available in collaboration with industry:
-
-**ESR 13: Research and investigation of the performance limits of a direct detection Lidar system developed
-at PTL, in highly turbulent atmosphere and in real and artificial turbulent environment.**
-Objectives: Experimental and theoretical research on ways to improve the performance of a wind and aerosols Lidar
-in highly turbulent environment, and inside or in the vicinity of clouds and fog at different density levels.
-Expected Results: Algorithms and software tools to handle accurate wind measurement and aerosols density in
-high turbulent flow and high density environment such as fog and clouds. These algorithms and software tools will
-be implemented and tested in Pentalum's SpiDAR technology and potentially in other Lidar systems.
-Host: [Pentalum LTD](http://www.pentalum.com/) , Israel
-Contact person: [Dr. Nathan Sela](mailto:nathan.sela@pentalum.com) 
-
+-----
 
 **Benefits and salary**
 
@@ -78,5 +67,30 @@ E-mail: [alexlib@eng.tau.ac.il](mailto:alexlib@eng.tau.ac.il)
 
 **Applications**
 
+Applications must include:  
+- CV  
+- statement of research interests  
+- list of three people who agreed to write a reference letter  
+- original transcripts of Batchelor and Master University Degrees (copies at the first stage)  
+- copy of valid identity documents.  
 
-You can send your application - including a *cover letter*, *statement of research interests*, a *CV*, and *names of three references* - electronically to Prof. Alex Liberzon, [alexlib@eng.tau.ac.il](mailto:alexlib@eng.tau.ac.il)
+Application details can be found at [Euraxess - European Commission](http://ec.europa.eu/euraxess/index.cfm/jobs/jobDetails/34099915)
+
+You can send your application electronically to Prof. Alex Liberzon, [alexlib@eng.tau.ac.il](mailto:alexlib@eng.tau.ac.il)
+
+
+
+----
+
+#### Additional position is available in collaboration with industry:
+
+**ESR 13: Research and investigation of the performance limits of a direct detection Lidar system developed
+at PTL, in highly turbulent atmosphere and in real and artificial turbulent environment.**
+Objectives: Experimental and theoretical research on ways to improve the performance of a wind and aerosols Lidar
+in highly turbulent environment, and inside or in the vicinity of clouds and fog at different density levels.
+Expected Results: Algorithms and software tools to handle accurate wind measurement and aerosols density in
+high turbulent flow and high density environment such as fog and clouds. These algorithms and software tools will
+be implemented and tested in Pentalum's SpiDAR technology and potentially in other Lidar systems.
+Host: [Pentalum LTD](http://www.pentalum.com/) , Israel
+Contact person: [Dr. Nathan Sela](mailto:nathan.sela@pentalum.com) 
+
